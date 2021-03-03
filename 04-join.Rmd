@@ -1,0 +1,12 @@
+# Join a Project {#join}
+
+
+When logged in you should be able to see Projects you are a member of and also all other public projects, by clicking ‘Public projects’.
+
+To collaborate on a project, you will need to click ‘Register to join’ on the project’s homepage.
+
+The administrator of the project will then need to grant you permission to access different stages of the project.
+
+
+<< Link to FAQs >>
+My collaborators can’t see my project

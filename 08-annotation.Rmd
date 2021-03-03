@@ -1,0 +1,153 @@
+# Annotation Questions {#annotation}
+
+## Define annotation questions
+
+
+As part of the data abstraction process you can annotate studies within SyRF by specifying what question you want your reviewers to answer about each publication in your project.
+In order to do this go to the ‘Design Annotation Questions’ button on the project overview page.
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+Questions may be nested to allow for hierarchy of conditional information entry (i.e. questions can become active, depending on answers to other questions).
+Annotation questions are entered into the following categories:
+
+## Study Level Questions 
+
+Enter any question that is relevant to the overall study. 
+
+e.g. Do the authors refer to a protocol?
+(Yes or No checkbox)
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+## Disease Model Induction questions
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+### Control Question
+Define questions that are specific to the Model control
+
+e.g. Do the control animals receive Sham surgery?
+(Yes or No checkbox)
+
+### Non-Control Question
+Define questions that are specific to the Model
+
+e.g. What type of surgery was done to induce the model?
+(Dropdown list with defined options)
+
+### Both
+Define questions that are relevant to both Model control and Model animals
+
+e.g. What anaesthetic is used for both the model and sham surgery?
+(Dropdown list with defined options)
+
+
+
+
+## Treatment questions
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+### Control Question
+Define questions that are specific to the Treatment control
+
+e.g. What is the vehicle given to the control animals? 
+(Dropdown list with defined options)
+
+### Non-Control Question
+Define questions that are specific to the Treatment group
+
+e.g. Specify the dose of treatment drug given in mg/kg
+(Integer input field)
+
+### Both
+Define questions that are relevant to both Treatment control and Treatment animals
+
+e.g. What route of drug or vehicle administration is used in the experiment?
+(Dropdown list with defined options)
+
+
+
+## Outcome assessment questions
+
+<< Insert Image >> 
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+Define questions relevant to each outcome assessment procedure in the study.
+
+e.g. What is the behavioural test used to measure outcome?
+(Dropdown list with defined options)
+
+
+
+## Cohort Level Questions
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+Define questions relevant to each cohort procedure in the study. 
+
+e.g. What is the sex of the animals included in the cohort?
+(Dropdown list with options males, females, both, unknown)
+
+<< Insert FAQ link >>
+I have cohorts with comorbidities and I'm not clear on how to differentiate between them.
+
+
+
+## Experiment questions
+
+
+Define questions relevant to each experimental procedure in the study
+
+e.g. Was there a habituation period?
+(Yes or No checkbox)
+
+
+
+## Nesting Questions
+
+For each question you can choose to add related questions, if you want to get answers to additional questions, which are conditional on the answer to the previous question.
+
+e.g. “What is the model type?”
+(Drop down list with option of: Pharmacological or Surgical)
+
+If Pharmacological is selected we could add a related question by selecting “Add Pharmacological Related”, which you will then be able to see nested under your previous question.
+
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+e.g. “What is the drug given?”
+(Drop down list with options of different drugs)
+
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+You could then further subset this question, by clicking on it and selecting ‘Add Related’ and asking for each drug selected: “What is the dose and route of delivery?”
+If Surgical is selected then we may ask the related questions: “What was the anaesthetic used?” or “What was the site of lesion?”

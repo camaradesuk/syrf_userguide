@@ -1,0 +1,67 @@
+# Screening {#screening}
+
+## Define screening project stage 
+
+A typical systematic review project might have the following stages: screening for inclusion, annotation of studies/data abstraction, reconciliation* , analysis*.
+To define the stages of your project go the Stages section of your project homepage and click on the ‘+’ button
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+*SyRF is under continuous development, these stages have to be performed outside of SyRF at present. We can try to provide some assistance for these stages, but please note you will have to perform these outside of SyRF.
+
+
+When adding a project stage, enter details to define the stage and click ‘Create’. If you would like to include screening make sure the ‘Include Screening in stage’ option is selected.
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+Stages created appear in the ‘Stages’ section of your project. To enter one simply click ‘Enter Stage’.
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+## Screening 1
+
+To start reviewing enter your screening stage and press ‘Start Reviewing’.
+
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+You will then be presented with the following screening form (if there are eligible studies left for you to screen) and be able to start screening. If you would like to include selected annotation questions at this screening stage then please move on to and follow the instructions below described in the next section about how to design and add annotation questions to a stage.
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+## Screening decisions in SyRF explained
+
+SyRF will automatically take care of discrepancies for you if you have enough screeners. Currently most projects are set to have a minimum number of 2 screeners, with a project agreement ratio of 0.333 (Information specified on your project home page, under ‘Screening Details’).
+
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+This means that publications are marked as ‘Included’, ‘Excluded’ or ‘Insufficiently screened’, whereby you need at least 2 screeners for each study to have agreed on their decision (both said include or exclude). A study will continuously be offered up for screening to other reviewers until this threshold has been met, and two reviewers have given a publication the same decision. If this threshold has not been met, then this will be marked as ‘Insufficiently screened’ and offered up to the next reviewer.
+If you would like different criteria for sufficient screening, please [contact us](mailtp:syrf.info@ed.ac.uk?subject=Screening%20Criteria%20in%20SyRF) and don’t forget to include your project name.
+
+
+<< Insert Link to FAQ >>
+My project only has two screeners, how can I see screening decisions?

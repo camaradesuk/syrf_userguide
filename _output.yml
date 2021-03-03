@@ -1,0 +1,19 @@
+output:
+  bookdown::gitbook:
+    highlight: tango
+    css: style.css
+    config:
+      toc:
+        before: |
+          <li><a href="./"><img src="figs/evidence-triangle.png" alt="CAMARADES Berlin Logo" style="height:100px;display:block;margin:10px 10px 10px 10px;></a></li>
+          <li><a href="./">CAMARADES Systematic Review Wiki</a></li>
+        after: |
+          <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+      download: ["pdf", "epub"]
+  bookdown::pdf_book:
+    includes:
+      in_header: preamble.tex
+    latex_engine: xelatex
+    citation_package: natbib
+    keep_tex: yes
+  bookdown::epub_book: default

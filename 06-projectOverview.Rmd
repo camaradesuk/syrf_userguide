@@ -1,0 +1,113 @@
+# Project Overview {#projectOverview}
+
+
+Once you have created your project, you can keep track of your project progress through the Project Details Page. If you are an administrator and need to edit any details you can also do that here by clicking on the pencil icon in each section.
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+## Uploading a systematic search
+You can upload a systematic search by scrolling to the ‘Systematic Searches’ section and clicking the ‘+’ button.
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+This will reveal the following form:
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+### Upload citation library from EndNote
+
+To upload your library to SyRF, you will need to export your library from EndNote in an XML format.
+
+In Endnote: Select all records (Ctril+Shift+A)
+Then go to: File>Export
+Make sure ‘Save as type’ is set to XML
+
+In SyRF when uploading your file, please select ‘EndNote XML Library File’ and choose the file of interest. Clicking ‘Next’ will then prompt you to check the details of the upload before you begin the upload.
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+Please note, at current we support spreadsheets (i.e. csv/tsv - see below) or XML libraries directly exported from EndNote. So if you have your citations in another citation management program, you will have to transfer these to EndNote first or reformat your export file to look like those from EndNote or a spreadsheet with headings as shown in the example spreadsheet specified on our page.
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+<< Insert link to FAQ >>
+
+I am trying to upload an EndNote XML file that was creating by importing from a place other than an electronic database and getting an error
+
+
+### Upload list of studies as a spreadsheet with or without screening decisions
+
+If you have already screened your list of studies outside of SyRF, you can still upload your library and bring this existing information into SyRF for further steps of your project. You can do this by saving your study details in a csv or tsv file and selecting the appropriate upload option when uploading your search. Please [check here](https://app.syrf.org.uk/assets/pdfs/Systematic%20search%20instructions.pdf) for the format your file needs to be in before upload.
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+Next, if you want to add screening decisions, make sure to have “Toggle to include screening decisions with upload” on and fill out the appropriate information for SyRF to be able to attribute data correctly.
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+Please note, if you need to delete a systematic search from your SyRF project refresh the browser first.
+
+
+## If you require full-text for your studies
+
+If you require full-text to be available at any stage of your project, it is important that you have already retrieved these before uploading your search file. In the systematic search file that you upload (csv/tsv spreadsheet or XML from Endnote) make sure the column “PDF Relative Path” contains relative path links (i.e. relative to the root of the folder you send to us) to your PDFs for each record.
+
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+You will then need to [contact us](syrf.info@ed.ac.uk) with the name of your project and share the folder containing your PDFs via Google Drive or similar.
+
+We will upload these PDFs to the SyRF database and these can be opened from the screening form.
+
+
+### You can use EndNote to retreive PDFs accessible through your institution’s subscription
+
+In Endnote: Select all records > Right click > Select ‘Find full text’. You may need to authenticate your log in details for your institution. There is a limit of searching for 250 per go but it is worth going through this step multiple times if necessary as it is the quickest way of retreiving PDFs at present. Endnote will download, save and name the PDFs. These can then be found in your Endnote Data File in a folder named ‘PDF’.
+
+If you download your PDFs in this way, it is advisable to keep the PDF names and links specified by EndNote so that the links get matched to the appropriate record.
+
+
+<< Insert Link to FAQ >>
+I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening
+
+
+## View project studies and study details
+
+You can now view project studies by clicking on the ‘View Project Studies’ button. This will show you all the studies you have uploaded to your project.
+
+
+<< Insert Image >>
+<center>
+![](figs/evidence-triangle.png){#id .class width=50% height=50%}
+</center>
+
+
+
