@@ -1,4 +1,4 @@
 # Introduction {#intro}
 
-Welcome to the SyRF User Help Guide
+Welcome to the SyRF User Help Guide.
 
