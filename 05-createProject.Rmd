@@ -1,21 +1,8 @@
 # Create a New Project {#createProject}
 
-To create a new project, simply click on ‘Create Project’.
+You are able to create new projects via the Projects tab in SyRF. A pop-up form will appear, where you can enter your project details.
 
+As part of project creation, you will be asked to specify the inclusion/exclusion criteria for your project. These should be pre-specified in your protocol.
 
-A form will then appear, where you can enter your project details.
-
-<< Insert Image >> 
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
-
-
-On clicking ‘Next’ you will be asked to fill out a form where you specify the inclusion and exclusion criteria for your project.
-
-<< Insert Image >> 
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
-
-Click ‘Create’ to finish creating the project.
+Currently, you can only have one set of inclusion/exclusion critiera per SyRF project. If you would like more than one set of inclusion/exclusion critiera in your systematic review (e.g. two or more screening stages) then you may have to create more than one SyRf project. If that is the case, please contact our Help Desk for more information.
+<!-- syrf mail -->

@@ -1,50 +1,42 @@
 # Glossary {#glossary}
 
 ## Project
-Your systematic review and meta-analysis including the studies you are reviewing.
+Each project is specific to your systematic review and meta-analysis. Upload your deduplicated studies and add stages to screen and annotate your data.
 
 ### Public project
-A project that can be seen by anyone with a SyRF account. Users can request to join and can be assigned roles such as administration (i.e. have editing rights to the design of the project), screening, data annotation, or data extraction roles.
-<!-- not clear what other users can and can't see -->
-<!-- do we have all these roles? -->
-<!-- should roles be a separate section of the glossary? or other part of the guide? -->
+A project that can be seen by anyone with a SyRF account. Other users can request to join a public project with your approval.
 
 ### Private project
 A project that is not visible to other SyRF users unless they have requested and have been granted permission to join the project.
 
-
 ## Protocol
-Structured description of what you set out to do in your systematic review and meta-analysis, we recommend that this is published or shared publicly with [PROSPERO](https://www.crd.york.ac.uk/prospero/).
+A structured description of what you set out to do in your systematic review and meta-analysis. We recommend that this is published or shared publicly with [PROSPERO](https://www.crd.york.ac.uk/prospero/).
 
+## Screening
+Screening refers to making a decision whether to include or exclude a study retrieved in your systematic search based on the inclusion/exclusion criteria defined in your protocol. Screening is described in more detail in
 
-## Screen
-Include or exclude publications identified in your systematic search based on the inclusion/exclusion criteria defined in your protocol. Described in further detail in 
-
-section 5.
+SECTION 7.
 <!-- link -->
 
-## Annotation 1
-You may want to annotate studies by labelling or extracting relevant information from them. This stage of a project is fairly flexible and therefore you can define your own annotation questions for your project. Annotation questions should address all questions you want to ask as specified in your protocol. You can choose at which stage of the project you want to answer specific annotation questions. This is described in further detail in 
+## Annotation
+You may want to annotate your studies by labelling or extracting relevant information from them. This part of a systematic review project is fairly flexible and therefore you can define your own annotation questions. Annotation questions should address all questions you want to ask as specified in your protocol. You can choose at which stage of the project you want to answer specific annotation questions. This is described in more detail in 
 
-section 6.
+SECTION 8.
 <!-- link -->
 
 ## Data extraction
 Where you extract data from graphs or tables in the form of means/medians and corresponding error.
 
-
 ## Experiment
-Experiment refers to any grouping of cohorts where an experiment is carried out at the same time and any of them can be compared with each other.
-
+An experiment refers to any grouping of cohorts where an experiment is carried out at the same time and any of them can be compared with each other.
 
 ## Cohort
-Refers to a group of animals - same species, strain, source, co-morbidities (if applicable) - which all receive the same procedure and treatments and can be compared to other cohorts. So an experiment may involve the following cohorts: Treatment, Sham and Control; or Control, Treatment 1 and Treatment 2.
-Whereby the following comparisons may be made:
-e.g. Cohort 1 = Disease Model
-Cohort 2 = Disease Model + Comorbidity
-Cohort 3 = Sham or Disease Model Control
-Cohort 4 = Disease Model + Treatment (Low Dose)
-Cohort 5 = Disease Model + Treatment (High Dose)
-Cohort 6 = Disease Model + Treatment Control (vehicle)
+A cohort refers to a group of animals - same species, strain, source, co-morbidities (if applicable) - which all receive the same procedure and treatments and can be compared to other cohorts. So an experiment may involve the following cohorts: 
 
-<!-- add info for doing in vitro SR -->
+* Treatment, Sham and Control; or 
+* Control, Treatment 1 and Treatment 2.
+
+Cohorts are created in SyRF projects by combining disease models and treatment groups. This is descirbed further in
+
+SECTION 8.
+<!-- link -->

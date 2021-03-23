@@ -1,12 +1,13 @@
 # Join a Project {#join}
 
+When logged in you should be able to see the projects you are a member of in the 'My Projects' tab, as well as all public projects, by clicking ‘Public projects’.
 
-When logged in you should be able to see Projects you are a member of and also all other public projects, by clicking ‘Public projects’.
-
-To collaborate on a project, you will need to click ‘Register to join’ on the project’s homepage.
+To join a project, you will need to click ‘Request to join’ on the project’s homepage.
 
 The administrator of the project will then need to grant you permission to access different stages of the project.
 
+## Joining projects that aren't public
+If one of your colleagues has asked to you join their SyRF project, but they project isn't set to public, ask them to send you the URL to the homepage of the project they want you to join and you will have the option to 'Request to join' there.
 
 << Link to FAQs >>
 My collaborators can’t see my project
