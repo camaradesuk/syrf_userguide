@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Section 9 Annotation Questions | SyRF User Guide</title>
-  <meta name="description" content="Section 9 Annotation Questions | SyRF User Guide" />
+  <title>Section 6 Uploading a Systematic Search | SyRF User Guide</title>
+  <meta name="description" content="Section 6 Uploading a Systematic Search | SyRF User Guide" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Section 9 Annotation Questions | SyRF User Guide" />
+  <meta property="og:title" content="Section 6 Uploading a Systematic Search | SyRF User Guide" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Section 9 Annotation Questions | SyRF User Guide" />
+  <meta name="twitter:title" content="Section 6 Uploading a Systematic Search | SyRF User Guide" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="screening.html"/>
-<link rel="next" href="references.html"/>
+<link rel="prev" href="createProject.html"/>
+<link rel="next" href="stages.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -151,93 +151,67 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="annotation" class="section level1">
-<h1><span class="header-section-number">Section 9</span> Annotation Questions</h1>
-<div id="define-annotation-questions" class="section level2">
-<h2><span class="header-section-number">9.1</span> Define annotation questions</h2>
-<p>As part of the data abstraction process you can annotate studies within SyRF by specifying what question you want your reviewers to answer about each publication in your project.
-In order to do this go to the ‘Design Annotation Questions’ button on the project overview page.</p>
-<p>Questions may be nested to allow for hierarchy of conditional information entry (i.e. questions can become active, depending on answers to other questions).
-Annotation questions are entered into the following categories:</p>
+<div id="systematicSearch" class="section level1">
+<h1><span class="header-section-number">Section 6</span> Uploading a Systematic Search</h1>
+<p>Once you have created your project, you can keep track of your project progress through the Project Details Page.</p>
+<div id="deduplicating-your-systematic-search" class="section level2">
+<h2><span class="header-section-number">6.1</span> Deduplicating your systematic search</h2>
+<p>Currently SyRF does not support deduplication of studies, and this must be performed before your studies are uploaded to SyRF. You can deduplicate your studies automatically using the CAMARADES deduplication tool.
+<!-- link to Kaitlyn's tool --></p>
 </div>
-<div id="study-level-questions" class="section level2">
-<h2><span class="header-section-number">9.2</span> Study Level Questions</h2>
-<p>Enter any question that is relevant to the overall study.</p>
-<p>e.g. Do the authors refer to a protocol?
-(Yes or No checkbox)</p>
+<div id="uploading-files" class="section level2">
+<h2><span class="header-section-number">6.2</span> Uploading files</h2>
+<p>You can upload your systematic searches as an:</p>
+<ul>
+<li>EndNote XML file</li>
+<li>Comma separated value (CSV) file</li>
+<li>Tab separated value (TSV) file</li>
+</ul>
+<div id="uploading-a-citation-library-from-endnote" class="section level3">
+<h3><span class="header-section-number">6.2.1</span> Uploading a citation library from EndNote</h3>
+<p>To upload your EndNote library to SyRF, you will need to export your library from EndNote in an XML format.</p>
+<blockquote>
+<p>In Endnote: Select all records (Ctril+Shift+A)
+Then go to: File&gt;Export
+Make sure ‘Save as type’ is set to XML</p>
+</blockquote>
 </div>
-<div id="disease-model-induction-questions" class="section level2">
-<h2><span class="header-section-number">9.3</span> Disease Model Induction questions</h2>
-<div id="control-question" class="section level3">
-<h3><span class="header-section-number">9.3.1</span> Control Question</h3>
-<p>Define questions that are specific to the Model control</p>
-<p>e.g. Do the control animals receive Sham surgery?
-(Yes or No checkbox)</p>
+<div id="uploading-your-studies-as-a-csv-or-tsv" class="section level3">
+<h3><span class="header-section-number">6.2.2</span> Uploading your studies as a CSV or TSV</h3>
+<p>To upload your systematic search studies as a CSV or TSV file, you will have to make sure to format your data with the column headings shown in our example.
+<!-- link to example --></p>
+<p>&lt;&lt; Insert link to FAQ &gt;&gt;
+I am trying to upload an EndNote XML file that was creating by importing from a place other than an electronic database and getting an error</p>
 </div>
-<div id="non-control-question" class="section level3">
-<h3><span class="header-section-number">9.3.2</span> Non-Control Question</h3>
-<p>Define questions that are specific to the Model</p>
-<p>e.g. What type of surgery was done to induce the model?
-(Dropdown list with defined options)</p>
-</div>
-<div id="both" class="section level3">
-<h3><span class="header-section-number">9.3.3</span> Both</h3>
-<p>Define questions that are relevant to both Model control and Model animals</p>
-<p>e.g. What anaesthetic is used for both the model and sham surgery?
-(Dropdown list with defined options)</p>
-</div>
-</div>
-<div id="treatment-questions" class="section level2">
-<h2><span class="header-section-number">9.4</span> Treatment questions</h2>
-<div id="control-question-1" class="section level3">
-<h3><span class="header-section-number">9.4.1</span> Control Question</h3>
-<p>Define questions that are specific to the Treatment control</p>
-<p>e.g. What is the vehicle given to the control animals?
-(Dropdown list with defined options)</p>
-</div>
-<div id="non-control-question-1" class="section level3">
-<h3><span class="header-section-number">9.4.2</span> Non-Control Question</h3>
-<p>Define questions that are specific to the Treatment group</p>
-<p>e.g. Specify the dose of treatment drug given in mg/kg
-(Integer input field)</p>
-</div>
-<div id="both-1" class="section level3">
-<h3><span class="header-section-number">9.4.3</span> Both</h3>
-<p>Define questions that are relevant to both Treatment control and Treatment animals</p>
-<p>e.g. What route of drug or vehicle administration is used in the experiment?
-(Dropdown list with defined options)</p>
+<div id="including-screening-decisions-with-your-systematic-search" class="section level3">
+<h3><span class="header-section-number">6.2.3</span> Including screening decisions with your systematic search</h3>
+<p>If you have already screened your list of studies outside of SyRF, you can still upload your library and bring this existing information into SyRF for further steps of your project. You can do this by saving your study details in a csv or tsv file and selecting the appropriate upload option when uploading your search. Please <a href="https://app.syrf.org.uk/assets/pdfs/Systematic%20search%20instructions.pdf">check here</a> for the format your file needs to be in before upload.</p>
+<p>Next, if you want to add screening decisions, make sure to have “Toggle to include screening decisions with upload” on and fill out the appropriate information for SyRF to be able to attribute data correctly.</p>
 </div>
 </div>
-<div id="outcome-assessment-questions" class="section level2">
-<h2><span class="header-section-number">9.5</span> Outcome assessment questions</h2>
-<p>Define questions relevant to each outcome assessment procedure in the study.</p>
-<p>e.g. What is the behavioural test used to measure outcome?
-(Dropdown list with defined options)</p>
+<div id="uploading-full-text-pdfs" class="section level2">
+<h2><span class="header-section-number">6.3</span> Uploading full-text PDFs</h2>
+<p>If you require full-text PDFs for each of your studies at any stage of your SyRF project, it is important that you have already retrieved these before uploading your search file.</p>
+<p>In the systematic search file that you upload (csv/tsv spreadsheet or XML from Endnote) make sure the column “PDF Relative Path” contains relative path links (i.e. relative to the root of the folder you send to us) to your PDFs for each record.</p>
+<p>You will then need to <a href="syrf.info@ed.ac.uk">contact us</a> with the name of your project and share the folder containing your PDFs via Google Drive or similar.</p>
+<p>We will upload these PDFs to the SyRF database and these can be opened from the screening form.</p>
+<div id="use-endnote-to-retrieve-pdfs-via-your-institutions-subscription" class="section level3">
+<h3><span class="header-section-number">6.3.1</span> Use EndNote to retrieve PDFs via your institution’s subscription</h3>
+<blockquote>
+<p>In Endnote: Select all records &gt; Right click &gt; Select ‘Find full text’. You may need to authenticate your log in details for your institution. There is a limit of searching for 250 per go but it is worth going through this step multiple times if necessary as it is the quickest way of retreiving PDFs at present. Endnote will download, save and name the PDFs. These can then be found in your Endnote Data File in a folder named ‘PDF’.</p>
+</blockquote>
+<p>If you download your PDFs in this way, it is advisable to keep the PDF names and links specified by EndNote so that the links get matched to the appropriate record.</p>
+<p>&lt;&lt; Insert Link to FAQ &gt;&gt;
+I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening</p>
 </div>
-<div id="cohort-level-questions" class="section level2">
-<h2><span class="header-section-number">9.6</span> Cohort Level Questions</h2>
-<p>Define questions relevant to each cohort procedure in the study.</p>
-<p>e.g. What is the sex of the animals included in the cohort?
-(Dropdown list with options males, females, both, unknown)</p>
-<p>&lt;&lt; Insert FAQ link &gt;&gt;
-I have cohorts with comorbidities and I’m not clear on how to differentiate between them.</p>
 </div>
-<div id="experiment-questions" class="section level2">
-<h2><span class="header-section-number">9.7</span> Experiment questions</h2>
-<p>Define questions relevant to each experimental procedure in the study</p>
-<p>e.g. Was there a habituation period?
-(Yes or No checkbox)</p>
+<div id="view-project-studies" class="section level2">
+<h2><span class="header-section-number">6.4</span> View project studies</h2>
+<p>You can now view project studies by clicking on the ‘View Project Studies’ button. This will show you all the studies you have uploaded to your project.</p>
 </div>
-<div id="nesting-questions" class="section level2">
-<h2><span class="header-section-number">9.8</span> Nesting Questions</h2>
-<p>For each question you can choose to add related questions, if you want to get answers to additional questions, which are conditional on the answer to the previous question.</p>
-<p>e.g. “What is the model type?”
-(Drop down list with option of: Pharmacological or Surgical)</p>
-<p>If Pharmacological is selected we could add a related question by selecting “Add Pharmacological Related”, which you will then be able to see nested under your previous question.</p>
-<p>e.g. “What is the drug given?”
-(Drop down list with options of different drugs)</p>
-<p>You could then further subset this question, by clicking on it and selecting ‘Add Related’ and asking for each drug selected: “What is the dose and route of delivery?”
-If Surgical is selected then we may ask the related questions: “What was the anaesthetic used?” or “What was the site of lesion?”</p>
+<div id="deleting-systematic-searches" class="section level2">
+<h2><span class="header-section-number">6.5</span> Deleting systematic searches</h2>
+<p>If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening and annotation answers.</p>
 
 </div>
 </div>
@@ -246,8 +220,8 @@ If Surgical is selected then we may ask the related questions: “What was the a
           </div>
         </div>
       </div>
-<a href="screening.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="createProject.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="stages.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  23 MAR 2021 13:36
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  24 MAR 2021 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -890,151 +890,45 @@ Chapter 5.
 
 ]
 Chapter 6.
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[15]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[16]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 1210) in paragraph at lines 223--226
+[]\TU/lmr/m/n/10 In Endnote: Select all records (Ctril+Shift+A) Then go to:
+ []
 
-[17]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[18]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[19]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[20]
+[15] [16] [17] [18
+
+]
 Chapter 7.
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
+
+Underfull \vbox (badness 2221) has occurred while \output is active []
+
+[19] [20]
+Chapter 8.
 [21
 
-]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[22]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[23]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[24]
-Chapter 8.
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-
-Underfull \vbox (badness 1147) has occurred while \output is active []
-
-[25
-
-]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-
-Underfull \vbox (badness 1199) has occurred while \output is active []
-
-[26]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[27]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[28]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[29]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[30]
+] [22]
 Chapter 9.
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[31
+[23
 
-]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-
-Underfull \vbox (badness 5607) has occurred while \output is active []
-
-[32]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[33]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-
-Underfull \vbox (badness 2608) has occurred while \output is active []
-
-[34]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[35]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[36]
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-File: figs/evidence-triangle.png Graphic file (type bmp)
-<figs/evidence-triangle.png>
-[37] [38
+] [24] [25] [26
 
 ]
 Chapter 10.
 No file SyRF_UserGuide.bbl.
-[39] [40] (./SyRF_UserGuide.aux)
+[27] [28] (./SyRF_UserGuide.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `SyRF_UserGuide.out' has not changed.
-(rerunfilecheck)             Checksum: 5318A566A425A90F4492F77694EB739C;6011.
+(rerunfilecheck)             Checksum: CA1D9AA0D7423756D5CF16CEA29273DC;5800.
  ) 
 Here is how much of TeX's memory you used:
- 15822 strings out of 478931
- 284008 string characters out of 5865141
- 743424 words of memory out of 5000000
- 35449 multiletter control sequences out of 15000+600000
+ 15812 strings out of 478931
+ 283769 string characters out of 5865141
+ 746427 words of memory out of 5000000
+ 35443 multiletter control sequences out of 15000+600000
  409873 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 98i,6n,122p,531b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 98i,6n,122p,531b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on SyRF_UserGuide.pdf (40 pages).
+Output written on SyRF_UserGuide.pdf (28 pages).

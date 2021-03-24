@@ -78,7 +78,7 @@
 
 \title{SyRF User Guide}
 \author{CAMARADES}
-\date{2021-03-23}
+\date{2021-03-24}
 
 \begin{document}
 \maketitle
@@ -120,14 +120,14 @@ A structured description of what you set out to do in your systematic review and
 
 Screening refers to making a decision whether to include or exclude a study retrieved in your systematic search based on the inclusion/exclusion criteria defined in your protocol. Screening is described in more detail in
 
-SECTION 7.
+SECTION 8.
 
 \hypertarget{annotation}{%
 \section{Annotation}\label{annotation}}
 
 You may want to annotate your studies by labelling or extracting relevant information from them. This part of a systematic review project is fairly flexible and therefore you can define your own annotation questions. Annotation questions should address all questions you want to ask as specified in your protocol. You can choose at which stage of the project you want to answer specific annotation questions. This is described in more detail in
 
-SECTION 8.
+SECTION 9.
 
 \hypertarget{data-extraction}{%
 \section{Data extraction}\label{data-extraction}}
@@ -154,21 +154,14 @@ A cohort refers to a group of animals - same species, strain, source, co-morbidi
 
 Cohorts are created in SyRF projects by combining disease models and treatment groups. This is descirbed further in
 
-SECTION 8.
+SECTION 9.
 
 \hypertarget{createAccount}{%
 \chapter{Create an Account}\label{createAccount}}
 
-Each researcher involved in screening or data extraction in your systematic review project will have to create a free SyRF account.
+Each researcher involved in screening or data extraction in your systematic review project will have to create a free SyRF account. Accounts can be set up using your email address or Google Account and you will receive an email to complete your registration.
 
 Creating an account allows us to keep your data secure and allows the administrator of each project to control who has access to the project data. Read our Data Management and Sharing Policy here.
-
-\hypertarget{if-you-are-a-first-time-user}{%
-\section{If you are a first time user}\label{if-you-are-a-first-time-user}}
-
-Access SyRF at \href{http://syrf.org.uk}{Syrf.org.uk}.
-
-You can create an account with your email address or Google Account and will receive an email to complete your registration.
 
 \textless{}\textless{} Link to FAQs \textgreater{}\textgreater{}
 I don't see an email in my inbox from SyRF
@@ -184,119 +177,151 @@ To join a project, you will need to click `Request to join' on the project's hom
 
 The administrator of the project will then need to grant you permission to access different stages of the project.
 
-\hypertarget{joining-projects-that-arent-public}{%
-\section{Joining projects that aren't public}\label{joining-projects-that-arent-public}}
-
-If one of your colleagues has asked to you join their SyRF project, but they project isn't set to public, ask them to send you the URL to the homepage of the project they want you to join and you will have the option to `Request to join' there.
-
 \textless{}\textless{} Link to FAQs \textgreater{}\textgreater{}
 My collaborators can't see my project
 
 \hypertarget{createProject}{%
 \chapter{Create a New Project}\label{createProject}}
 
-You are able to create new projects via the Projects tab in SyRF. A pop-up form will appear, where you can enter your project details.
+You can create new projects via the Projects tab in SyRF. A pop-up form will appear, where you can enter your project details.
 
 As part of project creation, you will be asked to specify the inclusion/exclusion criteria for your project. These should be pre-specified in your protocol.
 
 Currently, you can only have one set of inclusion/exclusion critiera per SyRF project. If you would like more than one set of inclusion/exclusion critiera in your systematic review (e.g.~two or more screening stages) then you may have to create more than one SyRf project. If that is the case, please contact our Help Desk for more information.
 
-\hypertarget{projectOverview}{%
-\chapter{Project Overview}\label{projectOverview}}
+\hypertarget{systematicSearch}{%
+\chapter{Uploading a Systematic Search}\label{systematicSearch}}
 
-Once you have created your project, you can keep track of your project progress through the Project Details Page. If you are an administrator and need to edit any details you can also do that here by clicking on the pencil icon in each section.
+Once you have created your project, you can keep track of your project progress through the Project Details Page.
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
+\hypertarget{deduplicating-your-systematic-search}{%
+\section{Deduplicating your systematic search}\label{deduplicating-your-systematic-search}}
 
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
+Currently SyRF does not support deduplication of studies, and this must be performed before your studies are uploaded to SyRF. You can deduplicate your studies automatically using the CAMARADES deduplication tool.
 
-\hypertarget{uploading-a-systematic-search}{%
-\section{Uploading a systematic search}\label{uploading-a-systematic-search}}
+\hypertarget{uploading-files}{%
+\section{Uploading files}\label{uploading-files}}
 
-You can upload a systematic search by scrolling to the `Systematic Searches' section and clicking the `+' button.
+You can upload your systematic searches as an:
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
+\begin{itemize}
+\tightlist
+\item
+  EndNote XML file
+\item
+  Comma separated value (CSV) file
+\item
+  Tab separated value (TSV) file
+\end{itemize}
 
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
+\hypertarget{uploading-a-citation-library-from-endnote}{%
+\subsection{Uploading a citation library from EndNote}\label{uploading-a-citation-library-from-endnote}}
 
-This will reveal the following form:
+To upload your EndNote library to SyRF, you will need to export your library from EndNote in an XML format.
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-\hypertarget{upload-citation-library-from-endnote}{%
-\subsection{Upload citation library from EndNote}\label{upload-citation-library-from-endnote}}
-
-To upload your library to SyRF, you will need to export your library from EndNote in an XML format.
-
+\begin{quote}
 In Endnote: Select all records (Ctril+Shift+A)
 Then go to: File\textgreater{}Export
 Make sure `Save as type' is set to XML
+\end{quote}
 
-In SyRF when uploading your file, please select `EndNote XML Library File' and choose the file of interest. Clicking `Next' will then prompt you to check the details of the upload before you begin the upload.
+\hypertarget{uploading-your-studies-as-a-csv-or-tsv}{%
+\subsection{Uploading your studies as a CSV or TSV}\label{uploading-your-studies-as-a-csv-or-tsv}}
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-Please note, at current we support spreadsheets (i.e.~csv/tsv - see below) or XML libraries directly exported from EndNote. So if you have your citations in another citation management program, you will have to transfer these to EndNote first or reformat your export file to look like those from EndNote or a spreadsheet with headings as shown in the example spreadsheet specified on our page.
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
+To upload your systematic search studies as a CSV or TSV file, you will have to make sure to format your data with the column headings shown in our example.
 
 \textless{}\textless{} Insert link to FAQ \textgreater{}\textgreater{}
-
 I am trying to upload an EndNote XML file that was creating by importing from a place other than an electronic database and getting an error
 
-\hypertarget{upload-list-of-studies-as-a-spreadsheet-with-or-without-screening-decisions}{%
-\subsection{Upload list of studies as a spreadsheet with or without screening decisions}\label{upload-list-of-studies-as-a-spreadsheet-with-or-without-screening-decisions}}
+\hypertarget{including-screening-decisions-with-your-systematic-search}{%
+\subsection{Including screening decisions with your systematic search}\label{including-screening-decisions-with-your-systematic-search}}
 
 If you have already screened your list of studies outside of SyRF, you can still upload your library and bring this existing information into SyRF for further steps of your project. You can do this by saving your study details in a csv or tsv file and selecting the appropriate upload option when uploading your search. Please \href{https://app.syrf.org.uk/assets/pdfs/Systematic\%20search\%20instructions.pdf}{check here} for the format your file needs to be in before upload.
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
 Next, if you want to add screening decisions, make sure to have ``Toggle to include screening decisions with upload'' on and fill out the appropriate information for SyRF to be able to attribute data correctly.
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
+\hypertarget{uploading-full-text-pdfs}{%
+\section{Uploading full-text PDFs}\label{uploading-full-text-pdfs}}
 
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
+If you require full-text PDFs for each of your studies at any stage of your SyRF project, it is important that you have already retrieved these before uploading your search file.
 
-Please note, if you need to delete a systematic search from your SyRF project refresh the browser first.
-
-\hypertarget{if-you-require-full-text-for-your-studies}{%
-\section{If you require full-text for your studies}\label{if-you-require-full-text-for-your-studies}}
-
-If you require full-text to be available at any stage of your project, it is important that you have already retrieved these before uploading your search file. In the systematic search file that you upload (csv/tsv spreadsheet or XML from Endnote) make sure the column ``PDF Relative Path'' contains relative path links (i.e.~relative to the root of the folder you send to us) to your PDFs for each record.
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
+In the systematic search file that you upload (csv/tsv spreadsheet or XML from Endnote) make sure the column ``PDF Relative Path'' contains relative path links (i.e.~relative to the root of the folder you send to us) to your PDFs for each record.
 
 You will then need to \href{syrf.info@ed.ac.uk}{contact us} with the name of your project and share the folder containing your PDFs via Google Drive or similar.
 
 We will upload these PDFs to the SyRF database and these can be opened from the screening form.
 
-\hypertarget{you-can-use-endnote-to-retreive-pdfs-accessible-through-your-institutions-subscription}{%
-\subsection{You can use EndNote to retreive PDFs accessible through your institution's subscription}\label{you-can-use-endnote-to-retreive-pdfs-accessible-through-your-institutions-subscription}}
+\hypertarget{use-endnote-to-retrieve-pdfs-via-your-institutions-subscription}{%
+\subsection{Use EndNote to retrieve PDFs via your institution's subscription}\label{use-endnote-to-retrieve-pdfs-via-your-institutions-subscription}}
 
+\begin{quote}
 In Endnote: Select all records \textgreater{} Right click \textgreater{} Select `Find full text'. You may need to authenticate your log in details for your institution. There is a limit of searching for 250 per go but it is worth going through this step multiple times if necessary as it is the quickest way of retreiving PDFs at present. Endnote will download, save and name the PDFs. These can then be found in your Endnote Data File in a folder named `PDF'.
+\end{quote}
 
 If you download your PDFs in this way, it is advisable to keep the PDF names and links specified by EndNote so that the links get matched to the appropriate record.
 
 \textless{}\textless{} Insert Link to FAQ \textgreater{}\textgreater{}
 I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening
 
-\hypertarget{view-project-studies-and-study-details}{%
-\section{View project studies and study details}\label{view-project-studies-and-study-details}}
+\hypertarget{view-project-studies}{%
+\section{View project studies}\label{view-project-studies}}
 
 You can now view project studies by clicking on the `View Project Studies' button. This will show you all the studies you have uploaded to your project.
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
+\hypertarget{deleting-systematic-searches}{%
+\section{Deleting systematic searches}\label{deleting-systematic-searches}}
 
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
+If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening and annotation answers.
+
+\hypertarget{stages}{%
+\chapter{Designing Project Stages}\label{stages}}
+
+\hypertarget{define-annotation-project-stage}{%
+\section{Define annotation project stage}\label{define-annotation-project-stage}}
+
+Once you have designed all annotation questions, you should specify the stage at which you want to answer each question. You can do this before you start screening or after you have finished screening.
+To be able to add questions to your stage of interest go to the `Stages' section of your project homepage and click `Enter Stage'.
+
+You will then need to click on `Stage Design' to start editing the stage.
+
+To add questions you will need to turn on `Annotation' for this stage of the project using the slider.
+
+If you want to do screening and/or data extraction at the same time, you will also need to have these functionalities turned on (e.g.~even if you have screened at a separate stage, you might want to have the functionality of being able to exclude a study at a later time point when you have read the full-text).
+
+You will then be able to select the questions that you want to be included in this stage by checking the box next to the relevant questions.
+
+Next time you enter a stage from the project homepage and click `Start Reviewing'. you should be able to see at the bottom of the page the questions you have enabled. The tabs named ``Study'', ``Disease Model induction'', ``Treatment'' etc. contain the different level annotation questions, depending on where you have included questions. Click on each tab to see the questions attributed to each.
+
+\hypertarget{define-data-extraction-stage}{%
+\section{Define data extraction stage}\label{define-data-extraction-stage}}
+
+If you would like to extract time-point data collected for outcomes from a publication, you need to have `Data Extraction' enabled.
+
+To have this at a separate stage, you will need to create a new project stage, by clicking `+' on the project overview page under `Stages'.
+
+When you enter into the stage, and press `Study Design', you will need to make sure to turn `Data Extraction'. Please note `Annotations' being enabled is a prerequisite for enabling `Data Extraction'. You may or may not want to perform these within the same stage, however.
+
+Enabling `Data Extraction' will activate a set of required system annotations (which are not defined by the project administrator).
+
+You will need to pull some of the annotation information entered together to be able to start entering outcome information. For example, you will need to specify:
+
+\begin{itemize}
+\tightlist
+\item
+  procedures carried out on an animal
+\item
+  treatments administered (where appropriate)
+\item
+  details about the outcomes that have been assessed
+\end{itemize}
+
+Once you have this information you can start combining these pieces of information to create `Cohort's.
+
+Once this has been done reviewers will be able to extract numerical data for reported outcomes in a publication being reviewed.
+
+If `Annotations' are enabled without `Data Extraction' then only the annotation questions defined by the project administrator will be shown on the annotation form
+\textless{}\textless{}\textless{}\textless{} Insert Link \textgreater{}\textgreater{}\textgreater{}\textgreater{}\textgreater{}
+(see section 6 above).
 
 \hypertarget{screening}{%
 \chapter{Screening}\label{screening}}
@@ -307,47 +332,23 @@ You can now view project studies by clicking on the `View Project Studies' butto
 A typical systematic review project might have the following stages: screening for inclusion, annotation of studies/data abstraction, reconciliation* , analysis*.
 To define the stages of your project go the Stages section of your project homepage and click on the `+' button
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
 *SyRF is under continuous development, these stages have to be performed outside of SyRF at present. We can try to provide some assistance for these stages, but please note you will have to perform these outside of SyRF.
 
 When adding a project stage, enter details to define the stage and click `Create'. If you would like to include screening make sure the `Include Screening in stage' option is selected.
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
 Stages created appear in the `Stages' section of your project. To enter one simply click `Enter Stage'.
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
 
 \hypertarget{screening-1}{%
 \section{Screening 1}\label{screening-1}}
 
 To start reviewing enter your screening stage and press `Start Reviewing'.
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
 You will then be presented with the following screening form (if there are eligible studies left for you to screen) and be able to start screening. If you would like to include selected annotation questions at this screening stage then please move on to and follow the instructions below described in the next section about how to design and add annotation questions to a stage.
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
 
 \hypertarget{screening-decisions-in-syrf-explained}{%
 \section{Screening decisions in SyRF explained}\label{screening-decisions-in-syrf-explained}}
 
 SyRF will automatically take care of discrepancies for you if you have enough screeners. Currently most projects are set to have a minimum number of 2 screeners, with a project agreement ratio of 0.333 (Information specified on your project home page, under `Screening Details').
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
 
 This means that publications are marked as `Included', `Excluded' or `Insufficiently screened', whereby you need at least 2 screeners for each study to have agreed on their decision (both said include or exclude). A study will continuously be offered up for screening to other reviewers until this threshold has been met, and two reviewers have given a publication the same decision. If this threshold has not been met, then this will be marked as `Insufficiently screened' and offered up to the next reviewer.
 If you would like different criteria for sufficient screening, please \href{mailtp:syrf.info@ed.ac.uk?subject=Screening\%20Criteria\%20in\%20SyRF}{contact us} and don't forget to include your project name.
@@ -364,10 +365,6 @@ My project only has two screeners, how can I see screening decisions?
 As part of the data abstraction process you can annotate studies within SyRF by specifying what question you want your reviewers to answer about each publication in your project.
 In order to do this go to the `Design Annotation Questions' button on the project overview page.
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
 Questions may be nested to allow for hierarchy of conditional information entry (i.e.~questions can become active, depending on answers to other questions).
 Annotation questions are entered into the following categories:
 
@@ -379,16 +376,8 @@ Enter any question that is relevant to the overall study.
 e.g.~Do the authors refer to a protocol?
 (Yes or No checkbox)
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
 \hypertarget{disease-model-induction-questions}{%
 \section{Disease Model Induction questions}\label{disease-model-induction-questions}}
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
 
 \hypertarget{control-question}{%
 \subsection{Control Question}\label{control-question}}
@@ -417,10 +406,6 @@ e.g.~What anaesthetic is used for both the model and sham surgery?
 \hypertarget{treatment-questions}{%
 \section{Treatment questions}\label{treatment-questions}}
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
 \hypertarget{control-question-1}{%
 \subsection{Control Question}\label{control-question-1}}
 
@@ -448,10 +433,6 @@ e.g.~What route of drug or vehicle administration is used in the experiment?
 \hypertarget{outcome-assessment-questions}{%
 \section{Outcome assessment questions}\label{outcome-assessment-questions}}
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
 Define questions relevant to each outcome assessment procedure in the study.
 
 e.g.~What is the behavioural test used to measure outcome?
@@ -459,10 +440,6 @@ e.g.~What is the behavioural test used to measure outcome?
 
 \hypertarget{cohort-level-questions}{%
 \section{Cohort Level Questions}\label{cohort-level-questions}}
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
 
 Define questions relevant to each cohort procedure in the study.
 
@@ -490,122 +467,11 @@ e.g.~``What is the model type?''
 
 If Pharmacological is selected we could add a related question by selecting ``Add Pharmacological Related'', which you will then be able to see nested under your previous question.
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
 e.g.~``What is the drug given?''
 (Drop down list with options of different drugs)
 
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
 You could then further subset this question, by clicking on it and selecting `Add Related' and asking for each drug selected: ``What is the dose and route of delivery?''
 If Surgical is selected then we may ask the related questions: ``What was the anaesthetic used?'' or ``What was the site of lesion?''
-
-\hypertarget{stages}{%
-\chapter{Designing Project Stages}\label{stages}}
-
-\hypertarget{define-annotation-project-stage}{%
-\section{Define annotation project stage}\label{define-annotation-project-stage}}
-
-Once you have designed all annotation questions, you should specify the stage at which you want to answer each question. You can do this before you start screening or after you have finished screening.
-To be able to add questions to your stage of interest go to the `Stages' section of your project homepage and click `Enter Stage'.
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-You will then need to click on `Stage Design' to start editing the stage.
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-To add questions you will need to turn on `Annotation' for this stage of the project using the slider.
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-If you want to do screening and/or data extraction at the same time, you will also need to have these functionalities turned on (e.g.~even if you have screened at a separate stage, you might want to have the functionality of being able to exclude a study at a later time point when you have read the full-text).
-
-You will then be able to select the questions that you want to be included in this stage by checking the box next to the relevant questions.
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-Next time you enter a stage from the project homepage and click `Start Reviewing'. you should be able to see at the bottom of the page the questions you have enabled. The tabs named ``Study'', ``Disease Model induction'', ``Treatment'' etc. contain the different level annotation questions, depending on where you have included questions. Click on each tab to see the questions attributed to each.
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-\hypertarget{define-data-extraction-stage}{%
-\section{Define data extraction stage}\label{define-data-extraction-stage}}
-
-If you would like to extract time-point data collected for outcomes from a publication, you need to have `Data Extraction' enabled.
-
-To have this at a separate stage, you will need to create a new project stage, by clicking `+' on the project overview page under `Stages'.
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-When you enter into the stage, and press `Study Design', you will need to make sure to turn `Data Extraction'. Please note `Annotations' being enabled is a prerequisite for enabling `Data Extraction'. You may or may not want to perform these within the same stage, however.
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-Enabling `Data Extraction' will activate a set of required system annotations (which are not defined by the project administrator).
-
-You will need to pull some of the annotation information entered together to be able to start entering outcome information. For example, you will need to specify:
-
-\begin{itemize}
-\tightlist
-\item
-  procedures carried out on an animal
-  \textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-  \includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-\item
-  treatments administered (where appropriate)
-  \textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-  \includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-\item
-  details about the outcomes that have been assessed
-  \textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-  \includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-\end{itemize}
-
-Once you have this information you can start combining these pieces of information to create `Cohort's.
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-Once this has been done reviewers will be able to extract numerical data for reported outcomes in a publication being reviewed.
-
-\textless{}\textless{} Insert Image \textgreater{}\textgreater{}
-
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
-
-If `Annotations' are enabled without `Data Extraction' then only the annotation questions defined by the project administrator will be shown on the annotation form
-\textless{}\textless{}\textless{}\textless{} Insert Link \textgreater{}\textgreater{}\textgreater{}\textgreater{}\textgreater{}
-(see section 6 above).
 
 \hypertarget{faq}{%
 \chapter{FAQ}\label{faq}}
