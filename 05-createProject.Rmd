@@ -1,6 +1,6 @@
 # Create a New Project {#createProject}
 
-You are able to create new projects via the Projects tab in SyRF. A pop-up form will appear, where you can enter your project details.
+You can create new projects via the Projects tab in SyRF. A pop-up form will appear, where you can enter your project details.
 
 As part of project creation, you will be asked to specify the inclusion/exclusion criteria for your project. These should be pre-specified in your protocol.
 

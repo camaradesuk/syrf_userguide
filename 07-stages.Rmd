@@ -1,123 +1,44 @@
 # Designing Project Stages {#stages}
 
+<!-- missing information on general "what are stages?" and screening stages -->
 
 ## Define annotation project stage 
-
-
 Once you have designed all annotation questions, you should specify the stage at which you want to answer each question. You can do this before you start screening or after you have finished screening.
 To be able to add questions to your stage of interest go to the ‘Stages’ section of your project homepage and click ‘Enter Stage’.
 
-
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
-
+<!-- << Insert Image >> -->
+<!-- <center> -->
+<!-- ![](figs/){#id .class width=50% height=50%} -->
+<!-- </center> -->
 
 You will then need to click on ‘Stage Design’ to start editing the stage.
 
-
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
-
-
 To add questions you will need to turn on ‘Annotation’ for this stage of the project using the slider.
-
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
-
 
 If you want to do screening and/or data extraction at the same time, you will also need to have these functionalities turned on (e.g. even if you have screened at a separate stage, you might want to have the functionality of being able to exclude a study at a later time point when you have read the full-text).
 
-
 You will then be able to select the questions that you want to be included in this stage by checking the box next to the relevant questions.
-
-
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
 
 Next time you enter a stage from the project homepage and click ‘Start Reviewing’. you should be able to see at the bottom of the page the questions you have enabled. The tabs named “Study”, “Disease Model induction”, “Treatment” etc. contain the different level annotation questions, depending on where you have included questions. Click on each tab to see the questions attributed to each.
 
-
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
-
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
-
-
-
 ## Define data extraction stage
-
 If you would like to extract time-point data collected for outcomes from a publication, you need to have ‘Data Extraction’ enabled.
 
 To have this at a separate stage, you will need to create a new project stage, by clicking ‘+’ on the project overview page under ‘Stages’.
 
-
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
-
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
-
-
 When you enter into the stage, and press ‘Study Design’, you will need to make sure to turn ‘Data Extraction’. Please note ‘Annotations’ being enabled is a prerequisite for enabling ‘Data Extraction’. You may or may not want to perform these within the same stage, however.
-
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
 
 Enabling ‘Data Extraction’ will activate a set of required system annotations (which are not defined by the project administrator).
 
 You will need to pull some of the annotation information entered together to be able to start entering outcome information. For example, you will need to specify: 
 
 - procedures carried out on an animal 
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
 - treatments administered (where appropriate)
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
 - details about the outcomes that have been assessed
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
-
-
 
 Once you have this information you can start combining these pieces of information to create ‘Cohort’s.
 
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
-
-
 Once this has been done reviewers will be able to extract numerical data for reported outcomes in a publication being reviewed.
-
-<< Insert Image >>
-<center>
-![](figs/evidence-triangle.png){#id .class width=50% height=50%}
-</center>
 
 If ‘Annotations’ are enabled without ‘Data Extraction’ then only the annotation questions defined by the project administrator will be shown on the annotation form 
 <<<< Insert Link >>>>> 

@@ -1,0 +1,58 @@
+# Uploading a Systematic Search {#systematicSearch}
+
+Once you have created your project, you can keep track of your project progress through the Project Details Page.
+
+## Deduplicating your systematic search
+Currently SyRF does not support deduplication of studies, and this must be performed before your studies are uploaded to SyRF. You can deduplicate your studies automatically using the CAMARADES deduplication tool.
+<!-- link to Kaitlyn's tool -->
+
+## Uploading files
+You can upload your systematic searches as an:
+
+* EndNote XML file
+* Comma separated value (CSV) file
+* Tab separated value (TSV) file
+
+### Uploading a citation library from EndNote
+To upload your EndNote library to SyRF, you will need to export your library from EndNote in an XML format.
+
+> In Endnote: Select all records (Ctril+Shift+A)
+> Then go to: File>Export
+> Make sure ‘Save as type’ is set to XML
+
+### Uploading your studies as a CSV or TSV
+To upload your systematic search studies as a CSV or TSV file, you will have to make sure to format your data with the column headings shown in our example.
+<!-- link to example -->
+
+<< Insert link to FAQ >>
+I am trying to upload an EndNote XML file that was creating by importing from a place other than an electronic database and getting an error
+
+### Including screening decisions with your systematic search
+If you have already screened your list of studies outside of SyRF, you can still upload your library and bring this existing information into SyRF for further steps of your project. You can do this by saving your study details in a csv or tsv file and selecting the appropriate upload option when uploading your search. Please [check here](https://app.syrf.org.uk/assets/pdfs/Systematic%20search%20instructions.pdf) for the format your file needs to be in before upload.
+
+Next, if you want to add screening decisions, make sure to have “Toggle to include screening decisions with upload” on and fill out the appropriate information for SyRF to be able to attribute data correctly.
+
+## Uploading full-text PDFs
+If you require full-text PDFs for each of your studies at any stage of your SyRF project, it is important that you have already retrieved these before uploading your search file. 
+
+In the systematic search file that you upload (csv/tsv spreadsheet or XML from Endnote) make sure the column “PDF Relative Path” contains relative path links (i.e. relative to the root of the folder you send to us) to your PDFs for each record.
+
+You will then need to [contact us](syrf.info@ed.ac.uk) with the name of your project and share the folder containing your PDFs via Google Drive or similar.
+
+We will upload these PDFs to the SyRF database and these can be opened from the screening form.
+
+
+### Use EndNote to retrieve PDFs via your institution’s subscription
+
+> In Endnote: Select all records > Right click > Select ‘Find full text’. You may need to authenticate your log in details for your institution. There is a limit of searching for 250 per go but it is worth going through this step multiple times if necessary as it is the quickest way of retreiving PDFs at present. Endnote will download, save and name the PDFs. These can then be found in your Endnote Data File in a folder named ‘PDF’.
+
+If you download your PDFs in this way, it is advisable to keep the PDF names and links specified by EndNote so that the links get matched to the appropriate record.
+
+<< Insert Link to FAQ >>
+I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening
+
+## View project studies
+You can now view project studies by clicking on the ‘View Project Studies’ button. This will show you all the studies you have uploaded to your project.
+
+## Deleting systematic searches
+If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening and annotation answers.
