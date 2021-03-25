@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  24 MAR 2021 13:46
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  25 MAR 2021 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -899,9 +899,6 @@ Underfull \hbox (badness 1210) in paragraph at lines 223--226
 
 ]
 Chapter 7.
-
-Underfull \vbox (badness 2221) has occurred while \output is active []
-
 [19] [20]
 Chapter 8.
 [21
@@ -910,25 +907,25 @@ Chapter 8.
 Chapter 9.
 [23
 
-] [24] [25] [26
-
-]
+] [24] [25] [26]
 Chapter 10.
 No file SyRF_UserGuide.bbl.
-[27] [28] (./SyRF_UserGuide.aux)
+[27
+
+] [28] (./SyRF_UserGuide.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `SyRF_UserGuide.out' has not changed.
-(rerunfilecheck)             Checksum: CA1D9AA0D7423756D5CF16CEA29273DC;5800.
+(rerunfilecheck)             Checksum: FB50860E7614986E0C25D6D7447F67AB;5099.
  ) 
 Here is how much of TeX's memory you used:
- 15812 strings out of 478931
- 283769 string characters out of 5865141
- 746427 words of memory out of 5000000
- 35443 multiletter control sequences out of 15000+600000
+ 15817 strings out of 478931
+ 283874 string characters out of 5865141
+ 746749 words of memory out of 5000000
+ 35448 multiletter control sequences out of 15000+600000
  409873 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 98i,6n,122p,531b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 98i,6n,122p,517b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on SyRF_UserGuide.pdf (28 pages).

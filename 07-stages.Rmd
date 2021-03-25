@@ -1,45 +1,24 @@
-# Designing Project Stages {#stages}
+# Project Stages {#stages}
 
-<!-- missing information on general "what are stages?" and screening stages -->
+## What are stages?
+Stages are sections of your SyRF projects that you add to perform tasks like screening and data annotation. Currently, SyRF allows you to add one screening stage and mutiple annotation stages. You can also have screening and annotation in the same stage.
 
-## Define annotation project stage 
+## Screening stages
+A screening stage allows you to screen the studies you have uploaded to your SyRF project using the inclusion/exclusion critiera you entered when creating your project. Currently, as inclusion/exclusion critiera are defined at the project level, you can only have one screening stage per project.
+
+If you wish to have multiple screening stages in your systematic review, for instance title and abstract screening followed by full-text screening, you can do this by either exporting your included studies from SyRF following your first screening stage and adding them to a new project where you can before your second screening.
+
+## Annotation stages
+An annotation stage allows you to annotate data from your study, according to pre-defined questions in your systematic review protocol. SyRF has a question builder tool to allow you to design questions for your project.
+
 Once you have designed all annotation questions, you should specify the stage at which you want to answer each question. You can do this before you start screening or after you have finished screening.
-To be able to add questions to your stage of interest go to the ‘Stages’ section of your project homepage and click ‘Enter Stage’.
 
-<!-- << Insert Image >> -->
-<!-- <center> -->
-<!-- ![](figs/){#id .class width=50% height=50%} -->
-<!-- </center> -->
+To add questions to your stage of interest go to the ‘Stages’ section of your project homepage and click ‘Enter Stage’. You will then need to click on ‘Stage Design’ to start editing the stage.
 
-You will then need to click on ‘Stage Design’ to start editing the stage.
+### Data extraction
+To extract data from graphs in your systematic review studies, you will have to turn on data extraction in addition to annotation within your stage.
 
-To add questions you will need to turn on ‘Annotation’ for this stage of the project using the slider.
-
+## Screening and annotating within the same stage
 If you want to do screening and/or data extraction at the same time, you will also need to have these functionalities turned on (e.g. even if you have screened at a separate stage, you might want to have the functionality of being able to exclude a study at a later time point when you have read the full-text).
 
 You will then be able to select the questions that you want to be included in this stage by checking the box next to the relevant questions.
-
-Next time you enter a stage from the project homepage and click ‘Start Reviewing’. you should be able to see at the bottom of the page the questions you have enabled. The tabs named “Study”, “Disease Model induction”, “Treatment” etc. contain the different level annotation questions, depending on where you have included questions. Click on each tab to see the questions attributed to each.
-
-## Define data extraction stage
-If you would like to extract time-point data collected for outcomes from a publication, you need to have ‘Data Extraction’ enabled.
-
-To have this at a separate stage, you will need to create a new project stage, by clicking ‘+’ on the project overview page under ‘Stages’.
-
-When you enter into the stage, and press ‘Study Design’, you will need to make sure to turn ‘Data Extraction’. Please note ‘Annotations’ being enabled is a prerequisite for enabling ‘Data Extraction’. You may or may not want to perform these within the same stage, however.
-
-Enabling ‘Data Extraction’ will activate a set of required system annotations (which are not defined by the project administrator).
-
-You will need to pull some of the annotation information entered together to be able to start entering outcome information. For example, you will need to specify: 
-
-- procedures carried out on an animal 
-- treatments administered (where appropriate)
-- details about the outcomes that have been assessed
-
-Once you have this information you can start combining these pieces of information to create ‘Cohort’s.
-
-Once this has been done reviewers will be able to extract numerical data for reported outcomes in a publication being reviewed.
-
-If ‘Annotations’ are enabled without ‘Data Extraction’ then only the annotation questions defined by the project administrator will be shown on the annotation form 
-<<<< Insert Link >>>>> 
-(see section 6 above).
