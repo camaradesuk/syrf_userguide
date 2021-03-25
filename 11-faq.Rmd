@@ -1,31 +1,5 @@
 # FAQ
 
+If you have a question related to SyRF that is not covered by this user guide, please check our frequently asked questions page on the SyRF website.
 
-## Question: Why is SyRF not working?
-<details>
-  <summary>Click here for answer.</summary>
-  
-  #### Solution
-  1. A numbered
-  2. list
-     * With some
-     
- #### Explanation
- Its because we are currently under development. 
-</details>
-
-
-
-
-## Question 2: Why is SyRF not working?
-<details>
-  <summary>Click here for answer.</summary>
-  
-  #### Solution
-  1. A numbered
-  2. list
-     * With some
-     
- #### Explanation
- Its because we are currently under development. 
-</details>
+<<link to SyRF FAQ page>>
