@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  30 MAR 2021 14:57
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  15 APR 2021 09:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,48 +865,48 @@ Chapter 1.
 [5
 
 ]
-Underfull \hbox (badness 1571) in paragraph at lines 147--148
+Underfull \hbox (badness 1571) in paragraph at lines 145--146
 \TU/lmr/m/n/10 morbidities (if applicable) - which all receive the same procedu
 re and
  []
 
-[6] [7] [8
-
-]
+[6]
 Chapter 2.
-[9] [10
+[7
+
+] [8
 
 ]
 Chapter 3.
-[11] [12
+[9] [10
 
 ]
 Chapter 4.
-[13] [14
+[11] [12
 
 ]
 Chapter 5.
 
-Underfull \hbox (badness 1210) in paragraph at lines 225--228
+Underfull \hbox (badness 1210) in paragraph at lines 219--222
 []\TU/lmr/m/n/10 In Endnote: Select all records (Ctril+Shift+A) Then go to:
  []
 
-[15] [16] [17] [18
+[13] [14] [15] [16
 
 ]
 Chapter 6.
-[19] [20]
+[17] [18]
 Chapter 7.
+[19
+
+] [20]
+Chapter 8.
 [21
 
-] [22]
-Chapter 8.
-[23
-
-] [24] [25] [26]
+] [22] [23] [24]
 Chapter 9.
 No file SyRF_UserGuide.bbl.
-[27
+[25
 
 ] (./SyRF_UserGuide.aux)
 
@@ -918,10 +918,10 @@ Package rerunfilecheck Info: File `SyRF_UserGuide.out' has not changed.
 Here is how much of TeX's memory you used:
  15810 strings out of 478931
  283742 string characters out of 5865141
- 746459 words of memory out of 5000000
+ 746458 words of memory out of 5000000
  35441 multiletter control sequences out of 15000+600000
  409873 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  98i,6n,122p,517b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on SyRF_UserGuide.pdf (27 pages).
+Output written on SyRF_UserGuide.pdf (25 pages).
