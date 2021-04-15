@@ -1,7 +1,5 @@
 # Uploading a Systematic Search {#systematicSearch}
 
-Once you have created your project, you can keep track of your project progress through the Project Details Page.
-
 ## Deduplicating your systematic search
 Currently SyRF does not support deduplication of studies, and this must be performed before your studies are uploaded to SyRF. You can deduplicate your studies automatically using the [CAMARADES deduplication tool](https://camarades.shinyapps.io/RDedup/).
 

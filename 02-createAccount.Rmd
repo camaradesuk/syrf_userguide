@@ -1,6 +1,6 @@
 # Create an Account {#createAccount}
 
-Each researcher involved in screening or data extraction in your systematic review project will have to create a free SyRF account. Accounts can be set up using your email address or Google Account and you will receive an email to complete your registration.
+You will need to create a free account to create or participate in projects.
 
 Creating an account allows us to keep your data secure and allows the administrator of each project to control who has access to the project data. Read our Data Management and Sharing Policy here.
 <!-- link -->
