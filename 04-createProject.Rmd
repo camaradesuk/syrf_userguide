@@ -4,5 +4,5 @@ You can create new projects via the Projects tab in SyRF. A pop-up form will app
 
 As part of project creation, you will be asked to specify the inclusion/exclusion criteria for your project. These should be pre-specified in your protocol.
 
-Currently, you can only have one set of inclusion/exclusion critiera per SyRF project. If you would like more than one set of inclusion/exclusion critiera in your systematic review (e.g. two or more screening stages) then you may have to create more than one SyRf project. If that is the case, please contact our Help Desk for more information.
+Currently, you can only have one set of inclusion/exclusion critiera per SyRF project. If you would like more than one set of inclusion/exclusion critiera in your systematic review (e.g. two or more screening stages) then you may have to create more than one SyRF project. If that is the case, please contact our Help Desk for more information.
 <!-- syrf mail -->

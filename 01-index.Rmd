@@ -1,8 +1,7 @@
 # Getting Started {#index}
 
-Welcome to the SyRF User Guide. This guide is designed to help you use SyRF. If you have never conducted a systematic review before, you may also find the Systematic Review Guide created by CAMARADES Berlin useful.
+Welcome to the SyRF User Guide. This guide is designed to help you use SyRF. If you have never conducted a systematic review before, you may also find the [Systematic Review Wiki](https://www.camarades.de/) created by CAMARADES Berlin useful.
 
-<< link to Alexandra's Netlify app >>
 
 ## Glossary
 ### Project
