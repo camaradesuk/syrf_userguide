@@ -10,24 +10,50 @@ You can upload your systematic searches as an:
 * Comma separated value (CSV) file
 * Tab separated value (TSV) file
 
-### Uploading a citation library from EndNote
-To upload your EndNote library to SyRF, you will need to export your library from EndNote in an XML format.
+### Uploading your studies from an EndNote export
 
-> In Endnote: Select all records (Ctril+Shift+A)
-> Then go to: File>Export
-> Make sure ‘Save as type’ is set to XML
+1. Highlight (Ctrl+A) all references all the references in yourEndNote library that you wish to upload to SyRF
+2. Click File -> Export (NB: if you do not highlight all references only the first reference on your list will be exported)
+3. Change the file type to XML
+4. Name and save your XML file, which is now ready to be uploaded to SyRF
 
-### Uploading your studies as a CSV or TSV
-To upload your systematic search studies as a CSV or TSV file, you will have to make sure to format your data with the column headings shown in our example.
-<!-- link to example -->
+Please note that upload of studies with screening decisions is currently not supported with EndNote file uploads. If you have screening decisions for the studies you wish to upload, please use a CSV or TSV format instead.
+
+#### Uploading from a Zotero export
+Please note that you cannot use the  'EndNote XML' export option in Zotero to upload an EndNote file to SyRF. If you are using Zotero to manage your study references, please export as a CSV file and follow the CSV upload instructions.
 
 << Insert link to FAQ >>
 I am trying to upload an EndNote XML file that was creating by importing from a place other than an electronic database and getting an error
 
-### Including screening decisions with your systematic search
-If you have already screened your list of studies outside of SyRF, you can still upload your library and bring this existing information into SyRF for further steps of your project. You can do this by saving your study details in a csv or tsv file and selecting the appropriate upload option when uploading your search. Please [check here](https://app.syrf.org.uk/assets/pdfs/Systematic%20search%20instructions.pdf) for the format your file needs to be in before upload.
+### Uploading your studies as a CSV or TSV
+To upload your systematic search studies as a CSV or TSV file, you will have to make sure to format your data with following the column headings in order to make the upload work:
+* Title
+* Authors
+* Publication Name
+* Alternate Name
+* Abstract
+* Url
+* Author Address
+* Year
+* DOI
+* Keywords
+* Reference Type
+* PDF Relative Path
 
-Next, if you want to add screening decisions, make sure to have “Toggle to include screening decisions with upload” on and fill out the appropriate information for SyRF to be able to attribute data correctly.
+You can download a template with the correct column headings and example data here:
+<< link to example csv >>
+
+Even if you don't have information for all the columns specified, they will need to be in your file in order to make the upload work. SyRF will accept empty fields for any of these
+variables.
+
+Files must first be saved as either Text - Tab delimited (\*.txt) or CSV - Comma delimited (\*.csv) files. This can be done in excel using the ‘Save as type:’ dropdown control in the ‘Save As’ dialog. 
+
+#### Upload studies with screening decisions
+If you would like to upload screening decisions already made outside of SyRF along with list of studies, you should add separate columns for each user and SyRF’s wizard will allow you to select which column headers in your file correspond to project members.
+
+Within screening columns decisions should be represented with the value 1 for inclusion and 0 for exclusion. 
+
+Your file should only contain the columns above and columns specified with screening decisions. If any columns are missing or additional columns are added (not specified for screening) the upload wizard will fail.
 
 ## Uploading full-text PDFs
 If you require full-text PDFs for each of your studies at any stage of your SyRF project, it is important that you have already retrieved these before uploading your search file. 
@@ -38,12 +64,8 @@ You will then need to [contact us](syrf.info@ed.ac.uk) with the name of your pro
 
 We will upload these PDFs to the SyRF database and these can be opened from the screening form.
 
-
-### Use EndNote to retrieve PDFs via your institution’s subscription
-
-> In Endnote: Select all records > Right click > Select ‘Find full text’. You may need to authenticate your log in details for your institution. There is a limit of searching for 250 per go but it is worth going through this step multiple times if necessary as it is the quickest way of retreiving PDFs at present. Endnote will download, save and name the PDFs. These can then be found in your Endnote Data File in a folder named ‘PDF’.
-
-If you download your PDFs in this way, it is advisable to keep the PDF names and links specified by EndNote so that the links get matched to the appropriate record.
+### PDF file names
+Please avoid using invalid characters (e.g. , < > : " \\ / | ? \*) in file names as it may cause issues. By default, software like EndNote uses Author and Title information to name files, which can caluse invalid characters to be added to your PDF file names. You can change the default to name PDFs using another column such as RecordID. Name sure that whatever columns you chose to name your PDFs with, the data should be unique.
 
 << Insert Link to FAQ >>
 I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening
