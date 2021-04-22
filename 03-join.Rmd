@@ -1,6 +1,6 @@
 # Join a Project {#join}
 
-The Projects tab in SyRF will show all the projects you are a member of, as well as all public projects. To join a project, you will need to click ‘Request to join’ on the project’s homepage which will send a message to the project's administrator.
+The Projects tab in SyRF will show all the projects you are a member of, as well as all public projects. To join a project, you will need to click ‘Request to join’ on the project’s homepage which will send a message to the project's administrator. The project administator will need to apprive your request to join before you can access the project.
 
 << Link to FAQs >>
 My collaborators can’t see my project

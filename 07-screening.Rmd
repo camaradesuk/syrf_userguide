@@ -1,13 +1,17 @@
 # Screening {#screening}
 
 ## Screening using SyRF
-You can screen the studies in your SyRF project against the inclusion/exclusion critiera you defined in your systematic review protocol and when you created your project by creating a screening stage in SyRF.
+You can screen the studies in your SyRF project against the inclusion/exclusion criteria you defined in your systematic review protocol and that you specified when you created your project by creating a screening stage in SyRF.
 
-When you start reviewing in a screening stage, you will be shown a the title and abstract of a random study from your systematic search uploads. If you have also uploaded PDFs, there will be a button to allow you to view the PDF in addition.
+By default, two screeners have to agree on a study for it to be marked as insufficently screened. This is the recommended methodology for systematic reviews. If you are doing a student project and require only one screener, please [contact us](syrf.info@ed.ac.uk) so that we can edit this for you.
 
-Use the include and exclude buttons to decide whether or not your study meets the inclusion/exclusion critiera. If you are unsure and want to come back to the study, click 'Next' to skip it and move on to another.
+<< UNLESS THIS IS AN OPTION IN THE NEW RELEASE >>
 
-Once you have decided to include or exclude a study, SyRF will mark it as completed by you and you will not be shown it again. If you think you have made a mistake, it is possible to click the back button on your browser to go back to your previous study and re-screen it.
+When you start reviewing in a screening stage, you will be shown the title and abstract of a random study from your systematic search uploads. If you have also uploaded PDFs, there will be a button to allow you to view the PDF.
+
+Use the include and exclude buttons to record whether or not your study meets the inclusion/exclusion critiera. If you are unsure and want to come back to the study, click 'Next' to skip it and move on to another study.
+
+Once you have decided to include or exclude a study, SyRF will record it as completed by you and you will not be shown it again. If you think you have made a mistake, it is possible to click the back button on your browser to go back to your previous study and re-screen it.
 
 ### Studies unavailable to screen
 You will not be presented with studies that have been sufficently screened by other reviewers on the project. Instead, you can see how many studies have been sufficiently screened by other reviewers on your progress bar within the screening stage, marked as 'Unavailable'. Information on how to configure the number of reviewers required to sufficently screen each study can be found in the 'Number of Screeners' section below.

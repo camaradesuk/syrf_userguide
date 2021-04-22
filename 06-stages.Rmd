@@ -1,12 +1,14 @@
 # Project Stages {#stages}
 
 ## What are stages?
-Stages are sections of your SyRF projects that you add to perform tasks like screening and data annotation. Currently, SyRF allows you to add one screening stage and mutiple annotation stages. You can also have screening and annotation in the same stage.
+Stages are sections of your SyRF projects that you add to perform tasks such as screening and data annotation. Currently, SyRF allows you to add one screening stage and mutiple annotation stages. You can also have screening and annotation in the same stage.
 
 ## Screening stages
-A screening stage allows you to screen the studies you have uploaded to your SyRF project using the inclusion/exclusion critiera you entered when creating your project. Currently, as inclusion/exclusion critiera are defined at the project level, you can only have one screening stage per project.
+A screening stage allows you to screen the studies you have uploaded to your SyRF project using the inclusion/exclusion criteria you entered when creating your project. Currently, as inclusion/exclusion criteria are defined at the project level, you can only have one screening stage per project.
 
-If you wish to have multiple screening stages in your systematic review, for instance title and abstract screening followed by full-text screening, you can do this by either exporting your included studies from SyRF following your first screening stage and adding them to a new project where you can before your second screening.
+If you wish to have multiple screening stages in your systematic review, for instance title and abstract screening followed by full-text screening, you can do this by exporting your included studies from SyRF following your first screening stage and uploading them to a new SyRF project to complete your second screening stage.
+
+[Contact us](syrf.info@ed.ac.uk) for a link to a Shiny App which will allow you to export your data.
 
 ## Annotation stages
 An annotation stage allows you to annotate data from your study, according to pre-defined questions in your systematic review protocol. SyRF has a question builder tool to allow you to design questions for your project.
@@ -19,6 +21,6 @@ To add questions to your stage of interest go to the ‘Stages’ section of you
 To extract data from graphs in your systematic review studies, you will have to turn on data extraction in addition to annotation within your stage.
 
 ## Screening and annotating within the same stage
-If you want to do screening and/or data extraction at the same time, you will also need to have these functionalities turned on (e.g. even if you have screened at a separate stage, you might want to have the functionality of being able to exclude a study at a later time point when you have read the full-text).
+If you want to carry out screening and annotation at the same time, you will also need to have these functionalities turned on (e.g. even if you have screened at a separate stage, you might want to have the functionality of being able to exclude a study at a later time point when you have read the full-text).
 
 You will then be able to select the questions that you want to be included in this stage by checking the box next to the relevant questions.

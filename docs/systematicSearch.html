@@ -24,7 +24,7 @@
 <meta name="author" content="CAMARADES" />
 
 
-<meta name="date" content="2021-04-19" />
+<meta name="date" content="2021-04-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -83,7 +83,9 @@
 </ul></li>
 <li class="chapter" data-level="2" data-path="createAccount.html"><a href="createAccount.html"><i class="fa fa-check"></i><b>2</b> Create an Account</a></li>
 <li class="chapter" data-level="3" data-path="join.html"><a href="join.html"><i class="fa fa-check"></i><b>3</b> Join a Project</a></li>
-<li class="chapter" data-level="4" data-path="createProject.html"><a href="createProject.html"><i class="fa fa-check"></i><b>4</b> Create a New Project</a></li>
+<li class="chapter" data-level="4" data-path="createProject.html"><a href="createProject.html"><i class="fa fa-check"></i><b>4</b> Create a New Project</a><ul>
+<li class="chapter" data-level="4.1" data-path="createProject.html"><a href="createProject.html#my-project-will-have-multiple-screening-stages"><i class="fa fa-check"></i><b>4.1</b> My project will have multiple screening stages</a></li>
+</ul></li>
 <li class="chapter" data-level="5" data-path="systematicSearch.html"><a href="systematicSearch.html"><i class="fa fa-check"></i><b>5</b> Uploading a Systematic Search</a><ul>
 <li class="chapter" data-level="5.1" data-path="systematicSearch.html"><a href="systematicSearch.html#deduplicating-your-systematic-search"><i class="fa fa-check"></i><b>5.1</b> Deduplicating your systematic search</a></li>
 <li class="chapter" data-level="5.2" data-path="systematicSearch.html"><a href="systematicSearch.html#uploading-files"><i class="fa fa-check"></i><b>5.2</b> Uploading files</a><ul>
@@ -149,7 +151,7 @@
 <h1><span class="header-section-number">Section 5</span> Uploading a Systematic Search</h1>
 <div id="deduplicating-your-systematic-search" class="section level2">
 <h2><span class="header-section-number">5.1</span> Deduplicating your systematic search</h2>
-<p>Currently SyRF does not support deduplication of studies, and this must be performed before your studies are uploaded to SyRF. You can deduplicate your studies automatically using the <a href="https://camarades.shinyapps.io/RDedup/">CAMARADES deduplication tool</a>.</p>
+<p>If you have searched for studies using multiple databases there will be duplicate studies in your systematic search. Currently SyRF does not support deduplication of studies, and this must be performed before your studies are uploaded to SyRF. You can deduplicate your studies automatically using the <a href="https://camarades.shinyapps.io/RDedup/">CAMARADES deduplication tool</a>.</p>
 </div>
 <div id="uploading-files" class="section level2">
 <h2><span class="header-section-number">5.2</span> Uploading files</h2>
@@ -172,7 +174,7 @@
 <h4><span class="header-section-number">5.2.1.1</span> Uploading from a Zotero export</h4>
 <p>Please note that you cannot use the ‘EndNote XML’ export option in Zotero to upload an EndNote file to SyRF. If you are using Zotero to manage your study references, please export as a CSV file and follow the CSV upload instructions.</p>
 <p>&lt;&lt; Insert link to FAQ &gt;&gt;
-I am trying to upload an EndNote XML file that was creating by importing from a place other than an electronic database and getting an error</p>
+I am trying to upload an EndNote XML file that was created by importing from a place other than an electronic database and getting an error</p>
 </div>
 </div>
 <div id="uploading-your-studies-as-a-csv-or-tsv" class="section level3">
@@ -197,21 +199,22 @@ variables.</p>
 <p>Files must first be saved as either Text - Tab delimited (*.txt) or CSV - Comma delimited (*.csv) files. This can be done in excel using the ‘Save as type:’ dropdown control in the ‘Save As’ dialog.</p>
 <div id="upload-studies-with-screening-decisions" class="section level4">
 <h4><span class="header-section-number">5.2.2.1</span> Upload studies with screening decisions</h4>
-<p>If you would like to upload screening decisions already made outside of SyRF along with list of studies, you should add separate columns for each user and SyRF’s wizard will allow you to select which column headers in your file correspond to project members.</p>
-<p>Within screening columns decisions should be represented with the value 1 for inclusion and 0 for exclusion.</p>
+<p>If you would like to upload studies along with screening decisions already made outside of SyRF, you should add separate columns for each user and SyRF’s wizard will allow you to select which column headers in your file correspond to project members.</p>
+<p>Within screening columns, decisions should be represented with the value 1 for inclusion and 0 for exclusion.</p>
 <p>Your file should only contain the columns above and columns specified with screening decisions. If any columns are missing or additional columns are added (not specified for screening) the upload wizard will fail.</p>
 </div>
 </div>
 </div>
 <div id="uploading-full-text-pdfs" class="section level2">
 <h2><span class="header-section-number">5.3</span> Uploading full-text PDFs</h2>
-<p>If you require full-text PDFs for each of your studies at any stage of your SyRF project, it is important that you have already retrieved these before uploading your search file.</p>
+<p>If you require full-text PDFs for each of your studies at any stage of your SyRF project, it is important that you have already retrieved these full-text PDFs before uploading your search file.</p>
+<p>&lt;&lt; Link to EndNote guidance for PDF retrieval&gt;&gt;</p>
 <p>In the systematic search file that you upload (csv/tsv spreadsheet or XML from Endnote) make sure the column “PDF Relative Path” contains relative path links (i.e. relative to the root of the folder you send to us) to your PDFs for each record.</p>
-<p>You will then need to <a href="syrf.info@ed.ac.uk">contact us</a> with the name of your project and share the folder containing your PDFs via Google Drive or similar.</p>
+<p>You will then need to <a href="syrf.info@ed.ac.uk">contact us</a> with the name of your project, a folder containing your PDFs (sent via Google Drive or similar) and a CSV file containing the file path to each PDF and the title or SyRF study ID of each study, so we can match PDFs with your studies in SyRF.</p>
 <p>We will upload these PDFs to the SyRF database and these can be opened from the screening form.</p>
 <div id="pdf-file-names" class="section level3">
 <h3><span class="header-section-number">5.3.1</span> PDF file names</h3>
-<p>Please avoid using invalid characters (e.g. , &lt; &gt; : " \ / | ? *) in file names as it may cause issues. By default, software like EndNote uses Author and Title information to name files, which can caluse invalid characters to be added to your PDF file names. You can change the default to name PDFs using another column such as RecordID. Name sure that whatever columns you chose to name your PDFs with, the data should be unique.</p>
+<p>Please avoid using invalid characters (e.g. , &lt; &gt; : " \ / | ? *) in file names as it may cause issues. By default, software like EndNote uses Author and Title information to name files, which can cause invalid characters to be added to your PDF file names. You can change the default to name PDFs using another column such as RecordID. Whichever columns you chose to name your PDFs with, the data should be unique.</p>
 <p>&lt;&lt; Insert Link to FAQ &gt;&gt;
 I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening</p>
 </div>
@@ -222,7 +225,7 @@ I am performing a two-stage screening process and need to add PDFs only for my i
 </div>
 <div id="deleting-systematic-searches" class="section level2">
 <h2><span class="header-section-number">5.5</span> Deleting systematic searches</h2>
-<p>If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening and annotation answers.</p>
+<p>If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening decisions and annotation answers.</p>
 
 </div>
 </div>

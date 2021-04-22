@@ -78,7 +78,7 @@
 
 \title{SyRF User Guide}
 \author{CAMARADES}
-\date{2021-04-19}
+\date{2021-04-22}
 
 \begin{document}
 \maketitle
@@ -90,7 +90,7 @@
 \hypertarget{index}{%
 \chapter{Getting Started}\label{index}}
 
-Welcome to the SyRF User Guide. This guide is designed to help you use SyRF. If you have never conducted a systematic review before, please read the \href{https://www.camarades.de/}{Systematic Review Wiki} created by CAMARADES Berlin.
+Welcome to the SyRF User Guide. This guide is designed to help you use SyRF. If you require general guidance on systematic review or meta-analysis, or have never conducted a systematic review before, please read the \href{https://www.camarades.de/}{Systematic Review Wiki} created by CAMARADES Berlin.
 
 \hypertarget{glossary}{%
 \section{Glossary}\label{glossary}}
@@ -113,7 +113,7 @@ A project that is not visible to other SyRF users unless they have requested and
 \hypertarget{protocol}{%
 \subsection{Protocol}\label{protocol}}
 
-A structured description of what you set out to do in your systematic review and meta-analysis. We recommend that this is published or shared publicly with \href{https://www.crd.york.ac.uk/prospero/}{PROSPERO}.
+A structured description of what you set out to do in your systematic review and meta-analysis, which should be finalised before you start your systematic review. We recommend that this is published or shared publicly with \href{https://www.crd.york.ac.uk/prospero/}{PROSPERO}.
 
 \hypertarget{screening}{%
 \subsection{Screening}\label{screening}}
@@ -142,24 +142,44 @@ An experiment refers to any grouping of cohorts where an experiment is carried o
 \hypertarget{cohort}{%
 \subsection{Cohort}\label{cohort}}
 
-A cohort refers to a group of animals - same species, strain, source, co-morbidities (if applicable) - which all receive the same procedure and treatments and can be compared to other cohorts. So an experiment may involve the following cohorts:
+A cohort refers to a group of animals - same species, strain, source, co-morbidities (if applicable) - which all receive the same procedure and treatments and can be compared to other cohorts. For example, an experiment may involve the following cohorts:
+
+Example Experiment 1:
 
 \begin{itemize}
 \tightlist
 \item
-  Treatment, Sham and Control; or
+  Cohort 1: Treatment
 \item
-  Control, Treatment 1 and Treatment 2.
+  Cohort 2: Sham
+\item
+  Cohort 3: Control
 \end{itemize}
 
-Cohorts are created in SyRF projects by combining disease models and treatment groups. This is descirbed further in
+Example Experiment 2:
+
+\begin{itemize}
+\tightlist
+\item
+  Cohort 1: Control
+\item
+  Cohort 2: Treatment 1
+\item
+  Cohort 3: Treatment 2
+\end{itemize}
+
+Cohorts are created in SyRF projects by combining disease models and treatment details. This is described further in
 
 SECTION 8.
+
+\textless{}\textless{} ADD FLOWCHART DIAGRAM \textgreater{}\textgreater{}
 
 \hypertarget{createAccount}{%
 \chapter{Create an Account}\label{createAccount}}
 
 You will need to create a free account to create or participate in projects.
+
+\textless{}\textless{} Add link to new SyRF to create an account \textgreater{}\textgreater{}
 
 Creating an account allows us to keep your data secure and allows the administrator of each project to control who has access to the project data. Read our Data Management and Sharing Policy here.
 
@@ -171,7 +191,7 @@ Once you have created an account and logged in you can access public projects or
 \hypertarget{join}{%
 \chapter{Join a Project}\label{join}}
 
-The Projects tab in SyRF will show all the projects you are a member of, as well as all public projects. To join a project, you will need to click `Request to join' on the project's homepage which will send a message to the project's administrator.
+The Projects tab in SyRF will show all the projects you are a member of, as well as all public projects. To join a project, you will need to click `Request to join' on the project's homepage which will send a message to the project's administrator. The project administator will need to apprive your request to join before you can access the project.
 
 \textless{}\textless{} Link to FAQs \textgreater{}\textgreater{}
 My collaborators can't see my project
@@ -183,9 +203,14 @@ You can create new projects via the Projects tab. Enter your project details in 
 
 As part of project creation, you will be asked to specify the inclusion/exclusion criteria for your project. These should be pre-specified in your protocol.
 
-Currently, you can only have one set of inclusion/exclusion critiera per SyRF project. If you would like more than one set of inclusion/exclusion critiera in your systematic review (e.g.~two or more screening stages) then you may have to create more than one SyRF project. If that is the case, please contact our Help Desk for more information.
-
 Once you have created your project, you can keep track of your project progress through the Project Details Page.
+
+\hypertarget{my-project-will-have-multiple-screening-stages}{%
+\section{My project will have multiple screening stages}\label{my-project-will-have-multiple-screening-stages}}
+
+Currently, you can only have one set of inclusion/exclusion critiera per SyRF project. If you wish to have multiple screening stages in your systematic review, for instance title and abstract screening followed by full-text screening, you can do this by exporting your included studies from SyRF following your first screening stage and uploading them to a new SyRF project to complete your second screening stage.
+
+\href{syrf.info@ed.ac.uk}{Contact us} for a link to a Shiny App which will allow you to export your data.
 
 \hypertarget{systematicSearch}{%
 \chapter{Uploading a Systematic Search}\label{systematicSearch}}
@@ -193,7 +218,7 @@ Once you have created your project, you can keep track of your project progress 
 \hypertarget{deduplicating-your-systematic-search}{%
 \section{Deduplicating your systematic search}\label{deduplicating-your-systematic-search}}
 
-Currently SyRF does not support deduplication of studies, and this must be performed before your studies are uploaded to SyRF. You can deduplicate your studies automatically using the \href{https://camarades.shinyapps.io/RDedup/}{CAMARADES deduplication tool}.
+If you have searched for studies using multiple databases there will be duplicate studies in your systematic search. Currently SyRF does not support deduplication of studies, and this must be performed before your studies are uploaded to SyRF. You can deduplicate your studies automatically using the \href{https://camarades.shinyapps.io/RDedup/}{CAMARADES deduplication tool}.
 
 \hypertarget{uploading-files}{%
 \section{Uploading files}\label{uploading-files}}
@@ -234,7 +259,7 @@ Please note that upload of studies with screening decisions is currently not sup
 Please note that you cannot use the `EndNote XML' export option in Zotero to upload an EndNote file to SyRF. If you are using Zotero to manage your study references, please export as a CSV file and follow the CSV upload instructions.
 
 \textless{}\textless{} Insert link to FAQ \textgreater{}\textgreater{}
-I am trying to upload an EndNote XML file that was creating by importing from a place other than an electronic database and getting an error
+I am trying to upload an EndNote XML file that was created by importing from a place other than an electronic database and getting an error
 
 \hypertarget{uploading-your-studies-as-a-csv-or-tsv}{%
 \subsection{Uploading your studies as a CSV or TSV}\label{uploading-your-studies-as-a-csv-or-tsv}}
@@ -264,27 +289,29 @@ Files must first be saved as either Text - Tab delimited (*.txt) or CSV - Comma 
 \hypertarget{upload-studies-with-screening-decisions}{%
 \subsubsection{Upload studies with screening decisions}\label{upload-studies-with-screening-decisions}}
 
-If you would like to upload screening decisions already made outside of SyRF along with list of studies, you should add separate columns for each user and SyRF's wizard will allow you to select which column headers in your file correspond to project members.
+If you would like to upload studies along with screening decisions already made outside of SyRF, you should add separate columns for each user and SyRF's wizard will allow you to select which column headers in your file correspond to project members.
 
-Within screening columns decisions should be represented with the value 1 for inclusion and 0 for exclusion.
+Within screening columns, decisions should be represented with the value 1 for inclusion and 0 for exclusion.
 
 Your file should only contain the columns above and columns specified with screening decisions. If any columns are missing or additional columns are added (not specified for screening) the upload wizard will fail.
 
 \hypertarget{uploading-full-text-pdfs}{%
 \section{Uploading full-text PDFs}\label{uploading-full-text-pdfs}}
 
-If you require full-text PDFs for each of your studies at any stage of your SyRF project, it is important that you have already retrieved these before uploading your search file.
+If you require full-text PDFs for each of your studies at any stage of your SyRF project, it is important that you have already retrieved these full-text PDFs before uploading your search file.
+
+\textless{}\textless{} Link to EndNote guidance for PDF retrieval\textgreater{}\textgreater{}
 
 In the systematic search file that you upload (csv/tsv spreadsheet or XML from Endnote) make sure the column ``PDF Relative Path'' contains relative path links (i.e.~relative to the root of the folder you send to us) to your PDFs for each record.
 
-You will then need to \href{syrf.info@ed.ac.uk}{contact us} with the name of your project and share the folder containing your PDFs via Google Drive or similar.
+You will then need to \href{syrf.info@ed.ac.uk}{contact us} with the name of your project, a folder containing your PDFs (sent via Google Drive or similar) and a CSV file containing the file path to each PDF and the title or SyRF study ID of each study, so we can match PDFs with your studies in SyRF.
 
 We will upload these PDFs to the SyRF database and these can be opened from the screening form.
 
 \hypertarget{pdf-file-names}{%
 \subsection{PDF file names}\label{pdf-file-names}}
 
-Please avoid using invalid characters (e.g.~, \textless{} \textgreater{} : " \textbackslash{} / \textbar{} ? *) in file names as it may cause issues. By default, software like EndNote uses Author and Title information to name files, which can caluse invalid characters to be added to your PDF file names. You can change the default to name PDFs using another column such as RecordID. Name sure that whatever columns you chose to name your PDFs with, the data should be unique.
+Please avoid using invalid characters (e.g.~, \textless{} \textgreater{} : " \textbackslash{} / \textbar{} ? *) in file names as it may cause issues. By default, software like EndNote uses Author and Title information to name files, which can cause invalid characters to be added to your PDF file names. You can change the default to name PDFs using another column such as RecordID. Whichever columns you chose to name your PDFs with, the data should be unique.
 
 \textless{}\textless{} Insert Link to FAQ \textgreater{}\textgreater{}
 I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening
@@ -297,7 +324,7 @@ You can now view project studies by clicking on the `View Project Studies' butto
 \hypertarget{deleting-systematic-searches}{%
 \section{Deleting systematic searches}\label{deleting-systematic-searches}}
 
-If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening and annotation answers.
+If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening decisions and annotation answers.
 
 \hypertarget{stages}{%
 \chapter{Project Stages}\label{stages}}
@@ -305,14 +332,16 @@ If you need to delete your systematic search, you can do so In SyRF. Be aware, h
 \hypertarget{what-are-stages}{%
 \section{What are stages?}\label{what-are-stages}}
 
-Stages are sections of your SyRF projects that you add to perform tasks like screening and data annotation. Currently, SyRF allows you to add one screening stage and mutiple annotation stages. You can also have screening and annotation in the same stage.
+Stages are sections of your SyRF projects that you add to perform tasks such as screening and data annotation. Currently, SyRF allows you to add one screening stage and mutiple annotation stages. You can also have screening and annotation in the same stage.
 
 \hypertarget{screening-stages}{%
 \section{Screening stages}\label{screening-stages}}
 
-A screening stage allows you to screen the studies you have uploaded to your SyRF project using the inclusion/exclusion critiera you entered when creating your project. Currently, as inclusion/exclusion critiera are defined at the project level, you can only have one screening stage per project.
+A screening stage allows you to screen the studies you have uploaded to your SyRF project using the inclusion/exclusion criteria you entered when creating your project. Currently, as inclusion/exclusion criteria are defined at the project level, you can only have one screening stage per project.
 
-If you wish to have multiple screening stages in your systematic review, for instance title and abstract screening followed by full-text screening, you can do this by either exporting your included studies from SyRF following your first screening stage and adding them to a new project where you can before your second screening.
+If you wish to have multiple screening stages in your systematic review, for instance title and abstract screening followed by full-text screening, you can do this by exporting your included studies from SyRF following your first screening stage and uploading them to a new SyRF project to complete your second screening stage.
+
+\href{syrf.info@ed.ac.uk}{Contact us} for a link to a Shiny App which will allow you to export your data.
 
 \hypertarget{annotation-stages}{%
 \section{Annotation stages}\label{annotation-stages}}
@@ -331,7 +360,7 @@ To extract data from graphs in your systematic review studies, you will have to 
 \hypertarget{screening-and-annotating-within-the-same-stage}{%
 \section{Screening and annotating within the same stage}\label{screening-and-annotating-within-the-same-stage}}
 
-If you want to do screening and/or data extraction at the same time, you will also need to have these functionalities turned on (e.g.~even if you have screened at a separate stage, you might want to have the functionality of being able to exclude a study at a later time point when you have read the full-text).
+If you want to carry out screening and annotation at the same time, you will also need to have these functionalities turned on (e.g.~even if you have screened at a separate stage, you might want to have the functionality of being able to exclude a study at a later time point when you have read the full-text).
 
 You will then be able to select the questions that you want to be included in this stage by checking the box next to the relevant questions.
 
@@ -341,13 +370,17 @@ You will then be able to select the questions that you want to be included in th
 \hypertarget{screening-using-syrf}{%
 \section{Screening using SyRF}\label{screening-using-syrf}}
 
-You can screen the studies in your SyRF project against the inclusion/exclusion critiera you defined in your systematic review protocol and when you created your project by creating a screening stage in SyRF.
+You can screen the studies in your SyRF project against the inclusion/exclusion criteria you defined in your systematic review protocol and that you specified when you created your project by creating a screening stage in SyRF.
 
-When you start reviewing in a screening stage, you will be shown a the title and abstract of a random study from your systematic search uploads. If you have also uploaded PDFs, there will be a button to allow you to view the PDF in addition.
+By default, two screeners have to agree on a study for it to be marked as insufficently screened. This is the recommended methodology for systematic reviews. If you are doing a student project and require only one screener, please \href{syrf.info@ed.ac.uk}{contact us} so that we can edit this for you.
 
-Use the include and exclude buttons to decide whether or not your study meets the inclusion/exclusion critiera. If you are unsure and want to come back to the study, click `Next' to skip it and move on to another.
+\textless{}\textless{} UNLESS THIS IS AN OPTION IN THE NEW RELEASE \textgreater{}\textgreater{}
 
-Once you have decided to include or exclude a study, SyRF will mark it as completed by you and you will not be shown it again. If you think you have made a mistake, it is possible to click the back button on your browser to go back to your previous study and re-screen it.
+When you start reviewing in a screening stage, you will be shown the title and abstract of a random study from your systematic search uploads. If you have also uploaded PDFs, there will be a button to allow you to view the PDF.
+
+Use the include and exclude buttons to record whether or not your study meets the inclusion/exclusion critiera. If you are unsure and want to come back to the study, click `Next' to skip it and move on to another study.
+
+Once you have decided to include or exclude a study, SyRF will record it as completed by you and you will not be shown it again. If you think you have made a mistake, it is possible to click the back button on your browser to go back to your previous study and re-screen it.
 
 \hypertarget{studies-unavailable-to-screen}{%
 \subsection{Studies unavailable to screen}\label{studies-unavailable-to-screen}}
