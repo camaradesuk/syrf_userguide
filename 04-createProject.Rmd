@@ -4,7 +4,11 @@ You can create new projects via the Projects tab. Enter your project details in 
 
 As part of project creation, you will be asked to specify the inclusion/exclusion criteria for your project. These should be pre-specified in your protocol.
 
+<< SCREENSHOT OF PROJECT CREATION DIALOG BOX >>
+
 Once you have created your project, you can keep track of your project progress through the Project Details Page.
+
+You will automatically be assigned a Project Administrator role in any project that you create.
 
 ## My project will have multiple screening stages
 

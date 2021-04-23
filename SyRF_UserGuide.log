@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  23 APR 2021 13:00
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  23 APR 2021 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -485,6 +485,9 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count304
 ) (./SyRF_UserGuide.aux
 
+LaTeX Warning: Label `stages' multiply defined.
+
+
 LaTeX Warning: Label `screening' multiply defined.
 
 
@@ -886,37 +889,45 @@ Chapter 4.
 
 ]
 Chapter 5.
-[15] [16] [17] [18
+[15] [16
 
 ]
 Chapter 6.
-[19] [20]
-Chapter 7.
-[21
-
-] [22]
-Chapter 8.
-[23
-
-] [24] [25] [26] [27] [28
+[17] [18] [19] [20
 
 ]
+Chapter 7.
+[21] [22] [23] [24
+
+]
+Chapter 8.
+[25] [26]
 Chapter 9.
+[27
+
+] [28]
+Chapter 10.
+[29
+
+] [30] [31] [32] [33] [34]
+Chapter 11.
 No file SyRF_UserGuide.bbl.
-[29] (./SyRF_UserGuide.aux)
+[35
+
+] (./SyRF_UserGuide.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `SyRF_UserGuide.out' has not changed.
-(rerunfilecheck)             Checksum: B49954AF7721001CF512794D16BE7748;4657.
+(rerunfilecheck)             Checksum: B7A8D05DE8DBE1CD1D93191400F0D630;5714.
  ) 
 Here is how much of TeX's memory you used:
- 15819 strings out of 478931
- 283918 string characters out of 5865141
- 747872 words of memory out of 5000000
- 35450 multiletter control sequences out of 15000+600000
+ 15835 strings out of 478931
+ 284187 string characters out of 5865141
+ 748605 words of memory out of 5000000
+ 35466 multiletter control sequences out of 15000+600000
  409873 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  98i,6n,122p,499b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on SyRF_UserGuide.pdf (29 pages).
+Output written on SyRF_UserGuide.pdf (35 pages).

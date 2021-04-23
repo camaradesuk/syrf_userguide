@@ -5,7 +5,8 @@ You will need to create a free account to create or participate in projects.
 << Add link to new SyRF to create an account >>
 
 Creating an account allows us to keep your data secure and allows the administrator of each project to control who has access to the project data. Read our Data Management and Sharing Policy here.
-<!-- link -->
+
+<< ADD LINK TO DATA POLICY >>
 
 << Link to FAQs >>
 I don’t see an email in my inbox from SyRF

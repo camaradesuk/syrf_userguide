@@ -1,0 +1,17 @@
+# SyRF user Roles {#roles}
+
+There are two user roles in SyRF: Project Administrator (admin) and Reviewer. These roles are project specific - you may be a Project Administator in some of your projects and a Reviewer in others.
+
+Project Administators can edit projects and accept new users who requiest to join their project. Reviewers are users who have been granted access to a project by a Project Administrator, and can screen or annotate studies in the project.
+
+## Assigning a user role
+When a Project Administrator accepts a request from a user to join their project, the Project Administator can decide which role they want the new user to have in their project.
+
+<< SCREENSHOT OF ACCEPTING REQUEST TO JOIN AND ASSIGNING ROLE - ASSUMING THIS IS A FEATURE, OTHERWISE DELETE>>
+
+## Changing a user role
+Only Project Administrators can change user roles. In the list of members in your project, click the pencil icons next to a users name to change their role in your project.
+
+<< SCREENSHOT OF MEMBER LIST>>
+
+If you are assigned a Reviewer role and think you should be a Project Administato instead, please contact one of the other Project Administators on the project to change this for you.
