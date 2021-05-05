@@ -1,17 +1,17 @@
 # Project Stages {#stages}
 
 ## What are stages?
-Stages are sections of your SyRF projects that you add to perform tasks such as screening and data annotation. Currently, SyRF allows you to add one screening stage and mutiple annotation stages. You can also have screening and annotation in the same stage.
+Stages are sections of your SyRF projects that you add to perform tasks such as screening and data annotation. Currently, SyRF allows you to add one stage with screening and mutiple stages with annotation. You can also have screening and annotation in the same stage.
 
-## Screening stages
-A screening stage allows you to screen the studies you have uploaded to your SyRF project using the inclusion/exclusion criteria you entered when creating your project. Currently, as inclusion/exclusion criteria are defined at the project level, you can only have one screening stage per project.
+## Stage with screening
+By adding screening to your stage, you can screen the studies you have uploaded to your SyRF project using the inclusion/exclusion criteria you entered when creating your project. Currently, as inclusion/exclusion criteria are defined at the project level, you can only have one stage with screening per project.
 
-If you wish to have multiple screening stages in your systematic review, for instance title and abstract screening followed by full-text screening, you can do this by exporting your included studies from SyRF following your first screening stage and uploading them to a new SyRF project to complete your second screening stage.
+If you wish to have multiple stages with screening in your systematic review, for instance title and abstract screening followed by full-text screening, you can do this by exporting your included studies from SyRF following your first screening stage and uploading them to a new SyRF project to complete your second screening stage.
 
-[Contact us](syrf.info@ed.ac.uk) for a link to a Shiny App which will allow you to export your data.
+[Contact us](mailto:syrf.info@ed.ac.uk) for a link to a Shiny App which will allow you to export your data.
 
-## Annotation stages
-An annotation stage allows you to annotate data from your study, according to pre-defined questions in your systematic review protocol. SyRF has a question builder tool to allow you to design questions for your project.
+## Stage with annotation
+A stage with annotation allows you to annotate data from your study, according to pre-defined questions in your systematic review protocol. SyRF has a question builder tool to allow you to design questions for your project.
 
 Once you have designed all annotation questions, you should specify the stage at which you want to answer each question. You can do this before you start screening or after you have finished screening.
 

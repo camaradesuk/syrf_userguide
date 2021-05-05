@@ -1,23 +1,23 @@
 # Project Navigation {#nagivation}
 
+<<SCREENSHOTS OF SIDE NAV>>
+
 ## Project details
 You can see an overview of the project on the Project Details page. 
 
 In the centre of the page, you will see a screening stage has already been added with the inclusion and exclusion critiera that was added by the Project Administrator during project creation. Click the 'Review' button to enter a stage. If you are a Project Administaton, you will be able to add new stages there too. 
 
-On rhe right hand side of the Project Overview page you can see:
+On the right hand side of the Project Overview page you can see:
 
 * Contact - the contact email of the project administator
 * Protocol url - a link to where the systematic review protocol has been published
 * Keywords - any keywords assigned to the project
 * Systematic searches - details of studies added to the project
 * Project visability - either public or private
-* Creation date: the date the project was made
+* Creation date - the date the project was made
 * Members - a list of members on the project
 
 Project details can be edited in the settings by clicking on the cog icons next to each heading.
-
-<< SCREENSHOT OF PROJECT DETAILS PAGE >>
 
 ## Studies
 You can see the details of all the studiesyou have uploaded to SyRF in the studies tab. To learn how to upload studies or systematic searches, please go to
