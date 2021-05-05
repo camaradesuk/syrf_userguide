@@ -3,6 +3,12 @@ output:
     highlight: tango
     css: style.css
     config:
+      sharing: 
+      twitter: yes
+      search: yes
+      info: yes
+      toolbar:
+        position: fixed
       toc:
         before: |
           <li><a href="./"><img src="figs/syrf-logo.svg" alt="SyRF Logo" style="height:60px;display:block;margin:10px 10px 10px 10px;></a></li>
@@ -13,6 +19,7 @@ output:
   bookdown::pdf_book:
     includes:
       in_header: preamble.tex
+      after_body: _footer.html
     latex_engine: xelatex
     citation_package: natbib
     keep_tex: yes
