@@ -1,0 +1,21 @@
+# About us {#about}
+
+## CAMARADES (Collaborative Approach to Meta-Analysis and Review of Animal Data from Experimental Studies)
+We provide a supporting framework for groups involved in the systematic review and meta-analysis of data from experimental animal studies.
+
+Animals can be used to improve our understanding of a disease and to test the effectiveness of novel treatments. However translating findings from animal studies to humans in a clinical setting has not always been straightforward. CAMARADES has pioneered the use of preclinical systematic review and meta-analysis to investigate translational failure.
+
+The interests of CAMARADES range from identifying potential sources of bias in animal work; developing recommendations for improvements in the design and reporting of animal studies; developing preclinical meta-analysis methodology including the introduction of automated techniques to accelerate the systematic review process; through to the selection of candidate drugs for clinical trial.
+
+ CAMARADES currently have five global national co-ordinating centres: University of Edinburgh (United Kingdom), University of Tasmania (Australia), Radboud University Nijmegen Medical Centre (The Netherlands), University of California San Francisco (USA) and Ottawa Hospital Research Institute (Canada).
+
+For more information, please visit the [CAMARADES website](https://www.ed.ac.uk/clinical-brain-sciences/research/camarades).
+
+##SyRF
+SyRF is an initiative by CAMARADES, initially funded by the NC3Rs, to support the application of evidence synthesis techniques to preclinical research. We aim to advance the 3Rs and increase the successful translation of preclinical research to clinical benefit. 
+
+We aim to do this by providing a single, easily accessible source of educational materials, guidance and practical applications to researchers wishing to embark on systematic review and meta-analysis of data from preclinical studies.
+
+SyRF also supports methodological development for preclinical meta-analysis and the creation of pathways to encourage best practice in preclinical research.  
+
+We invite both new and experienced preclinical systematic review authors to engage with the multiple facets of SyRF and warmly [welcome any feedback](mailto:syrf.info@ed.ac.uk).
