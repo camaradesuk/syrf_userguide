@@ -1,4 +1,4 @@
-# Screening {#screening}
+# Screening {#projectscreening}
 
 ## Screening using SyRF
 You can screen the studies in your SyRF project against the inclusion/exclusion criteria you defined in your systematic review protocol and that you specified when you created your project by creating a screening stage in SyRF.

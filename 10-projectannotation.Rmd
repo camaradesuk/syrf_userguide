@@ -1,4 +1,4 @@
-# Annotation Questions {#annotation}
+# Annotation Questions {#projectannotation}
 
 ## Creating annotation questions
 In your systematic review protocol, you will have specified certain information you want to extract from each of your studies, such as 'Were animals randomised to experimental groups?' or 'What concentration of drug treatment was used?'. In SyRF you can annotate your studies with this information using annotation questions.
