@@ -49,11 +49,13 @@ variables.
 Files must first be saved as either Text - Tab delimited (\*.txt) or CSV - Comma delimited (\*.csv) files. This can be done in excel using the ‘Save as type:’ dropdown control in the ‘Save As’ dialog. 
 
 #### Upload studies with screening decisions
-If you would like to upload studies along with screening decisions already made outside of SyRF, you should add separate columns for each user and SyRF’s wizard will allow you to select which column headers in your file correspond to project members.
+You can  upload screening decisions made outside of SyRF if you are uploading your systematic search as a \*.csv or \*.txt file.  
 
-Within screening columns, decisions should be represented with the value 1 for inclusion and 0 for exclusion. 
+To do so you should add separate columns for each user and screening decisions should be represented with the value 1 for inclusion and 0 for exclusion.  
 
-Your file should only contain the columns above and columns specified with screening decisions. If any columns are missing or additional columns are added (not specified for screening) the upload wizard will fail.
+SyRF’s upload wizard will allow you to select which column headers in your file correspond to which project member’s screening decisions. Please note that for SyRF requires 2 columns of screening decisions and, hence, at least 2 project members to assign those screening decisions to. If you only have 1 column of overall screening decisions then it is an option to duplicate this column and assign the columns to two project members. 
+
+Your file should only contain the columns above and columns specified with screening decisions. If any columns are missing or additional columns are present the upload wizard will fail.
 
 ## Uploading full-text PDFs
 If you require full-text PDFs for each of your studies at any stage of your SyRF project, it is important that you have already retrieved these full-text PDFs before uploading your search file.

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  23 APR 2021 14:15
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.5.5)  6 MAY 2021 08:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24,7 +24,7 @@ File: bk10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 ) (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
@@ -149,7 +149,7 @@ Package: expl3 2021-02-18 L3 programming layer (loader)
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-xetex.def
-File: l3backend-xetex.def 2021-02-18 L3 backend support: XeTeX
+File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
 (|extractbb --version)
 \c__kernel_sys_dvipdfmx_version_int=\count196
 \l__color_backend_stack_int=\count197
@@ -175,7 +175,7 @@ xparse-2020-10-01.sty
 xparse-generic.tex)))
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2
 e/l3keys2e.sty
-Package: l3keys2e 2021-02-02 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
 )
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.
 sty
@@ -228,7 +228,7 @@ Package xcolor Info: Driver file: xetex.def on input line 225.
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex
 .def
-File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -483,17 +483,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip58
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count304
-) (./SyRF_UserGuide.aux
-
-LaTeX Warning: Label `stages' multiply defined.
-
-
-LaTeX Warning: Label `screening' multiply defined.
-
-
-LaTeX Warning: Label `annotation' multiply defined.
-
-)
+) (./SyRF_UserGuide.aux)
 \openout1 = `SyRF_UserGuide.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
@@ -814,7 +804,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
 5.
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 12.0011pt on input line 85.
@@ -842,32 +832,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [2
 
-] (./SyRF_UserGuide.toc
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 2.
-[3])
+] (./SyRF_UserGuide.toc)
 \tf@toc=\write4
 \openout4 = `SyRF_UserGuide.toc'.
 
-[4]
-Chapter 1.
-[5
+[3] [4
 
 ]
+Chapter 1.
+[5]
 Underfull \hbox (badness 1571) in paragraph at lines 145--146
 \TU/lmr/m/n/10 morbidities (if applicable) - which all receive the same procedu
 re and
@@ -897,11 +870,11 @@ Chapter 6.
 
 ]
 Chapter 7.
-[21] [22] [23] [24
-
-]
+[21] [22] [23] [24]
 Chapter 8.
-[25] [26]
+[25
+
+] [26]
 Chapter 9.
 [27
 
@@ -909,25 +882,48 @@ Chapter 9.
 Chapter 10.
 [29
 
-] [30] [31] [32] [33] [34]
+] [30] [31] [32] [33] [34
+
+]
 Chapter 11.
+
+Underfull \hbox (badness 1418) in paragraph at lines 774--774
+[]\TU/lmr/bx/n/14.4 CAMARADES (Collaborative Approach
+ []
+
+[35] [36]
+Chapter 12.
 No file SyRF_UserGuide.bbl.
-[35
 
-] (./SyRF_UserGuide.aux)
+Overfull \hbox (21.90501pt too wide) in paragraph at lines 809--811
+[]\TU/lmr/m/n/10 <p style=”text-align: center;”>Website by <a href=”https://www
+.ed.ac.uk/clinical-
+ []
 
-LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `SyRF_UserGuide.out' has not changed.
-(rerunfilecheck)             Checksum: B7A8D05DE8DBE1CD1D93191400F0D630;5714.
- ) 
+Overfull \hbox (7.73999pt too wide) in paragraph at lines 809--811
+\TU/lmr/m/n/10 brain-sciences/research/camarades”>CAMARADES</a></p> <p style=”t
+ext-
+ []
+
+
+Overfull \hbox (81.31003pt too wide) in paragraph at lines 815--817
+[]\TU/lmr/m/n/10 <!– Add icon library –> <link rel=”stylesheet” href=”https://c
+dnjs.cloudflare.com/ajax/libs/font-
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.822 <a href="https://twitter.com/camarades_
+                                             " class="fa fa-twitter"></a> 
 Here is how much of TeX's memory you used:
- 15835 strings out of 478931
- 284187 string characters out of 5865141
- 748605 words of memory out of 5000000
- 35466 multiletter control sequences out of 15000+600000
- 409873 words of font info for 79 fonts, out of 8000000 for 9000
+ 15797 strings out of 478918
+ 283254 string characters out of 5864812
+ 736303 words of memory out of 5000000
+ 35454 multiletter control sequences out of 15000+600000
+ 407036 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 98i,6n,122p,499b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 98i,6n,122p,664b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on SyRF_UserGuide.pdf (35 pages).
+Output written on SyRF_UserGuide.pdf (36 pages).

@@ -1,4 +1,4 @@
-# Project Stages {#stages}
+# Project Stages {#projectstages}
 
 ## What are stages?
 Stages are sections of your SyRF projects that you add to perform tasks such as screening and data annotation. Currently, SyRF allows you to add one stage with screening and mutiple stages with annotation. You can also have screening and annotation in the same stage.

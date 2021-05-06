@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Section 7 Uploading a Systematic Search | SyRF User Guide</title>
-  <meta name="description" content="Section 7 Uploading a Systematic Search | SyRF User Guide" />
+  <title>Section 8 Project Stages | SyRF User Guide</title>
+  <meta name="description" content="Section 8 Project Stages | SyRF User Guide" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Section 7 Uploading a Systematic Search | SyRF User Guide" />
+  <meta property="og:title" content="Section 8 Project Stages | SyRF User Guide" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Section 7 Uploading a Systematic Search | SyRF User Guide" />
+  <meta name="twitter:title" content="Section 8 Project Stages | SyRF User Guide" />
   
   
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="nagivation.html"/>
-<link rel="next" href="projectstages.html"/>
+<link rel="prev" href="systematicSearch.html"/>
+<link rel="next" href="projectscreening.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -171,86 +171,32 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="systematicSearch" class="section level1">
-<h1><span class="header-section-number">Section 7</span> Uploading a Systematic Search</h1>
-<div id="deduplicating-your-systematic-search" class="section level2">
-<h2><span class="header-section-number">7.1</span> Deduplicating your systematic search</h2>
-<p>If you have searched for studies using multiple databases there will be duplicate studies in your systematic search. Currently SyRF does not support deduplication of studies, and this must be performed before your studies are uploaded to SyRF. You can deduplicate your studies automatically using the <a href="https://camarades.shinyapps.io/RDedup/">CAMARADES deduplication tool</a>.</p>
+<div id="projectstages" class="section level1">
+<h1><span class="header-section-number">Section 8</span> Project Stages</h1>
+<div id="what-are-stages" class="section level2">
+<h2><span class="header-section-number">8.1</span> What are stages?</h2>
+<p>Stages are sections of your SyRF projects that you add to perform tasks such as screening and data annotation. Currently, SyRF allows you to add one stage with screening and mutiple stages with annotation. You can also have screening and annotation in the same stage.</p>
 </div>
-<div id="uploading-files" class="section level2">
-<h2><span class="header-section-number">7.2</span> Uploading files</h2>
-<p>You can upload your systematic searches as an:</p>
-<ul>
-<li>EndNote XML file</li>
-<li>Comma separated value (CSV) file</li>
-<li>Tab separated value (TSV) file</li>
-</ul>
-<div id="uploading-your-studies-from-an-endnote-export" class="section level3">
-<h3><span class="header-section-number">7.2.1</span> Uploading your studies from an EndNote export</h3>
-<ol style="list-style-type: decimal">
-<li>Highlight (Ctrl+A) all references all the references in yourEndNote library that you wish to upload to SyRF</li>
-<li>Click File -&gt; Export (NB: if you do not highlight all references only the first reference on your list will be exported)</li>
-<li>Change the file type to XML</li>
-<li>Name and save your XML file, which is now ready to be uploaded to SyRF</li>
-</ol>
-<p>Please note that upload of studies with screening decisions is currently not supported with EndNote file uploads. If you have screening decisions for the studies you wish to upload, please use a CSV or TSV format instead.</p>
-<div id="uploading-from-a-zotero-export" class="section level4">
-<h4><span class="header-section-number">7.2.1.1</span> Uploading from a Zotero export</h4>
-<p>Please note that you cannot use the ‘EndNote XML’ export option in Zotero to upload an EndNote file to SyRF. If you are using Zotero to manage your study references, please export as a CSV file and follow the CSV upload instructions.</p>
-<p>&lt;&lt; Insert link to FAQ &gt;&gt;
-I am trying to upload an EndNote XML file that was created by importing from a place other than an electronic database and getting an error</p>
+<div id="stage-with-screening" class="section level2">
+<h2><span class="header-section-number">8.2</span> Stage with screening</h2>
+<p>By adding screening to your stage, you can screen the studies you have uploaded to your SyRF project using the inclusion/exclusion criteria you entered when creating your project. Currently, as inclusion/exclusion criteria are defined at the project level, you can only have one stage with screening per project.</p>
+<p>If you wish to have multiple stages with screening in your systematic review, for instance title and abstract screening followed by full-text screening, you can do this by exporting your included studies from SyRF following your first screening stage and uploading them to a new SyRF project to complete your second screening stage.</p>
+<p><a href="mailto:syrf.info@ed.ac.uk">Contact us</a> for a link to a Shiny App which will allow you to export your data.</p>
+</div>
+<div id="stage-with-annotation" class="section level2">
+<h2><span class="header-section-number">8.3</span> Stage with annotation</h2>
+<p>A stage with annotation allows you to annotate data from your study, according to pre-defined questions in your systematic review protocol. SyRF has a question builder tool to allow you to design questions for your project.</p>
+<p>Once you have designed all annotation questions, you should specify the stage at which you want to answer each question. You can do this before you start screening or after you have finished screening.</p>
+<p>To add questions to your stage of interest go to the ‘Stages’ section of your project homepage and click ‘Enter Stage’. You will then need to click on ‘Stage Design’ to start editing the stage.</p>
+<div id="data-extraction-1" class="section level3">
+<h3><span class="header-section-number">8.3.1</span> Data extraction</h3>
+<p>To extract data from graphs in your systematic review studies, you will have to turn on data extraction in addition to annotation within your stage.</p>
 </div>
 </div>
-<div id="uploading-your-studies-as-a-csv-or-tsv" class="section level3">
-<h3><span class="header-section-number">7.2.2</span> Uploading your studies as a CSV or TSV</h3>
-<p>To upload your systematic search studies as a CSV or TSV file, you will have to make sure to format your data with following the column headings in order to make the upload work:
-* Title
-* Authors
-* Publication Name
-* Alternate Name
-* Abstract
-* Url
-* Author Address
-* Year
-* DOI
-* Keywords
-* Reference Type
-* PDF Relative Path</p>
-<p>You can download a template with the correct column headings and example data here:
-&lt;&lt; link to example csv &gt;&gt;</p>
-<p>Even if you don’t have information for all the columns specified, they will need to be in your file in order to make the upload work. SyRF will accept empty fields for any of these
-variables.</p>
-<p>Files must first be saved as either Text - Tab delimited (*.txt) or CSV - Comma delimited (*.csv) files. This can be done in excel using the ‘Save as type:’ dropdown control in the ‘Save As’ dialog.</p>
-<div id="upload-studies-with-screening-decisions" class="section level4">
-<h4><span class="header-section-number">7.2.2.1</span> Upload studies with screening decisions</h4>
-<p>You can upload screening decisions made outside of SyRF if you are uploading your systematic search as a *.csv or *.txt file.</p>
-<p>To do so you should add separate columns for each user and screening decisions should be represented with the value 1 for inclusion and 0 for exclusion.</p>
-<p>SyRF’s upload wizard will allow you to select which column headers in your file correspond to which project member’s screening decisions. Please note that for SyRF requires 2 columns of screening decisions and, hence, at least 2 project members to assign those screening decisions to. If you only have 1 column of overall screening decisions then it is an option to duplicate this column and assign the columns to two project members.</p>
-<p>Your file should only contain the columns above and columns specified with screening decisions. If any columns are missing or additional columns are present the upload wizard will fail.</p>
-</div>
-</div>
-</div>
-<div id="uploading-full-text-pdfs" class="section level2">
-<h2><span class="header-section-number">7.3</span> Uploading full-text PDFs</h2>
-<p>If you require full-text PDFs for each of your studies at any stage of your SyRF project, it is important that you have already retrieved these full-text PDFs before uploading your search file.</p>
-<p>&lt;&lt; Link to EndNote guidance for PDF retrieval&gt;&gt;</p>
-<p>In the systematic search file that you upload (csv/tsv spreadsheet or XML from Endnote) make sure the column “PDF Relative Path” contains relative path links (i.e. relative to the root of the folder you send to us) to your PDFs for each record.</p>
-<p>You will then need to <a href="syrf.info@ed.ac.uk">contact us</a> with the name of your project, a folder containing your PDFs (sent via Google Drive or similar) and a CSV file containing the file path to each PDF and the title or SyRF study ID of each study, so we can match PDFs with your studies in SyRF.</p>
-<p>We will upload these PDFs to the SyRF database and these can be opened from the screening form.</p>
-<div id="pdf-file-names" class="section level3">
-<h3><span class="header-section-number">7.3.1</span> PDF file names</h3>
-<p>Please avoid using invalid characters (e.g. , &lt; &gt; : " \ / | ? *) in file names as it may cause issues. By default, software like EndNote uses Author and Title information to name files, which can cause invalid characters to be added to your PDF file names. You can change the default to name PDFs using another column such as RecordID. Whichever columns you chose to name your PDFs with, the data should be unique.</p>
-<p>&lt;&lt; Insert Link to FAQ &gt;&gt;
-I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening</p>
-</div>
-</div>
-<div id="view-project-studies" class="section level2">
-<h2><span class="header-section-number">7.4</span> View project studies</h2>
-<p>You can now view project studies by clicking on the ‘View Project Studies’ button. This will show you all the studies you have uploaded to your project.</p>
-</div>
-<div id="deleting-systematic-searches" class="section level2">
-<h2><span class="header-section-number">7.5</span> Deleting systematic searches</h2>
-<p>If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening decisions and annotation answers.</p>
+<div id="screening-and-annotating-within-the-same-stage" class="section level2">
+<h2><span class="header-section-number">8.4</span> Screening and annotating within the same stage</h2>
+<p>If you want to carry out screening and annotation at the same time, you will also need to have these functionalities turned on (e.g. even if you have screened at a separate stage, you might want to have the functionality of being able to exclude a study at a later time point when you have read the full-text).</p>
+<p>You will then be able to select the questions that you want to be included in this stage by checking the box next to the relevant questions.</p>
 
 </div>
 </div>
@@ -259,8 +205,8 @@ I am performing a two-stage screening process and need to add PDFs only for my i
           </div>
         </div>
       </div>
-<a href="nagivation.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="projectstages.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="systematicSearch.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="projectscreening.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
