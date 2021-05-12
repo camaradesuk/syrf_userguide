@@ -10,6 +10,10 @@ You can upload your systematic searches as an:
 * Comma separated value (CSV) file
 * Tab separated value (TSV) file
 
+<center>
+![](figs/07_01_upload_search.png){#id .class width=50% height=50%}
+</center>
+
 ### Uploading your studies from an EndNote export
 
 1. Highlight (Ctrl+A) all references all the references in yourEndNote library that you wish to upload to SyRF
@@ -72,7 +76,8 @@ We will upload these PDFs to the SyRF database and these can be opened from the 
 Please avoid using invalid characters (e.g. , < > : " \\ / | ? \*) in file names as it may cause issues. By default, software like EndNote uses Author and Title information to name files, which can cause invalid characters to be added to your PDF file names. You can change the default to name PDFs using another column such as RecordID. Whichever columns you chose to name your PDFs with, the data should be unique.
 
 << Insert Link to FAQ >>
-I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening
+<br>
+**I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening**
 
 ## View project studies
 You can now view project studies by clicking on the ‘View Project Studies’ button. This will show you all the studies you have uploaded to your project.

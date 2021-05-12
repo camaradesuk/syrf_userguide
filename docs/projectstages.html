@@ -24,7 +24,7 @@
 <meta name="author" content="CAMARADES" />
 
 
-<meta name="date" content="2021-05-06" />
+<meta name="date" content="2021-05-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -115,11 +115,12 @@
 </ul></li>
 <li class="chapter" data-level="8" data-path="projectstages.html"><a href="projectstages.html"><i class="fa fa-check"></i><b>8</b> Project Stages</a><ul>
 <li class="chapter" data-level="8.1" data-path="projectstages.html"><a href="projectstages.html#what-are-stages"><i class="fa fa-check"></i><b>8.1</b> What are stages?</a></li>
-<li class="chapter" data-level="8.2" data-path="projectstages.html"><a href="projectstages.html#stage-with-screening"><i class="fa fa-check"></i><b>8.2</b> Stage with screening</a></li>
-<li class="chapter" data-level="8.3" data-path="projectstages.html"><a href="projectstages.html#stage-with-annotation"><i class="fa fa-check"></i><b>8.3</b> Stage with annotation</a><ul>
-<li class="chapter" data-level="8.3.1" data-path="projectstages.html"><a href="projectstages.html#data-extraction-1"><i class="fa fa-check"></i><b>8.3.1</b> Data extraction</a></li>
+<li class="chapter" data-level="8.2" data-path="projectstages.html"><a href="projectstages.html#add-a-stage"><i class="fa fa-check"></i><b>8.2</b> Add a stage</a></li>
+<li class="chapter" data-level="8.3" data-path="projectstages.html"><a href="projectstages.html#stage-with-screening"><i class="fa fa-check"></i><b>8.3</b> Stage with screening</a></li>
+<li class="chapter" data-level="8.4" data-path="projectstages.html"><a href="projectstages.html#stage-with-annotation"><i class="fa fa-check"></i><b>8.4</b> Stage with annotation</a><ul>
+<li class="chapter" data-level="8.4.1" data-path="projectstages.html"><a href="projectstages.html#data-extraction-1"><i class="fa fa-check"></i><b>8.4.1</b> Data extraction</a></li>
 </ul></li>
-<li class="chapter" data-level="8.4" data-path="projectstages.html"><a href="projectstages.html#screening-and-annotating-within-the-same-stage"><i class="fa fa-check"></i><b>8.4</b> Screening and annotating within the same stage</a></li>
+<li class="chapter" data-level="8.5" data-path="projectstages.html"><a href="projectstages.html#screening-and-annotating-within-the-same-stage"><i class="fa fa-check"></i><b>8.5</b> Screening and annotating within the same stage</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="projectscreening.html"><a href="projectscreening.html"><i class="fa fa-check"></i><b>9</b> Screening</a><ul>
 <li class="chapter" data-level="9.1" data-path="projectscreening.html"><a href="projectscreening.html#screening-using-syrf"><i class="fa fa-check"></i><b>9.1</b> Screening using SyRF</a><ul>
@@ -177,24 +178,31 @@
 <h2><span class="header-section-number">8.1</span> What are stages?</h2>
 <p>Stages are sections of your SyRF projects that you add to perform tasks such as screening and data annotation. Currently, SyRF allows you to add one stage with screening and mutiple stages with annotation. You can also have screening and annotation in the same stage.</p>
 </div>
+<div id="add-a-stage" class="section level2">
+<h2><span class="header-section-number">8.2</span> Add a stage</h2>
+<p>You can add a stage via the left nagivation bar in your SyRF project or by clicking “add stage” on the project overview page.</p>
+<center>
+<img src="figs/08_01_add_stage.png" id="id" class="class" style="width:50.0%;height:50.0%" />
+</center>
+</div>
 <div id="stage-with-screening" class="section level2">
-<h2><span class="header-section-number">8.2</span> Stage with screening</h2>
+<h2><span class="header-section-number">8.3</span> Stage with screening</h2>
 <p>By adding screening to your stage, you can screen the studies you have uploaded to your SyRF project using the inclusion/exclusion criteria you entered when creating your project. Currently, as inclusion/exclusion criteria are defined at the project level, you can only have one stage with screening per project.</p>
 <p>If you wish to have multiple stages with screening in your systematic review, for instance title and abstract screening followed by full-text screening, you can do this by exporting your included studies from SyRF following your first screening stage and uploading them to a new SyRF project to complete your second screening stage.</p>
 <p><a href="mailto:syrf.info@ed.ac.uk">Contact us</a> for a link to a Shiny App which will allow you to export your data.</p>
 </div>
 <div id="stage-with-annotation" class="section level2">
-<h2><span class="header-section-number">8.3</span> Stage with annotation</h2>
+<h2><span class="header-section-number">8.4</span> Stage with annotation</h2>
 <p>A stage with annotation allows you to annotate data from your study, according to pre-defined questions in your systematic review protocol. SyRF has a question builder tool to allow you to design questions for your project.</p>
 <p>Once you have designed all annotation questions, you should specify the stage at which you want to answer each question. You can do this before you start screening or after you have finished screening.</p>
 <p>To add questions to your stage of interest go to the ‘Stages’ section of your project homepage and click ‘Enter Stage’. You will then need to click on ‘Stage Design’ to start editing the stage.</p>
 <div id="data-extraction-1" class="section level3">
-<h3><span class="header-section-number">8.3.1</span> Data extraction</h3>
+<h3><span class="header-section-number">8.4.1</span> Data extraction</h3>
 <p>To extract data from graphs in your systematic review studies, you will have to turn on data extraction in addition to annotation within your stage.</p>
 </div>
 </div>
 <div id="screening-and-annotating-within-the-same-stage" class="section level2">
-<h2><span class="header-section-number">8.4</span> Screening and annotating within the same stage</h2>
+<h2><span class="header-section-number">8.5</span> Screening and annotating within the same stage</h2>
 <p>If you want to carry out screening and annotation at the same time, you will also need to have these functionalities turned on (e.g. even if you have screened at a separate stage, you might want to have the functionality of being able to exclude a study at a later time point when you have read the full-text).</p>
 <p>You will then be able to select the questions that you want to be included in this stage by checking the box next to the relevant questions.</p>
 

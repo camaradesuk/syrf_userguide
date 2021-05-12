@@ -16,16 +16,10 @@ A project that is not visible to other SyRF users unless they have requested and
 A structured description of what you set out to do in your systematic review and meta-analysis, which should be finalised before you start your systematic review. We recommend that this is published or shared publicly with [PROSPERO](https://www.crd.york.ac.uk/prospero/).
 
 ### Screening
-Screening refers to making a decision whether to include or exclude a study retrieved in your systematic search based on the inclusion/exclusion criteria defined in your protocol. Screening is described in more detail in
-
-SECTION 9.
-<!-- link -->
+Screening refers to making a decision whether to include or exclude a study retrieved in your systematic search based on the inclusion/exclusion criteria defined in your protocol. Screening is described in more detail in [Section 9](https://camaradesuk.github.io/syrf_userguide/projectscreening.html).
 
 ### Annotation
-You may want to annotate your studies by labelling or extracting relevant information from them. This part of a systematic review project is fairly flexible and therefore you can define your own annotation questions. Annotation questions should address all questions you want to ask as specified in your protocol. You can choose at which stage of the project you want to answer specific annotation questions. This is described in more detail in 
-
-SECTION 10.
-<!-- link -->
+You may want to annotate your studies by labelling or extracting relevant information from them. This part of a systematic review project is fairly flexible and therefore you can define your own annotation questions. Annotation questions should address all questions you want to ask as specified in your protocol. You can choose at which stage of the project you want to answer specific annotation questions. This is described in more detail in [Section 10](https://camaradesuk.github.io/syrf_userguide/projectannotation.html).
 
 ### Data extraction
 Where you extract data from graphs or tables in the form of means/medians and corresponding error.
@@ -48,9 +42,4 @@ Example Experiment 2:
 * Cohort 2: Treatment 1
 * Cohort 3: Treatment 2
 
-Cohorts are created in SyRF projects by combining disease models and treatment details. This is described further in
-
-SECTION 10.
-<!-- link -->
-
-<< ADD FLOWCHART DIAGRAM >>
+Cohorts are created in SyRF projects by combining disease models and treatment details. This is described further in [Section 10](https://camaradesuk.github.io/syrf_userguide/projectannotation.html).

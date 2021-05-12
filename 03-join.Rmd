@@ -2,13 +2,14 @@
 
 The Projects tab in SyRF will show all the projects you are a member of, as well as all public projects. 
 
-<< SCREENSHOT OF PROJECT PAGE>>
-
 To join a project, you will need to click ‘Request to join’ on the project’s homepage. In the current version of SyRF, all users who request to join a project will be automatically assigned access and the Reviewer role in the project.
 
-In future, all requests to join will be sent to the project administrator to review so if yo do not wish other users to join your project, it is best to set your project to Private.
+<center>
+![](figs/03_01_request_to_join.png){#id .class width=50% height=50%}
+</center>
 
-<< SCREENSHOT OF REQUEST TO JOIN BUTTON >>
+In future, all requests to join will be sent to the project administrator to review so if you do not wish other users to join your project, it is best to set your project to Private.
 
 << Link to FAQs >>
-My collaborators can’t see my project
+<br>
+**My collaborators can’t see my project**

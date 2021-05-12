@@ -1,6 +1,8 @@
 # Project Navigation {#nagivation}
 
-<<SCREENSHOTS OF SIDE NAV>>
+<center>
+![](figs/06_01_project_nav.png){#id .class width=50% height=50%}
+</center>
 
 ## Project details
 You can see an overview of the project on the Project Details page. 
@@ -20,16 +22,10 @@ On the right hand side of the Project Overview page you can see:
 Project details can be edited in the settings by clicking on the cog icons next to each heading.
 
 ## Studies
-You can see the details of all the studiesyou have uploaded to SyRF in the studies tab. To learn how to upload studies or systematic searches, please go to
-
-SECTION 7
-
-<< SCREENSHOT OF STUDIES PAGE >>
+You can see the details of all the studiesyou have uploaded to SyRF in the studies tab. To learn how to upload studies or systematic searches, please go to [Section 7](https://camaradesuk.github.io/syrf_userguide/systematicSearch.html).
 
 ## Stages
 You can start screening or annotating in a stage by clicking on the stage name and then 'Review'. Note that if the Project Administator has not uploaded any systematic searches, you will not be able to under a stage.
-
-<< SCREENSHOT OF STAGES PAGE >>
 
 ## Project settings
 Only Project Administators are able to edit project settings.
@@ -44,36 +40,22 @@ In the geberal project settings, Project Administators can edit:
 * Protocol Url
 * Keywords
 
-<< SCREENSHOT OF GENERAL SETTINGS>>
-
 #### Deleting projects
 Projects can be deleted from the general settings. Please know that data from deleted projects cannot be recovered.
 
 ### Members & groups
 Project Administators can change user roles in the members & groups settings page. To make a user a Project Administator, click the checkbox next to their name. Uncheck the box to make them a Reviewer. Canges are saved automatically.
 
-<< SCREENSHOT OF MEMBERS & GROUPS PAGE>>
-
 ### Systematic searches
-Project Administrators can view the systematic searches that have previously been uploaded, or upload new systematic searches on this page. For more information, go to
-
-SECTION 7
-
-<< SCREENSHOT OF SYSTEMATIC SEARCHES PAGE >>
+Project Administrators can view the systematic searches that have previously been uploaded, or upload new systematic searches on this page. For more information, go to [Section 7](https://camaradesuk.github.io/syrf_userguide/systematicSearch.html).
 
 ### Question design
-Project Administrators can add and delete annotation questions in their project on this page. These questions can be then assigned to annotation stages. For more information, go to
-
-SECTION 10
-
-<< SCREENSHOT OF QUESTION DESIGN PAGE >>
+Project Administrators can add and delete annotation questions in their project on this page. These questions can be then assigned to annotation stages. For more information, go to [Section 10](https://camaradesuk.github.io/syrf_userguide/projectannotation.html).
 
 ### Stage settings
 In the stage settings, Project Administrators can add and edit stages.
 
 You can decide which elements to add to your stage, e.g. screening, annotation and/or data extraction. If you choose both screening and annotation, you will be asked to choose a study selection mode.
-
-<< SCREENSHOT OF STUDY SELECTION SETTINGS>>
 
 #### Annotation question selection
 Project Administators can select which questions they have created in the Question Design settings page to add to each stage. Click the 'Edit project questions' button to return to the question design page.

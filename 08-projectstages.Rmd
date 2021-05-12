@@ -3,6 +3,13 @@
 ## What are stages?
 Stages are sections of your SyRF projects that you add to perform tasks such as screening and data annotation. Currently, SyRF allows you to add one stage with screening and mutiple stages with annotation. You can also have screening and annotation in the same stage.
 
+## Add a stage
+You can add a stage via the left nagivation  bar in your SyRF project or by clicking "add stage" on the project overview page.
+
+<center>
+![](figs/08_01_add_stage.png){#id .class width=50% height=50%}
+</center>
+
 ## Stage with screening
 By adding screening to your stage, you can screen the studies you have uploaded to your SyRF project using the inclusion/exclusion criteria you entered when creating your project. Currently, as inclusion/exclusion criteria are defined at the project level, you can only have one stage with screening per project.
 

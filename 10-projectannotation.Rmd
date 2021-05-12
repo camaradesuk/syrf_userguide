@@ -5,7 +5,11 @@ In your systematic review protocol, you will have specified certain information 
 
 To design annotation questions for a stage of your project, go to 'Question Design' under 'Project Settingss' on the left-hand navigation bar of your project.
 
-<< INSERT IMAGE >>
+<< ADD SCREENSHOT >>
+
+<center>
+![](figs/06_01_project_nav.png){#id .class width=50% height=50%}
+</center>
 
 ### Question editing
 At present, questions can only be added or deleted. Individual questions cannot be edited or changed order. This is primarility due to our database structure and questions and an editing feature will be implemented in an upcoming release.

@@ -9,6 +9,8 @@ When users join a project, they will automatically be assigned the Reviewer role
 
 Only Project Administrators can change user roles. In the list of members in your project, click the pencil icons next to a users name to change their role in your project.
 
-<< SCREENSHOT OF MEMBER LIST>>
+<center>
+![](figs/05_01_change_user_role.png){#id .class width=50% height=50%}
+</center>
 
 If you are assigned a Reviewer role and think you should be a Project Administato instead, please contact one of the other Project Administators on the project to change this for you.
