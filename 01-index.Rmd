@@ -7,10 +7,10 @@ Welcome to the SyRF User Guide. This guide is designed to help you use SyRF. If 
 Each project is specific to your systematic review and meta-analysis. Upload your deduplicated studies and add stages to screen and annotate your data.
 
 #### Public project
-A project that can be seen by anyone with a SyRF account. Other users can request to join a public project with your approval.
+A project that can be seen by anyone with a SyRF account. In the current version of SyRF, other users can request to join a public project and can join without any requirement for approval from project owners.
 
 #### Private project
-A project that is not visible to other SyRF users unless they have requested and have been granted permission to join the project.
+A project that is only visible to SyRF users that are members of the project.
 
 ### Protocol
 A structured description of what you set out to do in your systematic review and meta-analysis, which should be finalised before you start your systematic review. We recommend that this is published or shared publicly with [PROSPERO](https://www.crd.york.ac.uk/prospero/).
@@ -32,14 +32,15 @@ A cohort refers to a group of animals - same species, strain, source, co-morbidi
 
 Example Experiment 1:
 
-* Cohort 1: Treatment
+* Cohort 1: Treatment (Disease Model + Treatment)
 * Cohort 2: Sham
-* Cohort 3: Control
+* Cohort 3: Control (Disease Model + Vehicle)
 
 Example Experiment 2:
 
-* Cohort 1: Control
-* Cohort 2: Treatment 1
-* Cohort 3: Treatment 2
+* Cohort 1: Control (Disease Model + Vehicle)
+* Cohort 2: Treatment 1 (Disease Model + Treatment 1)
+* Cohort 3: Treatment 2 (Disease Model + Treatment 2)
 
-Cohorts are created in SyRF projects by combining disease models and treatment details. This is described further in [Section 10](https://camaradesuk.github.io/syrf_userguide/projectannotation.html).
+Cohorts are created in SyRF projects by combining disease models and treatment details. 
+(https://camaradesuk.github.io/syrf_userguide/projectannotation.html).
