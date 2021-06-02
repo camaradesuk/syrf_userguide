@@ -4,14 +4,20 @@
 If you have searched for studies using multiple databases there will be duplicate studies in your systematic search. Currently SyRF does not support deduplication of studies, and this must be performed before your studies are uploaded to SyRF. You can deduplicate your studies automatically using the [CAMARADES deduplication tool](https://camarades.shinyapps.io/RDedup/).
 
 ## Uploading files
+
+	
+A Project Administrator can upload a systematic search to your project by Selecting Systematic Searches from Project Settings and clicking "Upload New Systematic Search"
+	
 You can upload your systematic searches as an:
 
 * EndNote XML file
 * Comma separated value (CSV) file
 * Tab separated value (TSV) file
 
+SyRF currently accepts EndNote Desktop XML files. EndNote Web XML files are not supported.
+
 <center>
-![](figs/07_01_upload_search.png){#id .class width=50% height=50%}
+![](figs/07_01_upload_search.png){#id .class width=100% height=100%}
 </center>
 
 ### Uploading your studies from an EndNote export
@@ -30,7 +36,7 @@ Please note that you cannot use the  'EndNote XML' export option in Zotero to up
 I am trying to upload an EndNote XML file that was created by importing from a place other than an electronic database and getting an error
 
 ### Uploading your studies as a CSV or TSV
-To upload your systematic search studies as a CSV or TSV file, you will have to make sure to format your data with following the column headings in order to make the upload work:
+To upload your systematic search studies as a CSV or TSV file, you will have to make sure to format your data with following the column headings to make the upload work:
 * Title
 * Authors
 * Publication Name
@@ -80,7 +86,7 @@ Please avoid using invalid characters (e.g. , < > : " \\ / | ? \*) in file names
 **I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening**
 
 ## View project studies
-You can now view project studies by clicking on the ‘View Project Studies’ button. This will show you all the studies you have uploaded to your project.
+You can now view project studies by clicking on the ‘Studies’ then 'All Studies' on the left hand side navigation panel. This will show you all the studies you have uploaded to your project.
 
 ## Deleting systematic searches
 If you need to delete your systematic search, you can do so In SyRF. Be aware, however, that if you have used SyRF to screen or annotate these studies, deleting your systematic search will also delete these screening decisions and annotation answers.
