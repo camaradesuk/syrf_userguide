@@ -1,25 +1,25 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.5.12)  2 JUN 2021 15:18
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.2)  2 JUN 2021 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **SyRF_UserGuide.tex
 (./SyRF_UserGuide.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-05-07> (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf
+LaTeX2e <2021-06-01> pre-release-0 (develop 2021-6-2 branch)
+L3 programming layer <2021-06-01> (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/book.cls
-Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+File: bk10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count175
-\c@chapter=\count176
-\c@section=\count177
-\c@subsection=\count178
-\c@subsubsection=\count179
-\c@paragraph=\count180
-\c@subparagraph=\count181
-\c@figure=\count182
-\c@table=\count183
+\c@part=\count178
+\c@chapter=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -65,7 +65,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.
 sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks15
+\@emptytoks=\toks16
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -84,7 +84,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
+\@emptytoks=\toks17
 \ex@=\dimen139
 ))
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -94,41 +94,41 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count184
+\inf@bad=\count187
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count185
-\leftroot@=\count186
+\uproot@=\count188
+\leftroot@=\count189
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count187
-\DOTSCASE@=\count188
+\classnum@=\count190
+\DOTSCASE@=\count191
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box47
-\strutbox@=\box48
+\Mathstrutbox@=\box50
+\strutbox@=\box51
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count189
-\c@MaxMatrixCols=\count190
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
 \dotsspace@=\muskip16
-\c@parentequation=\count191
-\dspbrk@lvl=\count192
-\tag@help=\toks17
-\row@=\count193
-\column@=\count194
-\maxfields@=\count195
-\andhelp@=\toks18
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks18
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks19
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
 \tagshift@=\dimen144
 \tagwidth@=\dimen145
 \totwidth@=\dimen146
 \lineht@=\dimen147
-\@envbody=\toks19
+\@envbody=\toks20
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks20
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
@@ -145,20 +145,20 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
 de-math.sty
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-05-07 L3 programming layer (loader) 
+Package: expl3 2021-06-01 L3 programming layer (loader) 
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-xetex.def
 File: l3backend-xetex.def 2021-05-07 L3 backend support: XeTeX
 (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count196
-\l__color_backend_stack_int=\count197
-\g__color_backend_stack_int=\count198
-\g__graphics_track_int=\count199
-\l__pdf_internal_box=\box49
-\g__pdf_backend_object_int=\count266
-\g__pdf_backend_annotation_int=\count267
-\g__pdf_backend_link_int=\count268
+\c__kernel_sys_dvipdfmx_version_int=\count199
+\l__color_backend_stack_int=\count266
+\g__color_backend_stack_int=\count267
+\g__graphics_track_int=\count268
+\l__pdf_internal_box=\box52
+\g__pdf_backend_object_int=\count269
+\g__pdf_backend_annotation_int=\count270
+\g__pdf_backend_link_int=\count271
 ))
 Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
 
@@ -169,13 +169,11 @@ TeX
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
 xparse.sty
-(c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
-xparse-2020-10-01.sty
-(c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
-xparse-generic.tex)))
+Package: xparse 2021-06-01 L3 Experimental document command parser
+)
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2
 e/l3keys2e.sty
-Package: l3keys2e 2021-05-07 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
 )
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.
 sty
@@ -185,34 +183,34 @@ Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 xetex.sty
 Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count269
-\l__fontspec_language_int=\count270
-\l__fontspec_strnum_int=\count271
-\l__fontspec_tmp_int=\count272
-\l__fontspec_tmpa_int=\count273
-\l__fontspec_tmpb_int=\count274
-\l__fontspec_tmpc_int=\count275
-\l__fontspec_em_int=\count276
-\l__fontspec_emdef_int=\count277
-\l__fontspec_strong_int=\count278
-\l__fontspec_strongdef_int=\count279
+\l__fontspec_script_int=\count272
+\l__fontspec_language_int=\count273
+\l__fontspec_strnum_int=\count274
+\l__fontspec_tmp_int=\count275
+\l__fontspec_tmpa_int=\count276
+\l__fontspec_tmpb_int=\count277
+\l__fontspec_tmpc_int=\count278
+\l__fontspec_em_int=\count279
+\l__fontspec_emdef_int=\count280
+\l__fontspec_strong_int=\count281
+\l__fontspec_strongdef_int=\count282
 \l__fontspec_tmpa_dim=\dimen148
 \l__fontspec_tmpb_dim=\dimen149
 \l__fontspec_tmpc_dim=\dimen150
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.
 cfg))) (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fix-cm
 .sty
-Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\g__um_fam_int=\count280
-\g__um_fonts_used_int=\count281
-\l__um_primecount_int=\count282
+\g__um_fam_int=\count283
+\g__um_fonts_used_int=\count284
+\l__um_primecount_int=\count285
 \g__um_primekern_muskip=\muskip17
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
@@ -263,7 +261,7 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.st
 y
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks22
 )
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetk
 eys.sty
@@ -294,8 +292,8 @@ s.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen151
-\Hy@linkcounter=\count283
-\Hy@pagecounter=\count284
+\Hy@linkcounter=\count286
+\Hy@pagecounter=\count287
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.de
 f
@@ -314,7 +312,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 s.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count285
+\Hy@SavedSpaceFactor=\count288
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
@@ -327,7 +325,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count286
+\c@Hy@tempcnt=\count289
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -344,7 +342,7 @@ tcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count287
+\Fld@menulength=\count290
 \Field@Width=\dimen153
 \Fld@charsize=\dimen154
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -359,13 +357,12 @@ LaTeX Info: Redefining \pageref on input line 6149.
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.
 sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
-ge
-with kernel methods
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count288
-\c@Item=\count289
-\c@Hfootnote=\count290
+\Hy@abspage=\count291
+\c@Item=\count292
+\c@Hfootnote=\count293
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -378,11 +375,11 @@ enc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box50
-\c@Hy@AnnotLevel=\count291
-\HyField@AnnotCount=\count292
-\Fld@listcount=\count293
-\c@bookmark@seq@number=\count294
+\pdfm@box=\box53
+\c@Hy@AnnotLevel=\count294
+\HyField@AnnotCount=\count295
+\Fld@listcount=\count296
+\c@bookmark@seq@number=\count297
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rer
 unfilecheck.sty
@@ -407,22 +404,23 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 41.
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.st
 y
-Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
 \LTleft=\skip53
 \LTright=\skip54
 \LTpre=\skip55
 \LTpost=\skip56
-\LTchunksize=\count295
+\LTchunksize=\count298
 \LTcapwidth=\dimen155
-\LT@head=\box51
-\LT@firsthead=\box52
-\LT@foot=\box53
-\LT@lastfoot=\box54
-\LT@cols=\count296
-\LT@rows=\count297
-\c@LT@tables=\count298
-\c@LT@chunks=\count299
-\LT@p@ftn=\toks22
+\LT@head=\box54
+\LT@firsthead=\box55
+\LT@foot=\box56
+\LT@lastfoot=\box57
+\LT@gbox=\box58
+\LT@cols=\count299
+\LT@rows=\count300
+\c@LT@tables=\count301
+\c@LT@chunks=\count302
+\LT@p@ftn=\toks23
 )
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.
 sty
@@ -437,27 +435,27 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen163
 \cmidrulekern=\dimen164
 \defaultaddspace=\dimen165
-\@cmidla=\count300
-\@cmidlb=\count301
+\@cmidla=\count303
+\@cmidlb=\count304
 \@aboverulesep=\dimen166
 \@belowrulesep=\dimen167
-\@thisruleclass=\count302
-\@lastruleclass=\count303
+\@thisruleclass=\count305
+\@lastruleclass=\count306
 \@thisrulewidth=\dimen168
 )
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.
 sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box55
+\fn@notes=\box59
 \fn@width=\dimen169
 )
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.
 sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics.
 sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
@@ -465,7 +463,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 105.
+Package graphics Info: Driver file: xetex.def on input line 107.
 )
 \Gin@req@height=\dimen170
 \Gin@req@width=\dimen171
@@ -482,7 +480,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip57
 \bibsep=\skip58
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count304
+\c@NAT@ctr=\count307
 )
 No file SyRF_UserGuide.aux.
 \openout1 = `SyRF_UserGuide.aux'.
@@ -787,7 +785,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count305
+\c@section@level=\count308
 )
 LaTeX Info: Redefining \ref on input line 83.
 LaTeX Info: Redefining \pageref on input line 83.
@@ -871,13 +869,13 @@ File: figs/05_01_change_user_role.png Graphic file (type bmp)
 <figs/05_01_change_user_role.png>
 [15
 
-] [16
-
-]
+] [16]
 Chapter 6.
 File: figs/06_01_project_nav.png Graphic file (type bmp)
 <figs/06_01_project_nav.png>
-[17] [18] [19] [20
+[17
+
+] [18] [19] [20
 
 ]
 Chapter 7.
@@ -938,12 +936,12 @@ dnjs.cloudflare.com/ajax/libs/font-
 l.803 <a href="https://twitter.com/camarades_
                                              " class="fa fa-twitter"></a> 
 Here is how much of TeX's memory you used:
- 15839 strings out of 478774
- 284798 string characters out of 5862712
- 735506 words of memory out of 5000000
- 35643 multiletter control sequences out of 15000+600000
+ 15890 strings out of 478489
+ 285484 string characters out of 5858083
+ 742405 words of memory out of 5000000
+ 35989 multiletter control sequences out of 15000+600000
  407036 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 85i,6n,121p,572b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,6n,120p,572b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on SyRF_UserGuide.pdf (36 pages).
