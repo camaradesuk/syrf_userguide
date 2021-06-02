@@ -1,41 +1,44 @@
 # Project Navigation {#nagivation}
 
 <center>
-![](figs/06_01_project_nav.png){#id .class width=50% height=50%}
+![](figs/06_01_project_nav.png){#id .class width=100% height=100%}
 </center>
+
+## Project Overview 
+When in Project Overview you can expand the description of each stage to see what progress has been made in screening and annotation of that specific stage.
 
 ## Project details
 You can see an overview of the project on the Project Details page. 
 
-In the centre of the page, you will see a screening stage has already been added with the inclusion and exclusion critiera that was added by the Project Administrator during project creation. Click the 'Review' button to enter a stage. If you are a Project Administaton, you will be able to add new stages there too. 
+In the centre of the page, you will see a screening stage with the inclusion and exclusion criteria that were added by the Project Administrator during project creation. Click the 'Review' button to enter a stage. If you are a Project Administrator, you will be able to add new stages there too. 
 
 On the right hand side of the Project Overview page you can see:
 
-* Contact - the contact email of the project administator
+* Contact - the contact email of the project administrator
 * Protocol url - a link to where the systematic review protocol has been published
 * Keywords - any keywords assigned to the project
 * Systematic searches - details of studies added to the project
-* Project visability - either public or private
+* Project visibility - either public or private
 * Creation date - the date the project was made
 * Members - a list of members on the project
 
-Project details can be edited in the settings by clicking on the cog icons next to each heading.
+Project Details can be edited by clicking on the cog icons next to each heading.
 
 ## Studies
-You can see the details of all the studiesyou have uploaded to SyRF in the studies tab. To learn how to upload studies or systematic searches, please go to [Section 7](https://camaradesuk.github.io/syrf_userguide/systematicSearch.html).
+You can see the details of all the studies you have uploaded to SyRF in the studies tab. To learn how to upload studies or systematic searches, please go to [Section 7](https://camaradesuk.github.io/syrf_userguide/systematicSearch.html).
 
 ## Stages
-You can start screening or annotating in a stage by clicking on the stage name and then 'Review'. Note that if the Project Administator has not uploaded any systematic searches, you will not be able to under a stage.
+You can start screening or annotating in a stage by clicking on the stage name  (on the left-hand side navigation pane) and then 'Review'. Note that if the Project Administrator has not uploaded any systematic searches, you will not be able to under a stage.
 
 ## Project settings
 Only Project Administators are able to edit project settings.
 
 ### General settings
-In the geberal project settings, Project Administators can edit:
+In the general project settings, Project Administrators can edit:
 
 * Project name
 * Project description
-* Project visability
+* Project visibility
 * Contact email
 * Protocol Url
 * Keywords
@@ -44,7 +47,7 @@ In the geberal project settings, Project Administators can edit:
 Projects can be deleted from the general settings. Please know that data from deleted projects cannot be recovered.
 
 ### Members & groups
-Project Administators can change user roles in the members & groups settings page. To make a user a Project Administator, click the checkbox next to their name. Uncheck the box to make them a Reviewer. Canges are saved automatically.
+Project Administrators can change user roles in the members & groups settings page. To make a user a Project Administrator, click the checkbox next to their name. Uncheck the box to make them a Reviewer. Changes are saved automatically.
 
 ### Systematic searches
 Project Administrators can view the systematic searches that have previously been uploaded, or upload new systematic searches on this page. For more information, go to [Section 7](https://camaradesuk.github.io/syrf_userguide/systematicSearch.html).
@@ -55,7 +58,12 @@ Project Administrators can add and delete annotation questions in their project 
 ### Stage settings
 In the stage settings, Project Administrators can add and edit stages.
 
-You can decide which elements to add to your stage, e.g. screening, annotation and/or data extraction. If you choose both screening and annotation, you will be asked to choose a study selection mode.
+You can decide which elements to add to your stage, e.g. screening, annotation and/or data extraction. If you choose both screening and annotation, you will be asked to choose how to combine these tasks. Specifically, the options are:
+	- All studies require screening, but annotation is optional
+	- All studies require annotation, but screening is optional
+	- All studies require both screening and annotation
+	
+
 
 #### Annotation question selection
 Project Administators can select which questions they have created in the Question Design settings page to add to each stage. Click the 'Edit project questions' button to return to the question design page.
