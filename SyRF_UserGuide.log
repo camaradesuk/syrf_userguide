@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.5.5)  12 MAY 2021 13:29
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.5.12)  2 JUN 2021 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **SyRF_UserGuide.tex
 (./SyRF_UserGuide.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf
+L3 programming layer <2021-05-07> (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/book.cls
 Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
@@ -145,11 +145,11 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
 de-math.sty
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
+Package: expl3 2021-05-07 L3 programming layer (loader) 
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-xetex.def
-File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
+File: l3backend-xetex.def 2021-05-07 L3 backend support: XeTeX
 (|extractbb --version)
 \c__kernel_sys_dvipdfmx_version_int=\count196
 \l__color_backend_stack_int=\count197
@@ -175,7 +175,7 @@ xparse-2020-10-01.sty
 xparse-generic.tex)))
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2
 e/l3keys2e.sty
-Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-05-07 LaTeX2e option processing using LaTeX3 keys
 )
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.
 sty
@@ -938,12 +938,12 @@ dnjs.cloudflare.com/ajax/libs/font-
 l.803 <a href="https://twitter.com/camarades_
                                              " class="fa fa-twitter"></a> 
 Here is how much of TeX's memory you used:
- 15744 strings out of 478918
- 282455 string characters out of 5864812
- 732192 words of memory out of 5000000
- 35400 multiletter control sequences out of 15000+600000
+ 15839 strings out of 478774
+ 284798 string characters out of 5862712
+ 735506 words of memory out of 5000000
+ 35643 multiletter control sequences out of 15000+600000
  407036 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 98i,6n,122p,572b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,6n,121p,572b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on SyRF_UserGuide.pdf (36 pages).
