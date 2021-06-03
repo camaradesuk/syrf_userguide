@@ -5,10 +5,8 @@ In your systematic review protocol, you will have specified certain information 
 
 To design annotation questions for a stage of your project, go to 'Question Design' under 'Project Settings' on the left-hand navigation bar of your project.
 
-<< ADD SCREENSHOT >>
-
 <center>
-![](figs/06_01_project_nav.png){#id .class width=100% height=100%}
+![](figs/Fig_Question_design.png){#id .class width=100% height=100%}
 </center>
 
 ### Question editing
