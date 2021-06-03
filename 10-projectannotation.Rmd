@@ -113,7 +113,7 @@ There are 6 question types in SyRF:
 
 We recommend that when using checklists or check boxes, you set the default checkbox status to 'indeterminate'.
 
-<< MAAYBE SCREENSHOTS OF WHAT EACH QUESTION LOOKS LIKE?>>
+<< MAYBE SCREENSHOTS OF WHAT EACH QUESTION LOOKS LIKE?>>
 
 ### Allowing multiple answers
 If you choose to allow multiple answers, you will be asked if you want these to be split into separate annotations. This refers to how the data will be presented in your output data file.
