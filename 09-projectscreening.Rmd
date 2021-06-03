@@ -21,6 +21,6 @@ If you are doing a student project and don't have other screeners, you can confi
 
 If you wish to manually reconcile your screening disagreements, you can also configure this in the Stage Settings. Please note that this option is not recommended and you will have to contact our Help Desk to help you access your data for manual reconciliation.
 
-<< Insert Link to FAQ >>
 <br>
 **My project only has two screeners, how can I see screening decisions?**
+[Check out the FAQ](https://syrf.org.uk/faq)
