@@ -7,7 +7,7 @@ Stages are sections of your SyRF projects that you add to perform tasks such as 
 You can add a stage via the left-hand side nagivation bar in your SyRF project or by clicking "add stage" on the project overview page.
 
 <center>
-![](figs/08_01_add_stage.png){#id .class width=100% height=100%}
+![](figs/Fig_Add_stage.png){#id .class width=100% height=100%}
 </center>
 
 Once you have added a stage, you can include it in your project by changing the setting to "Active" in the top right-hand corner of the stage page.
