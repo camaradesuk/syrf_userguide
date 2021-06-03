@@ -53,8 +53,7 @@ To upload your systematic search studies as a CSV or TSV file, you will have to 
 You can download a template with the correct column headings and example data here:
 << link to example csv >>
 
-Even if you don't have information for all the columns specified, they will need to be in your file in order to make the upload work. SyRF will accept empty fields for any of these
-variables.
+Even if you don't have information for all the columns specified, they will need to be in your file in order to make the upload work. SyRF will accept empty fields for any of these variables. Note that the Year column cannot contain non-numeric characters, if the year of publication is not known then leave the field blank.
 
 Files must first be saved as either Text - Tab delimited (\*.txt) or CSV - Comma delimited (\*.csv) files. This can be done in excel using the ‘Save as type:’ dropdown control in the ‘Save As’ dialog. 
 
