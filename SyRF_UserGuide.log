@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.2)  2 JUN 2021 15:20
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.2)  3 JUN 2021 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -847,7 +847,36 @@ Underfull \hbox (badness 1571) in paragraph at lines 141--142
 re and
  []
 
-[6] [7] [8
+[6]
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 168.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 168.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00092pt on input line 168.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00064pt on input line 168.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 168.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 168.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 168.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 168.
+
+Underfull \hbox (badness 4205) in paragraph at lines 167--169
+[]\TU/lmr/m/n/10 Cohorts are created in SyRF projects by combining disease mode
+ls
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 167--169
+\TU/lmr/m/n/10 and treatment details. ([]$[][][][][] [] [] [] [][][][][][][][][
+][][] [] [][][][][][] [] [][] [] [][][][] [] [][][][][][][][][] []
+ []
+
+[7] [8
 
 ]
 Chapter 2.
@@ -855,77 +884,90 @@ Chapter 2.
 
 ]
 Chapter 3.
-File: figs/03_01_request_to_join.png Graphic file (type bmp)
-<figs/03_01_request_to_join.png>
+File: figs/Fig_Request_to_join.png Graphic file (type bmp)
+<figs/Fig_Request_to_join.png>
 [11] [12
 
 ]
 Chapter 4.
-File: figs/04_01_create_a_project.png Graphic file (type bmp)
-<figs/04_01_create_a_project.png>
-[13] [14]
-Chapter 5.
-File: figs/05_01_change_user_role.png Graphic file (type bmp)
-<figs/05_01_change_user_role.png>
-[15
-
-] [16]
-Chapter 6.
-File: figs/06_01_project_nav.png Graphic file (type bmp)
-<figs/06_01_project_nav.png>
-[17
-
-] [18] [19] [20
-
-]
-Chapter 7.
-File: figs/07_01_upload_search.png Graphic file (type bmp)
-<figs/07_01_upload_search.png>
+File: figs/Fig_Create_a_project.png Graphic file (type bmp)
+<figs/Fig_Create_a_project.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[21] [22] [23] [24]
+[13] [14]
+Chapter 5.
+File: figs/Fig_Change_user_role.png Graphic file (type bmp)
+<figs/Fig_Change_user_role.png>
+[15
+
+] [16
+
+]
+Chapter 6.
+File: figs/Fig_Project_Nav.png Graphic file (type bmp)
+<figs/Fig_Project_Nav.png>
+
+Underfull \vbox (badness 3803) has occurred while \output is active []
+
+[17] [18] [19] [20]
+Chapter 7.
+File: figs/Fig_Upload_search.png Graphic file (type bmp)
+<figs/Fig_Upload_search.png>
+[21
+
+]
+Underfull \vbox (badness 2707) has occurred while \output is active []
+
+[22] [23] [24] [25] [26
+
+]
 Chapter 8.
-File: figs/08_01_add_stage.png Graphic file (type bmp)
-<figs/08_01_add_stage.png>
-[25
-
-] [26]
+File: figs/Fig_Add_stage.png Graphic file (type bmp)
+<figs/Fig_Add_stage.png>
+[27] [28]
 Chapter 9.
-[27
+File: figs/Fig_Screening.png Graphic file (type bmp)
+<figs/Fig_Screening.png>
+[29
 
-] [28]
+] [30]
 Chapter 10.
 File: figs/06_01_project_nav.png Graphic file (type bmp)
 <figs/06_01_project_nav.png>
-[29
 
-] [30] [31] [32] [33] [34
+Underfull \vbox (badness 1635) has occurred while \output is active []
 
-]
-Chapter 11.
+[31
 
-Underfull \hbox (badness 1418) in paragraph at lines 755--755
-[]\TU/lmr/bx/n/14.4 CAMARADES (Collaborative Approach
+] [32] [33]
+Underfull \hbox (badness 1769) in paragraph at lines 707--708
+[]\TU/lmr/m/n/10 << MAYBE SCREENSHOTS OF WHAT EACH QUESTION LOOKS
  []
 
-[35] [36]
+[34] [35] [36]
+Chapter 11.
+[37
+
+] [38
+
+]
 Chapter 12.
 No file SyRF_UserGuide.bbl.
 
-Overfull \hbox (21.90501pt too wide) in paragraph at lines 790--792
+Overfull \hbox (21.90501pt too wide) in paragraph at lines 779--781
 []\TU/lmr/m/n/10 <p style=”text-align: center;”>Website by <a href=”https://www
 .ed.ac.uk/clinical-
  []
 
 
-Overfull \hbox (7.73999pt too wide) in paragraph at lines 790--792
+Overfull \hbox (7.73999pt too wide) in paragraph at lines 779--781
 \TU/lmr/m/n/10 brain-sciences/research/camarades”>CAMARADES</a></p> <p style=”t
 ext-
  []
 
 
-Overfull \hbox (81.31003pt too wide) in paragraph at lines 796--798
+Overfull \hbox (81.31003pt too wide) in paragraph at lines 785--787
 []\TU/lmr/m/n/10 <!– Add icon library –> <link rel=”stylesheet” href=”https://c
 dnjs.cloudflare.com/ajax/libs/font-
  []
@@ -933,15 +975,15 @@ dnjs.cloudflare.com/ajax/libs/font-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.803 <a href="https://twitter.com/camarades_
+l.792 <a href="https://twitter.com/camarades_
                                              " class="fa fa-twitter"></a> 
 Here is how much of TeX's memory you used:
- 15890 strings out of 478489
- 285484 string characters out of 5858083
- 742405 words of memory out of 5000000
- 35989 multiletter control sequences out of 15000+600000
- 407036 words of font info for 62 fonts, out of 8000000 for 9000
+ 15938 strings out of 478489
+ 286745 string characters out of 5858083
+ 743405 words of memory out of 5000000
+ 36021 multiletter control sequences out of 15000+600000
+ 409873 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 87i,6n,120p,572b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,6n,120p,919b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on SyRF_UserGuide.pdf (36 pages).
+Output written on SyRF_UserGuide.pdf (38 pages).

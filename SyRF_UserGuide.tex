@@ -78,7 +78,7 @@
 
 \title{SyRF User Guide}
 \author{CAMARADES}
-\date{02 Jun 2021}
+\date{03 Jun 2021}
 
 \begin{document}
 \maketitle
@@ -103,12 +103,12 @@ Each project is specific to your systematic review and meta-analysis. Upload you
 \hypertarget{public-project}{%
 \subsubsection{Public project}\label{public-project}}
 
-A project that can be seen by anyone with a SyRF account. Other users can request to join a public project with your approval.
+A project that can be seen by anyone with a SyRF account. In the current version of SyRF, other users can request to join a public project and can join without any requirement for approval from project owners.
 
 \hypertarget{private-project}{%
 \subsubsection{Private project}\label{private-project}}
 
-A project that is not visible to other SyRF users unless they have requested and have been granted permission to join the project.
+A project that is only visible to SyRF users that are members of the project.
 
 \hypertarget{protocol}{%
 \subsection{Protocol}\label{protocol}}
@@ -145,11 +145,11 @@ Example Experiment 1:
 \begin{itemize}
 \tightlist
 \item
-  Cohort 1: Treatment
+  Cohort 1: Treatment (Disease Model + Treatment)
 \item
   Cohort 2: Sham
 \item
-  Cohort 3: Control
+  Cohort 3: Control (Disease Model + Vehicle)
 \end{itemize}
 
 Example Experiment 2:
@@ -157,14 +157,15 @@ Example Experiment 2:
 \begin{itemize}
 \tightlist
 \item
-  Cohort 1: Control
+  Cohort 1: Control (Disease Model + Vehicle)
 \item
-  Cohort 2: Treatment 1
+  Cohort 2: Treatment 1 (Disease Model + Treatment 1)
 \item
-  Cohort 3: Treatment 2
+  Cohort 3: Treatment 2 (Disease Model + Treatment 2)
 \end{itemize}
 
-Cohorts are created in SyRF projects by combining disease models and treatment details. This is described further in \href{https://camaradesuk.github.io/syrf_userguide/projectannotation.html}{Section 10}.
+Cohorts are created in SyRF projects by combining disease models and treatment details.
+(\url{https://camaradesuk.github.io/syrf_userguide/projectannotation.html}).
 
 \hypertarget{createAccount}{%
 \chapter{Create an Account}\label{createAccount}}
@@ -173,12 +174,9 @@ You will need to create a free account to create or participate in projects.
 
 \textless{}\textless{} Add link to new SyRF to create an account \textgreater{}\textgreater{}
 
-Creating an account allows us to keep your data secure and allows the administrator of each project to control who has access to the project data. Read our Data Management and Sharing Policy here.
+Creating an account allows us to keep your data secure and allows the administrator of each project to see who has access to the project data. Read our \href{https://auth.syrf.org.uk/Privacy}{Data Management and Sharing Policy here}.
 
-\textless{}\textless{} ADD LINK TO DATA POLICY \textgreater{}\textgreater{}
-
-\textless{}\textless{} Link to FAQs \textgreater{}\textgreater{}
-\textbf{I don't see an email in my inbox from SyRF}
+\href{https://syrf.org.uk/faq}{\textbf{I don't see an email in my inbox from SyRF}}
 
 Once you have created an account and logged in you can access public projects or create a new project via the Projects tab in SyRF.
 
@@ -189,12 +187,11 @@ The Projects tab in SyRF will show all the projects you are a member of, as well
 
 To join a project, you will need to click `Request to join' on the project's homepage. In the current version of SyRF, all users who request to join a project will be automatically assigned access and the Reviewer role in the project.
 
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/03_01_request_to_join.png}
+\includegraphics[width=1\textwidth,height=1\textheight]{figs/Fig_Request_to_join.png}
 
-In future, all requests to join will be sent to the project administrator to review so if you do not wish other users to join your project, it is best to set your project to Private.
+If you do not wish other users to join your project, it is best to set your project to Private.
 
-\textless{}\textless{} Link to FAQs \textgreater{}\textgreater{}
-\textbf{My collaborators can't see my project}
+\href{https://syrf.org.uk/faq}{\textbf{My collaborators can't see my project}}
 
 \hypertarget{createProject}{%
 \chapter{Create a New Project}\label{createProject}}
@@ -203,9 +200,9 @@ You can create new projects via the Projects tab. Enter your project details in 
 
 As part of project creation, you will be asked to specify the inclusion/exclusion criteria for your project. These should be pre-specified in your protocol.
 
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/04_01_create_a_project.png}
+\includegraphics[width=1\textwidth,height=1\textheight]{figs/Fig_Create_a_project.png}
 
-Once you have created your project, you can keep track of your project progress through the Project Details Page.
+Once you have created your project, you can keep track of your project progress through the Project Details Page on the right-hand side of your screen.
 
 You will automatically be assigned a Project Administrator role in any project that you create.
 
@@ -221,37 +218,44 @@ Currently, you can only have one set of inclusion/exclusion critiera per SyRF pr
 
 There are two user roles in SyRF: Project Administrator (admin) and Reviewer. These roles are project specific - you may be a Project Administrator in some of your projects and a Reviewer in others.
 
-Project Administrators can edit projects and accept new users who request to join their project. Reviewers are users who have been granted access to a project by a Project Administrator, and can screen or annotate studies in the project.
+You will automatically be assigned a Project Administrator role in any project that you create. Project Administrators can edit projects.
+
+SyRF users that request to join a project will automatically be assigned a Reviewer role. Reviewers can screen or annotate studies in the project.
 
 \hypertarget{changing-a-user-role}{%
 \section{Changing a user role}\label{changing-a-user-role}}
 
 When users join a project, they will automatically be assigned the Reviewer role.
 
-Only Project Administrators can change user roles. In the list of members in your project, click the pencil icons next to a users name to change their role in your project.
+Only Project Administrators can change user roles. In the list of members in your project, you can assign other members to be Project Administrators by selecting the Administrator check box.
 
-\includegraphics[width=0.8\textwidth,height=0.8\textheight]{figs/05_01_change_user_role.png}
+\includegraphics[width=1\textwidth,height=1\textheight]{figs/Fig_Change_user_role.png}
 
 If you are assigned a Reviewer role and think you should be a Project Administrator instead, please contact one of the other Project Administrators on the project to change this for you.
 
 \hypertarget{nagivation}{%
 \chapter{Project Navigation}\label{nagivation}}
 
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/06_01_project_nav.png}
+\includegraphics[width=1\textwidth,height=1\textheight]{figs/Fig_Project_Nav.png}
+
+\hypertarget{project-overview}{%
+\section{Project Overview}\label{project-overview}}
+
+When in Project Overview you can expand the description of each stage to see what progress has been made in screening and annotation of that specific stage.
 
 \hypertarget{project-details}{%
 \section{Project details}\label{project-details}}
 
 You can see an overview of the project on the Project Details page.
 
-In the centre of the page, you will see a screening stage has already been added with the inclusion and exclusion critiera that was added by the Project Administrator during project creation. Click the `Review' button to enter a stage. If you are a Project Administaton, you will be able to add new stages there too.
+In the centre of the page, you will see a screening stage with the inclusion and exclusion criteria that were added by the Project Administrator during project creation. Click the `Review' button to enter a stage. If you are a Project Administrator, you will be able to add new stages there too.
 
 On the right hand side of the Project Overview page you can see:
 
 \begin{itemize}
 \tightlist
 \item
-  Contact - the contact email of the project administator
+  Contact - the contact email of the project administrator
 \item
   Protocol url - a link to where the systematic review protocol has been published
 \item
@@ -259,24 +263,24 @@ On the right hand side of the Project Overview page you can see:
 \item
   Systematic searches - details of studies added to the project
 \item
-  Project visability - either public or private
+  Project visibility - either public or private
 \item
   Creation date - the date the project was made
 \item
   Members - a list of members on the project
 \end{itemize}
 
-Project details can be edited in the settings by clicking on the cog icons next to each heading.
+Project Details can be edited by clicking on the cog icons next to each heading.
 
 \hypertarget{studies}{%
 \section{Studies}\label{studies}}
 
-You can see the details of all the studiesyou have uploaded to SyRF in the studies tab. To learn how to upload studies or systematic searches, please go to \href{https://camaradesuk.github.io/syrf_userguide/systematicSearch.html}{Section 7}.
+You can see the details of all the studies you have uploaded to SyRF in the studies tab. To learn how to upload studies or systematic searches, please go to \href{https://camaradesuk.github.io/syrf_userguide/systematicSearch.html}{Section 7}.
 
 \hypertarget{stages}{%
 \section{Stages}\label{stages}}
 
-You can start screening or annotating in a stage by clicking on the stage name and then `Review'. Note that if the Project Administator has not uploaded any systematic searches, you will not be able to under a stage.
+You can start screening or annotating in a stage by clicking on the stage name (on the left-hand side navigation pane) and then `Review'. Note that if the Project Administrator has not uploaded any systematic searches, you will not be able to under a stage.
 
 \hypertarget{project-settings}{%
 \section{Project settings}\label{project-settings}}
@@ -286,7 +290,7 @@ Only Project Administators are able to edit project settings.
 \hypertarget{general-settings}{%
 \subsection{General settings}\label{general-settings}}
 
-In the geberal project settings, Project Administators can edit:
+In the general project settings, Project Administrators can edit:
 
 \begin{itemize}
 \tightlist
@@ -295,7 +299,7 @@ In the geberal project settings, Project Administators can edit:
 \item
   Project description
 \item
-  Project visability
+  Project visibility
 \item
   Contact email
 \item
@@ -312,7 +316,7 @@ Projects can be deleted from the general settings. Please know that data from de
 \hypertarget{members-groups}{%
 \subsection{Members \& groups}\label{members-groups}}
 
-Project Administators can change user roles in the members \& groups settings page. To make a user a Project Administator, click the checkbox next to their name. Uncheck the box to make them a Reviewer. Canges are saved automatically.
+Project Administrators can change user roles in the members \& groups settings page. To make a user a Project Administrator, click the checkbox next to their name. Uncheck the box to make them a Reviewer. Changes are saved automatically.
 
 \hypertarget{systematic-searches}{%
 \subsection{Systematic searches}\label{systematic-searches}}
@@ -329,7 +333,10 @@ Project Administrators can add and delete annotation questions in their project 
 
 In the stage settings, Project Administrators can add and edit stages.
 
-You can decide which elements to add to your stage, e.g.~screening, annotation and/or data extraction. If you choose both screening and annotation, you will be asked to choose a study selection mode.
+You can decide which elements to add to your stage, e.g.~screening, annotation and/or data extraction. If you choose both screening and annotation, you will be asked to choose how to combine these tasks. Specifically, the options are:
+- All studies require screening, but annotation is optional
+- All studies require annotation, but screening is optional
+- All studies require both screening and annotation
 
 \hypertarget{annotation-question-selection}{%
 \subsubsection{Annotation question selection}\label{annotation-question-selection}}
@@ -347,6 +354,8 @@ If you have searched for studies using multiple databases there will be duplicat
 \hypertarget{uploading-files}{%
 \section{Uploading files}\label{uploading-files}}
 
+A Project Administrator can upload a systematic search to your project by Selecting Systematic Searches from Project Settings and clicking ``Upload New Systematic Search''
+
 You can upload your systematic searches as an:
 
 \begin{itemize}
@@ -359,7 +368,9 @@ You can upload your systematic searches as an:
   Tab separated value (TSV) file
 \end{itemize}
 
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/07_01_upload_search.png}
+SyRF currently accepts EndNote Desktop XML files. EndNote Web XML files are not supported.
+
+\includegraphics[width=1\textwidth,height=1\textheight]{figs/Fig_Upload_search.png}
 
 \hypertarget{uploading-your-studies-from-an-endnote-export}{%
 \subsection{Uploading your studies from an EndNote export}\label{uploading-your-studies-from-an-endnote-export}}
@@ -384,13 +395,13 @@ Please note that upload of studies with screening decisions is currently not sup
 
 Please note that you cannot use the `EndNote XML' export option in Zotero to upload an EndNote file to SyRF. If you are using Zotero to manage your study references, please export as a CSV file and follow the CSV upload instructions.
 
-\textless{}\textless{} Insert link to FAQ \textgreater{}\textgreater{}
-I am trying to upload an EndNote XML file that was created by importing from a place other than an electronic database and getting an error
+\href{https://syrf.org.uk/faq}{\textbf{I am trying to upload an EndNote XML file that was created by importing from a place other than an electronic database and getting an error.}}
+I am trying to upload an EndNote XML file that was created by importing from a place other than an electronic database and getting an error.
 
 \hypertarget{uploading-your-studies-as-a-csv-or-tsv}{%
 \subsection{Uploading your studies as a CSV or TSV}\label{uploading-your-studies-as-a-csv-or-tsv}}
 
-To upload your systematic search studies as a CSV or TSV file, you will have to make sure to format your data with following the column headings in order to make the upload work:
+To upload your systematic search studies as a CSV or TSV file, you will have to make sure to format your data with following the column headings to make the upload work:
 * Title
 * Authors
 * Publication Name
@@ -404,11 +415,9 @@ To upload your systematic search studies as a CSV or TSV file, you will have to 
 * Reference Type
 * PDF Relative Path
 
-You can download a template with the correct column headings and example data here:
-\textless{}\textless{} link to example csv \textgreater{}\textgreater{}
+You can download a template with the \href{https://syrf-test.co.uk/assets/pdfs/Systematic_search_instructions.html}{correct column headings and example data here.}
 
-Even if you don't have information for all the columns specified, they will need to be in your file in order to make the upload work. SyRF will accept empty fields for any of these
-variables.
+Even if you don't have information for all the columns specified, they will need to be in your file in order to make the upload work. SyRF will accept empty fields for any of these variables. Note that the Year column cannot contain non-numeric characters, if the year of publication is not known then leave the field blank.
 
 Files must first be saved as either Text - Tab delimited (*.txt) or CSV - Comma delimited (*.csv) files. This can be done in excel using the `Save as type:' dropdown control in the `Save As' dialog.
 
@@ -428,8 +437,6 @@ Your file should only contain the columns above and columns specified with scree
 
 If you require full-text PDFs for each of your studies at any stage of your SyRF project, it is important that you have already retrieved these full-text PDFs before uploading your search file.
 
-\textless{}\textless{} Link to EndNote guidance for PDF retrieval\textgreater{}\textgreater{}
-
 In the systematic search file that you upload (csv/tsv spreadsheet or XML from Endnote) make sure the column ``PDF Relative Path'' contains relative path links (i.e.~relative to the root of the folder you send to us) to your PDFs for each record.
 
 You will then need to \href{syrf.info@ed.ac.uk}{contact us} with the name of your project, a folder containing your PDFs (sent via Google Drive or similar) and a CSV file containing the file path to each PDF and the title or SyRF study ID of each study, so we can match PDFs with your studies in SyRF.
@@ -441,13 +448,12 @@ We will upload these PDFs to the SyRF database and these can be opened from the 
 
 Please avoid using invalid characters (e.g.~, \textless{} \textgreater{} : " \textbackslash{} / \textbar{} ? *) in file names as it may cause issues. By default, software like EndNote uses Author and Title information to name files, which can cause invalid characters to be added to your PDF file names. You can change the default to name PDFs using another column such as RecordID. Whichever columns you chose to name your PDFs with, the data should be unique.
 
-\textless{}\textless{} Insert Link to FAQ \textgreater{}\textgreater{}
-\textbf{I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening}
+\href{https://syrf.org.uk/faq}{\textbf{I am performing a two-stage screening process and need to add PDFs only for my included studies for full-text screening}}
 
 \hypertarget{view-project-studies}{%
 \section{View project studies}\label{view-project-studies}}
 
-You can now view project studies by clicking on the `View Project Studies' button. This will show you all the studies you have uploaded to your project.
+You can now view project studies by clicking on the `Studies' then `All Studies' on the left hand side navigation panel. This will show you all the studies you have uploaded to your project.
 
 \hypertarget{deleting-systematic-searches}{%
 \section{Deleting systematic searches}\label{deleting-systematic-searches}}
@@ -460,23 +466,21 @@ If you need to delete your systematic search, you can do so In SyRF. Be aware, h
 \hypertarget{what-are-stages}{%
 \section{What are stages?}\label{what-are-stages}}
 
-Stages are sections of your SyRF projects that you add to perform tasks such as screening and data annotation. Currently, SyRF allows you to add one stage with screening and mutiple stages with annotation. You can also have screening and annotation in the same stage.
+Stages are sections of your SyRF projects that you add to perform tasks such as screening and data annotation. You can have screening and annotation as separate stages and you can also have screening and annotation in the same stage.
 
 \hypertarget{add-a-stage}{%
 \section{Add a stage}\label{add-a-stage}}
 
-You can add a stage via the left nagivation bar in your SyRF project or by clicking ``add stage'' on the project overview page.
+You can add a stage via the left-hand side nagivation bar in your SyRF project or by clicking ``add stage'' on the project overview page.
 
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/08_01_add_stage.png}
+\includegraphics[width=1\textwidth,height=1\textheight]{figs/Fig_Add_stage.png}
+
+Once you have added a stage, you can include it in your project by changing the setting to ``Active'' in the top right-hand corner of the stage page.
 
 \hypertarget{stage-with-screening}{%
 \section{Stage with screening}\label{stage-with-screening}}
 
-By adding screening to your stage, you can screen the studies you have uploaded to your SyRF project using the inclusion/exclusion criteria you entered when creating your project. Currently, as inclusion/exclusion criteria are defined at the project level, you can only have one stage with screening per project.
-
-If you wish to have multiple stages with screening in your systematic review, for instance title and abstract screening followed by full-text screening, you can do this by exporting your included studies from SyRF following your first screening stage and uploading them to a new SyRF project to complete your second screening stage.
-
-\href{mailto:syrf.info@ed.ac.uk}{Contact us} for a link to a Shiny App which will allow you to export your data.
+By adding screening to your stage, you can screen the studies you have uploaded to your SyRF project using the inclusion/exclusion criteria you entered when creating your project. Currently, as inclusion/exclusion criteria are defined at the project level, you can only screen according to one set of inclusion/exclusion criteria.
 
 \hypertarget{stage-with-annotation}{%
 \section{Stage with annotation}\label{stage-with-annotation}}
@@ -511,7 +515,7 @@ When you start reviewing in a stage with screening enabled, you will be shown th
 
 Use the include and exclude buttons to record whether or not your study meets the inclusion/exclusion critiera. If you are unsure and want to come back to the study, click `Next' to skip it and move on to another study.
 
-\textless{}\textless{} SCREENSHOT OF SYRF SCREENING \textgreater{}\textgreater{}
+\includegraphics[width=1\textwidth,height=1\textheight]{figs/Fig_Screening.png}
 
 Once you have decided to include or exclude a study, SyRF will record it as completed by you and you will not be shown it again. If you think you have made a mistake, it is possible to click the back button on your browser to go back to your previous study and re-screen it.
 
@@ -529,8 +533,8 @@ If you are doing a student project and don't have other screeners, you can confi
 
 If you wish to manually reconcile your screening disagreements, you can also configure this in the Stage Settings. Please note that this option is not recommended and you will have to contact our Help Desk to help you access your data for manual reconciliation.
 
-\textless{}\textless{} Insert Link to FAQ \textgreater{}\textgreater{}
 \textbf{My project only has two screeners, how can I see screening decisions?}
+\href{https://syrf.org.uk/faq}{Check out the FAQ}
 
 \hypertarget{projectannotation}{%
 \chapter{Annotation Questions}\label{projectannotation}}
@@ -540,11 +544,11 @@ If you wish to manually reconcile your screening disagreements, you can also con
 
 In your systematic review protocol, you will have specified certain information you want to extract from each of your studies, such as `Were animals randomised to experimental groups?' or `What concentration of drug treatment was used?'. In SyRF you can annotate your studies with this information using annotation questions.
 
-To design annotation questions for a stage of your project, go to `Question Design' under `Project Settingss' on the left-hand navigation bar of your project.
+To design annotation questions for a stage of your project, go to `Question Design' under `Project Settings' on the left-hand navigation bar of your project.
 
 \textless{}\textless{} ADD SCREENSHOT \textgreater{}\textgreater{}
 
-\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/06_01_project_nav.png}
+\includegraphics[width=1\textwidth,height=1\textheight]{figs/06_01_project_nav.png}
 
 \hypertarget{question-editing}{%
 \subsection{Question editing}\label{question-editing}}
@@ -641,8 +645,7 @@ Define questions relevant to each cohort (experimental group) in the study.
 e.g.~What is the sex of the animals included in the cohort?
 (Dropdown list with options males, females, both, unknown)
 
-\textless{}\textless{} Insert FAQ link \textgreater{}\textgreater{}
-I have cohorts with comorbidities and I'm not clear on how to differentiate between them.
+\href{https://syrf.org.uk/faq}{I have cohorts with comorbidities and I'm not clear on how to differentiate between them.}
 
 \hypertarget{experiment-questions}{%
 \subsection{Experiment questions}\label{experiment-questions}}
@@ -701,7 +704,7 @@ There are 6 question types in SyRF:
 
 We recommend that when using checklists or check boxes, you set the default checkbox status to `indeterminate'.
 
-\textless{}\textless{} MAAYBE SCREENSHOTS OF WHAT EACH QUESTION LOOKS LIKE?\textgreater{}\textgreater{}
+\textless{}\textless{} MAYBE SCREENSHOTS OF WHAT EACH QUESTION LOOKS LIKE?\textgreater{}\textgreater{}
 
 \hypertarget{allowing-multiple-answers}{%
 \subsection{Allowing multiple answers}\label{allowing-multiple-answers}}
@@ -751,34 +754,20 @@ Once you have designed your questions, to allow them to be presented to reviwers
 \hypertarget{about}{%
 \chapter{About us}\label{about}}
 
-\hypertarget{camarades-collaborative-approach-to-meta-analysis-and-review-of-animal-data-from-experimental-studies}{%
-\section{CAMARADES (Collaborative Approach to Meta-Analysis and Review of Animal Data from Experimental Studies)}\label{camarades-collaborative-approach-to-meta-analysis-and-review-of-animal-data-from-experimental-studies}}
+\hypertarget{camarades}{%
+\section{CAMARADES}\label{camarades}}
 
-We provide a supporting framework for groups involved in the systematic review and meta-analysis of data from experimental animal studies.
-
-Animals can be used to improve our understanding of a disease and to test the effectiveness of novel treatments. However translating findings from animal studies to humans in a clinical setting has not always been straightforward. CAMARADES has pioneered the use of preclinical systematic review and meta-analysis to investigate translational failure.
-
-The interests of CAMARADES range from identifying potential sources of bias in animal work; developing recommendations for improvements in the design and reporting of animal studies; developing preclinical meta-analysis methodology including the introduction of automated techniques to accelerate the systematic review process; through to the selection of candidate drugs for clinical trial.
-
-CAMARADES currently have five global national co-ordinating centres: University of Edinburgh (United Kingdom), University of Tasmania (Australia), Radboud University Nijmegen Medical Centre (The Netherlands), University of California San Francisco (USA) and Ottawa Hospital Research Institute (Canada).
-
-For more information, please visit the \href{https://www.ed.ac.uk/clinical-brain-sciences/research/camarades}{CAMARADES website}.
+Since 2005, the Collaborative Approach to Meta-Analysis and Review of Animal Data from Experimental Studies (CAMARADES; \href{https://www.ed.ac.uk/clinical-brain-sciences/research/camarades}{CAMARADES website}) group have provided training and mentoring to those wishing to conduct systematic reviews and meta-analyses of data from preclinical studies.
 
 \#\#SyRF
-SyRF is an initiative by CAMARADES, initially funded by the NC3Rs, to support the application of evidence synthesis techniques to preclinical research. We aim to advance the 3Rs and increase the successful translation of preclinical research to clinical benefit.
-
-We aim to do this by providing a single, easily accessible source of educational materials, guidance and practical applications to researchers wishing to embark on systematic review and meta-analysis of data from preclinical studies.
-
-SyRF also supports methodological development for preclinical meta-analysis and the creation of pathways to encourage best practice in preclinical research.
-
-We invite both new and experienced preclinical systematic review authors to engage with the multiple facets of SyRF and warmly \href{mailto:syrf.info@ed.ac.uk}{welcome any feedback}.
+The Systematic Review Facility (SyRF) was developed by CAMARADES with initial funding from the UK National Centre for the Replacement, Refinement and Reduction of Animals in Research (NC3Rs) to support the application of evidence synthesis techniques to preclinical research. SyRF is a freely available,~online platform~to extract and store data for systematic reviews~of preclinical studies~and~provides educational resources and guidance~on~preclinical systematic reviews.~SyRF enables researchers to collaborate easily, to efficiently manage projects, to screen and annotate studies for important features, to extract outcome data, and tailor these steps to each project. SyRF has been released with minimum features and continuous development will be required to add functionality guided by user demand and feedback. We \href{mailto:syrf.info@ed.ac.uk}{welcome any feedback}.
 
 \hypertarget{faq}{%
 \chapter{FAQ}\label{faq}}
 
 If you have a question related to SyRF that is not covered by this user guide, please check our frequently asked questions page on the SyRF website.
 
-\textless{}\textgreater{}
+\href{https://syrf.org.uk/faq}{Find the FAQs here: https://syrf.org.uk/faq}
 
   \bibliography{book.bib,packages.bib}
 
