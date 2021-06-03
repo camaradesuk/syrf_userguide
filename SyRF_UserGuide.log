@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.2)  3 JUN 2021 15:56
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.3)  3 JUN 2021 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **SyRF_UserGuide.tex
 (./SyRF_UserGuide.tex
-LaTeX2e <2021-06-01> pre-release-0 (develop 2021-6-2 branch)
+LaTeX2e <2021-06-01>
 L3 programming layer <2021-06-01> (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/book.cls
 Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
@@ -74,7 +74,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.st
 y
-Package: amsmath 2020/09/23 v2.17i AMS math features
+Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip49
 For additional information on amsmath, use the `?' option.
 
@@ -933,19 +933,19 @@ File: figs/Fig_Screening.png Graphic file (type bmp)
 
 ] [30]
 Chapter 10.
-File: figs/06_01_project_nav.png Graphic file (type bmp)
-<figs/06_01_project_nav.png>
+File: figs/Fig_Question_design.png Graphic file (type bmp)
+<figs/Fig_Question_design.png>
 
-Underfull \vbox (badness 1635) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [31
 
-] [32] [33]
-Underfull \hbox (badness 1769) in paragraph at lines 707--708
+] [32] [33] [34]
+Underfull \hbox (badness 1769) in paragraph at lines 705--706
 []\TU/lmr/m/n/10 << MAYBE SCREENSHOTS OF WHAT EACH QUESTION LOOKS
  []
 
-[34] [35] [36]
+[35] [36]
 Chapter 11.
 [37
 
@@ -955,19 +955,19 @@ Chapter 11.
 Chapter 12.
 No file SyRF_UserGuide.bbl.
 
-Overfull \hbox (21.90501pt too wide) in paragraph at lines 779--781
+Overfull \hbox (21.90501pt too wide) in paragraph at lines 777--779
 []\TU/lmr/m/n/10 <p style=”text-align: center;”>Website by <a href=”https://www
 .ed.ac.uk/clinical-
  []
 
 
-Overfull \hbox (7.73999pt too wide) in paragraph at lines 779--781
+Overfull \hbox (7.73999pt too wide) in paragraph at lines 777--779
 \TU/lmr/m/n/10 brain-sciences/research/camarades”>CAMARADES</a></p> <p style=”t
 ext-
  []
 
 
-Overfull \hbox (81.31003pt too wide) in paragraph at lines 785--787
+Overfull \hbox (81.31003pt too wide) in paragraph at lines 783--785
 []\TU/lmr/m/n/10 <!– Add icon library –> <link rel=”stylesheet” href=”https://c
 dnjs.cloudflare.com/ajax/libs/font-
  []
@@ -975,12 +975,12 @@ dnjs.cloudflare.com/ajax/libs/font-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.792 <a href="https://twitter.com/camarades_
+l.790 <a href="https://twitter.com/camarades_
                                              " class="fa fa-twitter"></a> 
 Here is how much of TeX's memory you used:
  15938 strings out of 478489
- 286745 string characters out of 5858083
- 743405 words of memory out of 5000000
+ 286761 string characters out of 5858083
+ 743390 words of memory out of 5000000
  36021 multiletter control sequences out of 15000+600000
  409873 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

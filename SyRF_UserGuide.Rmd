@@ -64,7 +64,9 @@ Cohorts are created in SyRF projects by combining disease models and treatment d
 
 You will need to create a free account to create or participate in projects.
 
-<< Add link to new SyRF to create an account >>
+[To Create a new SyRF account, click here.](https://syrf.org.uk)
+
+
 
 Creating an account allows us to keep your data secure and allows the administrator of each project to see who has access to the project data. Read our [Data Management and Sharing Policy here](https://auth.syrf.org.uk/Privacy).
 
@@ -376,10 +378,8 @@ In your systematic review protocol, you will have specified certain information 
 
 To design annotation questions for a stage of your project, go to 'Question Design' under 'Project Settings' on the left-hand navigation bar of your project.
 
-<< ADD SCREENSHOT >>
-
 <center>
-![](figs/06_01_project_nav.png){#id .class width=100% height=100%}
+![](figs/Fig_Question_design.png){#id .class width=100% height=100%}
 </center>
 
 ### Question editing
