@@ -78,8 +78,8 @@ Define questions relevant to each cohort (experimental group) in the study.
 e.g. What is the sex of the animals included in the cohort?
 (Dropdown list with options males, females, both, unknown)
 
-<< Insert FAQ link >>
-I have cohorts with comorbidities and I'm not clear on how to differentiate between them.
+[I have cohorts with comorbidities and I'm not clear on how to differentiate between them.](https://syrf.org.uk/faq)
+
 
 ### Experiment questions
 Define questions relevant to each experiment in the study
