@@ -17,7 +17,7 @@ You can upload your systematic searches as an:
 SyRF currently accepts EndNote Desktop XML files. EndNote Web XML files are not supported.
 
 <center>
-![](figs/07_01_upload_search.png){#id .class width=100% height=100%}
+![](figs/Fig_Upload_search.png){#id .class width=100% height=100%}
 </center>
 
 ### Uploading your studies from an EndNote export
