@@ -97,7 +97,9 @@ When adding a question, you can enter the following details:
 5. The type of answer the question accepts (e.g. text, integers, decimals)
 6. The question type (e.g. dropdown list, checkbox)
 
-<< SCREENSHOT OF QUESTION CREATION DIALOG >> 
+<center>
+![](figs/Fig_Question_dialogue.png){#id .class width=100% height=100%}
+</center>
 
 ### Question types
 There are 6 question types in SyRF:
