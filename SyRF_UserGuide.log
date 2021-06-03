@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.3)  3 JUN 2021 16:15
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.3)  3 JUN 2021 18:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -916,58 +916,59 @@ File: figs/Fig_Upload_search.png Graphic file (type bmp)
 <figs/Fig_Upload_search.png>
 [21
 
-]
-Underfull \vbox (badness 2707) has occurred while \output is active []
-
-[22] [23] [24] [25] [26
+] [22] [23] [24] [25] [26
 
 ]
 Chapter 8.
 File: figs/Fig_Add_stage.png Graphic file (type bmp)
 <figs/Fig_Add_stage.png>
-[27] [28]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[27] [28] [29] [30
+
+]
 Chapter 9.
 File: figs/Fig_Screening.png Graphic file (type bmp)
 <figs/Fig_Screening.png>
-[29
-
-] [30]
+[31] [32]
 Chapter 10.
 File: figs/Fig_Question_design.png Graphic file (type bmp)
 <figs/Fig_Question_design.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[31
+[33
 
-] [32] [33] [34]
-Underfull \hbox (badness 1769) in paragraph at lines 705--706
-[]\TU/lmr/m/n/10 << MAYBE SCREENSHOTS OF WHAT EACH QUESTION LOOKS
- []
+] [34] [35] [36]
+File: figs/Fig_Question_dialogue.png Graphic file (type bmp)
+<figs/Fig_Question_dialogue.png>
 
-[35] [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[37] [38] [39] [40
+
+]
 Chapter 11.
-[37
-
-] [38
+[41] [42
 
 ]
 Chapter 12.
 No file SyRF_UserGuide.bbl.
 
-Overfull \hbox (21.90501pt too wide) in paragraph at lines 777--779
+Overfull \hbox (21.90501pt too wide) in paragraph at lines 763--765
 []\TU/lmr/m/n/10 <p style=”text-align: center;”>Website by <a href=”https://www
 .ed.ac.uk/clinical-
  []
 
 
-Overfull \hbox (7.73999pt too wide) in paragraph at lines 777--779
+Overfull \hbox (7.73999pt too wide) in paragraph at lines 763--765
 \TU/lmr/m/n/10 brain-sciences/research/camarades”>CAMARADES</a></p> <p style=”t
 ext-
  []
 
 
-Overfull \hbox (81.31003pt too wide) in paragraph at lines 783--785
+Overfull \hbox (81.31003pt too wide) in paragraph at lines 769--771
 []\TU/lmr/m/n/10 <!– Add icon library –> <link rel=”stylesheet” href=”https://c
 dnjs.cloudflare.com/ajax/libs/font-
  []
@@ -975,15 +976,15 @@ dnjs.cloudflare.com/ajax/libs/font-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.790 <a href="https://twitter.com/camarades_
+l.776 <a href="https://twitter.com/camarades_
                                              " class="fa fa-twitter"></a> 
 Here is how much of TeX's memory you used:
- 15938 strings out of 478489
- 286761 string characters out of 5858083
+ 15946 strings out of 478489
+ 287031 string characters out of 5858083
  743390 words of memory out of 5000000
- 36021 multiletter control sequences out of 15000+600000
+ 36028 multiletter control sequences out of 15000+600000
  409873 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  87i,6n,120p,919b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on SyRF_UserGuide.pdf (38 pages).
+Output written on SyRF_UserGuide.pdf (42 pages).
