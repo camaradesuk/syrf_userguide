@@ -113,12 +113,12 @@ There are 6 question types in SyRF:
 
 We recommend that when using checklists or check boxes, you set the default checkbox status to 'indeterminate'.
 
-<< MAYBE SCREENSHOTS OF WHAT EACH QUESTION LOOKS LIKE?>>
+
 
 ### Allowing multiple answers
 If you choose to allow multiple answers, you will be asked if you want these to be split into separate annotations. This refers to how the data will be presented in your output data file.
 
-<<SCREENSHOT OF WHAT ALLOW MULTIPLE ANSWERS LOOKS LIKE ON ANNOTATION FORM>>
+
 
 Choosing to split multiple answers into separate annotations means that, in your output file, the multiple answers will be separated into different rows. Choosing not to split into separate annotations, means that they will appear in the same row, separated by a semi-colon. 
 
@@ -141,9 +141,9 @@ You could then ask further related questions, by clicking on this question and s
 
 These questions will nest under the previous question.
 
-<<SCREENSHOT OF NESTED QUESTION STRUCTURE IN ANNOTATION FORM>>
+
 
 ## Adding questions to stages
 Once you have designed your questions, to allow them to be presented to reviwers, you need to add them to your annotation stage by going to 'Stage Settings' then the name of the stage of want to add your questions to and selecting the questions you want to add to the stage.
 
-<< SCREENSHOT OF ADDING QUESTIONS TO STAGE >>
+
