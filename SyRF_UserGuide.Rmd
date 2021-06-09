@@ -248,11 +248,11 @@ Please note that you cannot use the  'EndNote XML' export option in Zotero to up
 [**I am trying to upload an EndNote XML file that was created by importing from a place other than an electronic database and getting an error.**](https://syrf.org.uk/faq)
 I am trying to upload an EndNote XML file that was created by importing from a place other than an electronic database and getting an error.
 
-### Spreadsheet (\\*.csv supported)
+### Spreadsheet (\*.csv supported)
 *Optionally including screening decisions*
 
 1. You can upload study references as a systematic search from a spreadsheet (e.g. Microsoft Excel Document)  
-2. You will have to make sure your file has the following column headings in order to make the upload work: 
+2. You will have to make sure your file has the following column headings to make the upload work: 
     * Title
     * Authors
     * Publication Name
@@ -272,7 +272,7 @@ You can download a template with the [correct column headings and example data h
 4. If you would like to upload **screening decisions** already made outside of SyRF along with list of studies, you should **add separate columns for each user** and SyRF’s wizard will allow you to select which column headers in your file correspond to project members.
 5. Within screening columns decisions should be represented with the value **1 for inclusion and 0 for exclusion**.
 6. Your file should **only** contain the columns above and columns specified with screening decisions. If any columns are missing or additional columns are added (not specified for screening) the upload wizard will fail. 
-7. Files must first be saved as CSV - Comma delimited (\\*.csv) files. This can be done in excel using the Save as type: dropdown control in the Save As dialog. 
+7. Files must first be saved as CSV - Comma delimited (\*.csv) files. This can be done in excel using the Save as type: dropdown control in the Save As dialog. 
 
 <center>
 ![](figs/save_csv.png){#id .class width=100% height=100%}
