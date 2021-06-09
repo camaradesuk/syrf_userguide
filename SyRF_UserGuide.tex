@@ -78,7 +78,7 @@
 
 \title{SyRF User Guide}
 \author{CAMARADES}
-\date{03 Jun 2021}
+\date{09 Jun 2021}
 
 \begin{document}
 \maketitle
@@ -354,7 +354,7 @@ If you have searched for studies using multiple databases there will be duplicat
 \hypertarget{uploading-files}{%
 \section{Uploading files}\label{uploading-files}}
 
-A Project Administrator can upload a systematic search to your project by Selecting Systematic Searches from Project Settings and clicking ``Upload New Systematic Search''
+A Project Administrator can upload a systematic search to your project by Selecting Systematic Searches from Project Settings and clicking ``Upload New Systematic Search''.
 
 You can upload your systematic searches as an:
 
@@ -364,31 +364,31 @@ You can upload your systematic searches as an:
   EndNote XML file
 \item
   Comma separated value (CSV) file
-\item
-  Tab separated value (TSV) file
 \end{itemize}
 
 SyRF currently accepts EndNote Desktop XML files. EndNote Web XML files are not supported.
 
 \includegraphics[width=1\textwidth,height=1\textheight]{figs/Fig_Upload_search.png}
 
-\hypertarget{uploading-your-studies-from-an-endnote-export}{%
-\subsection{Uploading your studies from an EndNote export}\label{uploading-your-studies-from-an-endnote-export}}
+\hypertarget{using-endnote-as-xml}{%
+\subsection{Using EndNote (as XML)}\label{using-endnote-as-xml}}
+
+\emph{Without screening decisions (screening upload not currently supported)}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Highlight (Ctrl+A) all references all the references in yourEndNote library that you wish to upload to SyRF
+  Import all references to be screened into EndNote
 \item
-  Click File -\textgreater{} Export (NB: if you do not highlight all references only the first reference on your list will be exported)
+  Find the full text PDFs by highlighting all your references (\texttt{Ctrl}+\texttt{A}) and click References -\textgreater{} Find Full Text
+\item
+  Highlight (\texttt{Ctrl}+\texttt{A}) all references and click File -\textgreater{} Export (NB: if you do not highlight all references only the first reference on your list will be exported)
 \item
   Change the file type to XML
 \item
-  Name and save your XML file, which is now ready to be uploaded to SyRF
+  Name and save your XML file, which is now ready to be uploaded to the SyRF screening database
 \end{enumerate}
-
-Please note that upload of studies with screening decisions is currently not supported with EndNote file uploads. If you have screening decisions for the studies you wish to upload, please use a CSV or TSV format instead.
 
 \hypertarget{uploading-from-a-zotero-export}{%
 \subsubsection{Uploading from a Zotero export}\label{uploading-from-a-zotero-export}}
@@ -398,39 +398,66 @@ Please note that you cannot use the `EndNote XML' export option in Zotero to upl
 \href{https://syrf.org.uk/faq}{\textbf{I am trying to upload an EndNote XML file that was created by importing from a place other than an electronic database and getting an error.}}
 I am trying to upload an EndNote XML file that was created by importing from a place other than an electronic database and getting an error.
 
-\hypertarget{uploading-your-studies-as-a-csv-or-tsv}{%
-\subsection{Uploading your studies as a CSV or TSV}\label{uploading-your-studies-as-a-csv-or-tsv}}
+\hypertarget{spreadsheet-.csv-supported-optionally-including-screening-decisions}{%
+\subsection{\texorpdfstring{Spreadsheet (\textbackslash{}\emph{.csv supported)
+}Optionally including screening decisions*}{Spreadsheet (\textbackslash{}.csv supported) Optionally including screening decisions*}}\label{spreadsheet-.csv-supported-optionally-including-screening-decisions}}
 
-To upload your systematic search studies as a CSV or TSV file, you will have to make sure to format your data with following the column headings to make the upload work:
-* Title
-* Authors
-* Publication Name
-* Alternate Name
-* Abstract
-* Url
-* Author Address
-* Year
-* DOI
-* Keywords
-* Reference Type
-* PDF Relative Path
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  You can upload study references as a systematic search from a spreadsheet (e.g.~Microsoft Excel Document)\\
+\item
+  You will have to make sure your file has the following column headings in order to make the upload work:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Title
+  \item
+    Authors
+  \item
+    Publication Name
+  \item
+    Alternate Name
+  \item
+    Abstract
+  \item
+    Url
+  \item
+    Author Address
+  \item
+    Year
+  \item
+    DOI
+  \item
+    Reference Type
+  \item
+    Keywords
+  \item
+    PDF Relative Path
+  \end{itemize}
+\end{enumerate}
 
 You can download a template with the \href{https://syrf-test.co.uk/assets/pdfs/Systematic_search_instructions.html}{correct column headings and example data here.}
 
-Even if you don't have information for all the columns specified, they will need to be in your file in order to make the upload work. SyRF will accept empty fields for any of these variables. Note that the Year column cannot contain non-numeric characters, if the year of publication is not known then leave the field blank.
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Even if you don't have information for all the columns specified, \textbf{they will need to be in your file} in order to make the upload work. SyRF will accept empty fields for any of these variables.
+\item
+  If you would like to upload \textbf{screening decisions} already made outside of SyRF along with list of studies, you should \textbf{add separate columns for each user} and SyRF's wizard will allow you to select which column headers in your file correspond to project members.
+\item
+  Within screening columns decisions should be represented with the value \textbf{1 for inclusion and 0 for exclusion}.
+\item
+  Your file should \textbf{only} contain the columns above and columns specified with screening decisions. If any columns are missing or additional columns are added (not specified for screening) the upload wizard will fail.
+\item
+  Files must first be saved as CSV - Comma delimited (\textbackslash{}*.csv) files. This can be done in excel using the Save as type: dropdown control in the Save As dialog.
+\end{enumerate}
 
-Files must first be saved as either Text - Tab delimited (*.txt) or CSV - Comma delimited (*.csv) files. This can be done in excel using the `Save as type:' dropdown control in the `Save As' dialog.
-
-\hypertarget{upload-studies-with-screening-decisions}{%
-\subsubsection{Upload studies with screening decisions}\label{upload-studies-with-screening-decisions}}
-
-You can upload screening decisions made outside of SyRF if you are uploading your systematic search as a *.csv or *.txt file.
-
-To do so you should add separate columns for each user and screening decisions should be represented with the value 1 for inclusion and 0 for exclusion.
-
-SyRF's upload wizard will allow you to select which column headers in your file correspond to which project member's screening decisions. Please note that for SyRF requires 2 columns of screening decisions and, hence, at least 2 project members to assign those screening decisions to. If you only have 1 column of overall screening decisions then it is an option to duplicate this column and assign the columns to two project members.
-
-Your file should only contain the columns above and columns specified with screening decisions. If any columns are missing or additional columns are present the upload wizard will fail.
+\includegraphics[width=1\textwidth,height=1\textheight]{figs/save_csv.png}
 
 \hypertarget{uploading-full-text-pdfs}{%
 \section{Uploading full-text PDFs}\label{uploading-full-text-pdfs}}

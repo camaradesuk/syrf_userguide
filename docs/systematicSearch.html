@@ -24,7 +24,7 @@
 <meta name="author" content="CAMARADES" />
 
 
-<meta name="date" content="2021-06-03" />
+<meta name="date" content="2021-06-09" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -105,8 +105,9 @@
 <li class="chapter" data-level="7" data-path="systematicSearch.html"><a href="systematicSearch.html"><i class="fa fa-check"></i><b>7</b> Uploading a Systematic Search</a><ul>
 <li class="chapter" data-level="7.1" data-path="systematicSearch.html"><a href="systematicSearch.html#deduplicating-your-systematic-search"><i class="fa fa-check"></i><b>7.1</b> Deduplicating your systematic search</a></li>
 <li class="chapter" data-level="7.2" data-path="systematicSearch.html"><a href="systematicSearch.html#uploading-files"><i class="fa fa-check"></i><b>7.2</b> Uploading files</a><ul>
-<li class="chapter" data-level="7.2.1" data-path="systematicSearch.html"><a href="systematicSearch.html#uploading-your-studies-from-an-endnote-export"><i class="fa fa-check"></i><b>7.2.1</b> Uploading your studies from an EndNote export</a></li>
-<li class="chapter" data-level="7.2.2" data-path="systematicSearch.html"><a href="systematicSearch.html#uploading-your-studies-as-a-csv-or-tsv"><i class="fa fa-check"></i><b>7.2.2</b> Uploading your studies as a CSV or TSV</a></li>
+<li class="chapter" data-level="7.2.1" data-path="systematicSearch.html"><a href="systematicSearch.html#using-endnote-as-xml"><i class="fa fa-check"></i><b>7.2.1</b> Using EndNote (as XML)</a></li>
+<li><a href="systematicSearch.html#spreadsheet-.csv-supported-optionally-including-screening-decisions"><span class="toc-section-number">7.2.2</span> Spreadsheet (\<em>.csv supported)
+</em>Optionally including screening decisions*</a></li>
 </ul></li>
 <li class="chapter" data-level="7.3" data-path="systematicSearch.html"><a href="systematicSearch.html#uploading-full-text-pdfs"><i class="fa fa-check"></i><b>7.3</b> Uploading full-text PDFs</a><ul>
 <li class="chapter" data-level="7.3.1" data-path="systematicSearch.html"><a href="systematicSearch.html#pdf-file-names"><i class="fa fa-check"></i><b>7.3.1</b> PDF file names</a></li>
@@ -181,26 +182,26 @@
 </div>
 <div id="uploading-files" class="section level2">
 <h2><span class="header-section-number">7.2</span> Uploading files</h2>
-<p>A Project Administrator can upload a systematic search to your project by Selecting Systematic Searches from Project Settings and clicking “Upload New Systematic Search”</p>
+<p>A Project Administrator can upload a systematic search to your project by Selecting Systematic Searches from Project Settings and clicking “Upload New Systematic Search”.</p>
 <p>You can upload your systematic searches as an:</p>
 <ul>
 <li>EndNote XML file</li>
 <li>Comma separated value (CSV) file</li>
-<li>Tab separated value (TSV) file</li>
 </ul>
 <p>SyRF currently accepts EndNote Desktop XML files. EndNote Web XML files are not supported.</p>
 <center>
 <img src="figs/Fig_Upload_search.png" id="id" class="class" style="width:100.0%;height:100.0%" />
 </center>
-<div id="uploading-your-studies-from-an-endnote-export" class="section level3">
-<h3><span class="header-section-number">7.2.1</span> Uploading your studies from an EndNote export</h3>
+<div id="using-endnote-as-xml" class="section level3">
+<h3><span class="header-section-number">7.2.1</span> Using EndNote (as XML)</h3>
+<p><em>Without screening decisions (screening upload not currently supported)</em></p>
 <ol style="list-style-type: decimal">
-<li>Highlight (Ctrl+A) all references all the references in yourEndNote library that you wish to upload to SyRF</li>
-<li>Click File -&gt; Export (NB: if you do not highlight all references only the first reference on your list will be exported)</li>
+<li>Import all references to be screened into EndNote</li>
+<li>Find the full text PDFs by highlighting all your references (<code>Ctrl</code>+<code>A</code>) and click References -&gt; Find Full Text</li>
+<li>Highlight (<code>Ctrl</code>+<code>A</code>) all references and click File -&gt; Export (NB: if you do not highlight all references only the first reference on your list will be exported)</li>
 <li>Change the file type to XML</li>
-<li>Name and save your XML file, which is now ready to be uploaded to SyRF</li>
+<li>Name and save your XML file, which is now ready to be uploaded to the SyRF screening database</li>
 </ol>
-<p>Please note that upload of studies with screening decisions is currently not supported with EndNote file uploads. If you have screening decisions for the studies you wish to upload, please use a CSV or TSV format instead.</p>
 <div id="uploading-from-a-zotero-export" class="section level4">
 <h4><span class="header-section-number">7.2.1.1</span> Uploading from a Zotero export</h4>
 <p>Please note that you cannot use the ‘EndNote XML’ export option in Zotero to upload an EndNote file to SyRF. If you are using Zotero to manage your study references, please export as a CSV file and follow the CSV upload instructions.</p>
@@ -208,31 +209,39 @@
 I am trying to upload an EndNote XML file that was created by importing from a place other than an electronic database and getting an error.</p>
 </div>
 </div>
-<div id="uploading-your-studies-as-a-csv-or-tsv" class="section level3">
-<h3><span class="header-section-number">7.2.2</span> Uploading your studies as a CSV or TSV</h3>
-<p>To upload your systematic search studies as a CSV or TSV file, you will have to make sure to format your data with following the column headings to make the upload work:
-* Title
-* Authors
-* Publication Name
-* Alternate Name
-* Abstract
-* Url
-* Author Address
-* Year
-* DOI
-* Keywords
-* Reference Type
-* PDF Relative Path</p>
+<div id="spreadsheet-.csv-supported-optionally-including-screening-decisions" class="section level3">
+<h3><span class="header-section-number">7.2.2</span> Spreadsheet (\<em>.csv supported)
+</em>Optionally including screening decisions*</h3>
+<ol style="list-style-type: decimal">
+<li>You can upload study references as a systematic search from a spreadsheet (e.g. Microsoft Excel Document)<br />
+</li>
+<li>You will have to make sure your file has the following column headings in order to make the upload work:
+<ul>
+<li>Title</li>
+<li>Authors</li>
+<li>Publication Name</li>
+<li>Alternate Name</li>
+<li>Abstract</li>
+<li>Url</li>
+<li>Author Address</li>
+<li>Year</li>
+<li>DOI</li>
+<li>Reference Type</li>
+<li>Keywords</li>
+<li>PDF Relative Path</li>
+</ul></li>
+</ol>
 <p>You can download a template with the <a href="https://syrf-test.co.uk/assets/pdfs/Systematic_search_instructions.html">correct column headings and example data here.</a></p>
-<p>Even if you don’t have information for all the columns specified, they will need to be in your file in order to make the upload work. SyRF will accept empty fields for any of these variables. Note that the Year column cannot contain non-numeric characters, if the year of publication is not known then leave the field blank.</p>
-<p>Files must first be saved as either Text - Tab delimited (*.txt) or CSV - Comma delimited (*.csv) files. This can be done in excel using the ‘Save as type:’ dropdown control in the ‘Save As’ dialog.</p>
-<div id="upload-studies-with-screening-decisions" class="section level4">
-<h4><span class="header-section-number">7.2.2.1</span> Upload studies with screening decisions</h4>
-<p>You can upload screening decisions made outside of SyRF if you are uploading your systematic search as a *.csv or *.txt file.</p>
-<p>To do so you should add separate columns for each user and screening decisions should be represented with the value 1 for inclusion and 0 for exclusion.</p>
-<p>SyRF’s upload wizard will allow you to select which column headers in your file correspond to which project member’s screening decisions. Please note that for SyRF requires 2 columns of screening decisions and, hence, at least 2 project members to assign those screening decisions to. If you only have 1 column of overall screening decisions then it is an option to duplicate this column and assign the columns to two project members.</p>
-<p>Your file should only contain the columns above and columns specified with screening decisions. If any columns are missing or additional columns are present the upload wizard will fail.</p>
-</div>
+<ol start="3" style="list-style-type: decimal">
+<li>Even if you don’t have information for all the columns specified, <strong>they will need to be in your file</strong> in order to make the upload work. SyRF will accept empty fields for any of these variables.</li>
+<li>If you would like to upload <strong>screening decisions</strong> already made outside of SyRF along with list of studies, you should <strong>add separate columns for each user</strong> and SyRF’s wizard will allow you to select which column headers in your file correspond to project members.</li>
+<li>Within screening columns decisions should be represented with the value <strong>1 for inclusion and 0 for exclusion</strong>.</li>
+<li>Your file should <strong>only</strong> contain the columns above and columns specified with screening decisions. If any columns are missing or additional columns are added (not specified for screening) the upload wizard will fail.</li>
+<li>Files must first be saved as CSV - Comma delimited (\*.csv) files. This can be done in excel using the Save as type: dropdown control in the Save As dialog.</li>
+</ol>
+<center>
+<img src="figs/save_csv.png" id="id" class="class" style="width:100.0%;height:100.0%" />
+</center>
 </div>
 </div>
 <div id="uploading-full-text-pdfs" class="section level2">
