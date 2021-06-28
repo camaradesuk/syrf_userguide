@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.9)  9 JUN 2021 11:13
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.28)  28 JUN 2021 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **SyRF_UserGuide.tex
 (./SyRF_UserGuide.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01> (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-06-18> (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/book.cls
 Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
@@ -145,7 +145,7 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
 de-math.sty
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-06-01 L3 programming layer (loader) 
+Package: expl3 2021-06-18 L3 programming layer (loader) 
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-xetex.def
@@ -169,11 +169,11 @@ TeX
 
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
 xparse.sty
-Package: xparse 2021-06-01 L3 Experimental document command parser
+Package: xparse 2021-06-18 L3 Experimental document command parser
 )
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2
 e/l3keys2e.sty
-Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-06-18 LaTeX2e option processing using LaTeX3 keys
 )
 (c:/Users/emmaw/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.
 sty
@@ -884,8 +884,6 @@ Chapter 2.
 
 ]
 Chapter 3.
-File: figs/Fig_Request_to_join.png Graphic file (type bmp)
-<figs/Fig_Request_to_join.png>
 [11] [12
 
 ]
@@ -917,7 +915,7 @@ File: figs/Fig_Upload_search.png Graphic file (type bmp)
 [21
 
 ] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 410--412
+Underfull \hbox (badness 10000) in paragraph at lines 408--410
 
  []
 
@@ -964,19 +962,19 @@ Chapter 11.
 Chapter 12.
 No file SyRF_UserGuide.bbl.
 
-Overfull \hbox (21.90501pt too wide) in paragraph at lines 791--793
+Overfull \hbox (21.90501pt too wide) in paragraph at lines 789--791
 []\TU/lmr/m/n/10 <p style=”text-align: center;”>Website by <a href=”https://www
 .ed.ac.uk/clinical-
  []
 
 
-Overfull \hbox (7.73999pt too wide) in paragraph at lines 791--793
+Overfull \hbox (7.73999pt too wide) in paragraph at lines 789--791
 \TU/lmr/m/n/10 brain-sciences/research/camarades”>CAMARADES</a></p> <p style=”t
 ext-
  []
 
 
-Overfull \hbox (81.31003pt too wide) in paragraph at lines 797--799
+Overfull \hbox (81.31003pt too wide) in paragraph at lines 795--797
 []\TU/lmr/m/n/10 <!– Add icon library –> <link rel=”stylesheet” href=”https://c
 dnjs.cloudflare.com/ajax/libs/font-
  []
@@ -984,13 +982,13 @@ dnjs.cloudflare.com/ajax/libs/font-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.804 <a href="https://twitter.com/camarades_
+l.802 <a href="https://twitter.com/camarades_
                                              " class="fa fa-twitter"></a> 
 Here is how much of TeX's memory you used:
- 15961 strings out of 478468
- 287344 string characters out of 5857398
- 743911 words of memory out of 5000000
- 36059 multiletter control sequences out of 15000+600000
+ 15956 strings out of 478451
+ 287154 string characters out of 5857123
+ 744366 words of memory out of 5000000
+ 36072 multiletter control sequences out of 15000+600000
  409889 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  87i,6n,120p,919b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
