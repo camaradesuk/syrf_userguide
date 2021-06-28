@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.28)  28 JUN 2021 10:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.28)  28 JUN 2021 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -987,10 +987,10 @@ dnjs.cloudflare.com/ajax/libs/font-
 l.804 <a href="https://twitter.com/camarades_
                                              " class="fa fa-twitter"></a> 
 Here is how much of TeX's memory you used:
- 15964 strings out of 478451
- 287408 string characters out of 5857123
+ 15987 strings out of 478451
+ 288084 string characters out of 5857123
  744366 words of memory out of 5000000
- 36079 multiletter control sequences out of 15000+600000
+ 36099 multiletter control sequences out of 15000+600000
  409889 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  87i,6n,120p,919b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
