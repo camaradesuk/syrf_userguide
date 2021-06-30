@@ -16,7 +16,9 @@ You can upload your systematic searches as an:
 SyRF currently accepts EndNote Desktop XML files. EndNote Web XML files are not supported.
 
 <center>
-![](figs/Fig_Upload_search.png){#id .class width=100% height=100%}
+```{r, echo=FALSE, fig.retina=1}
+knitr::include_graphics("figs/Fig_Upload_search.png")
+```
 </center>
 
 ### Using EndNote (as XML)
@@ -61,7 +63,9 @@ You can download a template with the [correct column headings and example data h
 7. Files must first be saved as CSV - Comma delimited (\*.csv) files. This can be done in excel using the Save as type: dropdown control in the Save As dialog. 
 
 <center>
-![](figs/save_csv.png){#id .class width=100% height=100%}
+```{r, echo=FALSE, fig.retina=1}
+knitr::include_graphics("figs/save_csv.png")
+```
 </center>
 
 ## Uploading full-text PDFs

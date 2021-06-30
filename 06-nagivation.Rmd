@@ -1,7 +1,9 @@
 # Project Navigation {#nagivation}
 
 <center>
-![](figs/Fig_Project_Nav.png){#id .class width=100% height=100%}
+```{r, echo=FALSE, fig.retina=1}
+knitr::include_graphics("figs/Fig_Project_Nav.png")
+```
 </center>
 
 ## Project Overview 

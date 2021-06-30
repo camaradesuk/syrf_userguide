@@ -5,7 +5,9 @@ You can create new projects via the Projects tab. Enter your project details in 
 As part of project creation, you will be asked to specify the inclusion/exclusion criteria for your project. These should be pre-specified in your protocol.
 
 <center>
-![](figs/Fig_Create_a_project.png){#id .class width=100% height=100%}
+```{r, echo=FALSE, fig.retina=1}
+knitr::include_graphics("figs/Fig_Create_a_project.png")
+```
 </center>
 
 Once you have created your project, you can keep track of your project progress through the Project Details Page on the right-hand side of your screen.

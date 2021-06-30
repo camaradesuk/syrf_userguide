@@ -11,8 +11,10 @@ When users join a project, they will automatically be assigned the Reviewer role
 
 Only Project Administrators can change user roles.  In the list of members in your project, you can assign other members to be Project Administrators by selecting the Administrator check box.
 
-```{r, echo=FALSE, out.width='100%'}
+<center>
+```{r, echo=FALSE, fig.retina=1}
 knitr::include_graphics("figs/Fig_Change_user_role.png")
 ```
+</center>
 
 If you are assigned a Reviewer role and think you should be a Project Administrator instead, please contact one of the other Project Administrators on the project to change this for you.

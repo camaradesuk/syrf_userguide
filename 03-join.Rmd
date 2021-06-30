@@ -4,10 +4,11 @@ The Projects tab in SyRF will show all the projects you are a member of, as well
 
 To join a project, you will need to click ‘Request to join’ on the project’s homepage. In the current version of SyRF, all users who request to join a project will be automatically assigned access and the Reviewer role in the project.
 
-```{r pressure, echo=FALSE}
+<center>
+```{r, echo=FALSE, fig.retina=1}
 knitr::include_graphics("figs/Fig_Request_to_join.png")
 ```
-
+</center>
 
 If you do not wish other users to join your project, it is best to set your project to Private.
 

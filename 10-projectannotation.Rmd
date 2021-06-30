@@ -6,7 +6,9 @@ In your systematic review protocol, you will have specified certain information 
 To design annotation questions for a stage of your project, go to 'Question Design' under 'Project Settings' on the left-hand navigation bar of your project.
 
 <center>
-![](figs/Fig_Question_design.png){#id .class width=100% height=100%}
+```{r, echo=FALSE, fig.retina=1}
+knitr::include_graphics("figs/Fig_Question_design.png")
+```
 </center>
 
 ### Question editing
@@ -98,7 +100,9 @@ When adding a question, you can enter the following details:
 6. The question type (e.g. dropdown list, checkbox)
 
 <center>
-![](figs/Fig_Question_dialogue.png){#id .class width=100% height=100%}
+```{r, echo=FALSE, fig.retina=1}
+knitr::include_graphics("figs/Fig_Question_dialogue.png")
+```
 </center>
 
 ### Question types
