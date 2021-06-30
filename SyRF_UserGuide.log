@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.29)  30 JUN 2021 11:21
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.29)  30 JUN 2021 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,11 +990,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [36] [37] [38]
 File: figs/Fig_Question_dialogue.png Graphic file (type bmp)
 <figs/Fig_Question_dialogue.png>
-[39] [40] [41] [42
 
-]
+Overfull \hbox (48.78093pt too wide) in paragraph at lines 708--709
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[40] [41] [42]
 Chapter 11.
-[43] [44
+[43
+
+] [44
 
 ]
 Chapter 12.
