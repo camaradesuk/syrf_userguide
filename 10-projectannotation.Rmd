@@ -148,6 +148,6 @@ These questions will nest under the previous question.
 
 
 ## Adding questions to stages
-Once you have designed your questions, to allow them to be presented to reviwers, you need to add them to your annotation stage by going to 'Stage Settings' then the name of the stage of want to add your questions to and selecting the questions you want to add to the stage.
+Once you have designed your questions, to allow them to be presented to reviewers, you need to add them to your annotation stage by going to 'Stage Settings' then the name of the stage of want to add your questions to and selecting the questions you want to add to the stage.
 
 
