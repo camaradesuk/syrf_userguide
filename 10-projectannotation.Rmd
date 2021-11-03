@@ -17,7 +17,6 @@ At present, questions can only be added or deleted. Individual questions cannot 
 ## Question categories
 Annotation questions are entered into the following categories depending on what information they ask about:
 
-## Question categories
 ### Study level questions
 Enter any question that is relevant to the overall study. 
 
